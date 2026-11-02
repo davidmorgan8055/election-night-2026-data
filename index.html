@@ -1,22 +1,29 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Election Night 2026 — Senate & House Results Tracker</title><link rel="stylesheet" href="styles.css"></head><body>
+<title>Election Night 2026 — Senate & House Results Tracker</title><link rel="stylesheet" href="styles.css"></head><body><a class="skip" href="#main">Skip to content</a>
 <header><div class="wrap hd"><div><h1>Election Night 2026</h1><p class="sub">US Senate &amp; House · nonpartisan results tracker · all times MT</p></div>
 <div class="upd"><span id="dot" class="dot"></span> Last updated: <b id="updated">–</b><br><small id="refresh">auto-refresh every 60s</small></div></div></header>
-<main class="wrap">
+<div class="wrap a11y" role="group" aria-label="Display options"><button type="button" id="bigtext" aria-pressed="false" data-i18n="bigtext">Larger text</button> <button type="button" id="contrast" aria-pressed="false" data-i18n="contrast">High contrast</button> <button type="button" id="lang" aria-pressed="false">Español</button> <span id="langnote" class="small" hidden>La interfaz está en español; los datos y notas permanecen en inglés.</span></div>
+<main class="wrap" id="main" tabindex="-1">
 <p id="status" class="status"></p>
-<section id="takeaways" class="tk" aria-labelledby="tk-h"><h2 id="tk-h">Key takeaways</h2><div id="tk-sum" class="tk-sum"></div><ol id="tk-feed" class="tk-feed" aria-live="polite" aria-relevant="additions text"></ol><button type="button" id="tk-more" class="tk-more" hidden aria-controls="tk-feed">Show more</button></section>
-<section><h2>Senate map</h2><div class="toggle" id="views" role="tablist"></div>
+<section id="takeaways" class="tk" aria-labelledby="tk-h"><h2 id="tk-h" data-i18n="takeaways">Key takeaways</h2><div id="tk-sum" class="tk-sum"></div><ol id="tk-feed" class="tk-feed" aria-live="polite" aria-relevant="additions text"></ol><button type="button" id="tk-more" class="tk-more" hidden aria-controls="tk-feed">Show more</button></section>
+<section><h2 data-i18n="map">Senate map</h2><div class="toggle" id="views" role="tablist"></div>
 <div id="mapbox"><svg id="map" viewBox="0 0 975 610" role="img" aria-label="US map"></svg><div id="tip" class="tip" hidden></div></div>
-<div id="legend" class="legend"></div><p id="viewnote" class="small"></p></section>
-<section><h2>Seat tracker &amp; paths to control</h2><div id="seats" class="grid2"></div></section>
-<section><h2>Key Senate races</h2><div class="tblwrap"><table id="races"><thead><tr><th>State</th><th>Democrat</th><th>Republican</th><th>Poll avg</th><th>2022</th><th>2024</th><th>Polls close</th><th>Current</th><th>% in</th><th>Model proj.</th><th>Call</th></tr></thead><tbody></tbody></table></div>
+<div id="legend" class="legend"></div><p id="viewnote" class="small"></p><div id="shiftlist" class="small"></div></section>
+<section aria-labelledby="th-h"><h2 id="th-h" data-i18n="trends">If trends hold</h2><div id="trends" class="grid2"></div></section>
+<section><h2 data-i18n="seats">Called seats &amp; paths to control</h2><div id="seats" class="grid2"></div></section>
+<section><h2 data-i18n="races">Key Senate races</h2><div class="tblwrap"><table id="races"><caption class="small">Key Senate races: candidates, polling, past results, and tonight's count. Margins are Democrat minus Republican.</caption><thead><tr><th scope=col>State</th><th scope=col>Democrat</th><th scope=col>Republican</th><th scope=col>Poll avg</th><th scope=col>2022: poll avg / result</th><th scope=col>2024: poll avg / result</th><th scope=col>Polls close</th><th scope=col>Current</th><th scope=col>% in</th><th scope=col>Model proj.</th><th scope=col>Call</th></tr></thead><tbody></tbody></table></div>
 <p class="small">Margins are Democrat minus Republican, in points (D+ / R+). "Model proj." is an independent model projection, not a call.</p></section>
-<section><h2>Early vote</h2><div id="ev"></div></section>
-<section><h2>Poll closing times (MT)</h2><div id="closings"></div></section>
-<section><h2>Calls &amp; alerts</h2><div id="alerts"></div></section>
+<section aria-labelledby="out-h"><h2 id="out-h" data-i18n="out">What's still out</h2><div id="out"></div></section>
+<section aria-labelledby="ps-h"><h2 id="ps-h" data-i18n="persp">What each side is saying</h2><div id="persp"></div></section>
+<section><h2 data-i18n="ev">Early vote</h2><div id="ev"></div></section>
+<section><h2 data-i18n="closings">Poll closing times (MT)</h2><div id="closings"></div></section>
+<section><h2 data-i18n="alerts">Calls &amp; alerts</h2><div id="alerts"></div></section>
+<section aria-labelledby="tl-h"><h2 id="tl-h" data-i18n="timeline">Timeline replay</h2><div id="timeline"></div></section>
+<section aria-labelledby="sc-h"><h2 id="sc-h" data-i18n="share">Share a race card</h2><div id="share"></div></section>
+<section aria-labelledby="gl-h"><h2 id="gl-h" data-i18n="glossary">Plain-English glossary</h2><dl id="glossary" class="gloss"></dl></section>
 </main>
 <footer class="wrap"><h2>Methodology &amp; sources</h2><ul id="notes"></ul>
 <p class="small">Races are marked called only when AP or a network decision desk calls them. Projections are an independent model, not calls. Prediction-market figures, if shown, are trader odds, not forecasts. Every figure links to its source. No tracking, no ads, no sign-ups. Data feed: <a href="data.json">data.json</a>.</p></footer>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-<script src="app.js"></script></body></html>
+<script src="app.js"></script><script src="features.js"></script></body></html>
