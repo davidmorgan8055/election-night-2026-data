@@ -95,16 +95,22 @@
    "poll_2022": {
     "margin_dem_minus_rep": null,
     "race": "Governor (first-round; Walker (I) in other)",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [],
-    "note": "No final polling average found for the 2022 Governor (first-round; Walker (I) in other) race (no aggregator table in the source checked; polling too sparse).",
-    "miss": null
+    "note": "No RCP page for the 2022 Alaska governor race was found in the archive. No other aggregator average was found either.",
+    "miss": null,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "poll_2024": {
     "margin_dem_minus_rep": null,
     "race": "President 2024",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [],
-    "note": "No final polling average found for the 2024 President 2024 race (no aggregator table in the source checked; polling too sparse).",
-    "miss": null
+    "note": "RCP's 2024 Alaska presidential page lists 2 polls but no RCP average. No other aggregator average was found either.",
+    "miss": null,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "outstanding_note": null,
    "outstanding": null
@@ -207,8 +213,8 @@
    "poll_2022": {
     "margin_dem_minus_rep": -9.9,
     "race": "US Senate",
-    "method": "simple mean of final aggregator averages (D minus R)",
-    "compiled_from": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Iowa",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [
      {
       "source": "FiveThirtyEight",
@@ -223,14 +229,15 @@
       "as_of": "Oct 26-Nov 5, 2022"
      }
     ],
-    "note": null,
-    "miss": -2.3
+    "note": "RCP's 2022 Iowa Senate page lists individual polls but no RCP average. Shown: other aggregators only.",
+    "miss": -2.3,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "poll_2024": {
     "margin_dem_minus_rep": -4.6,
     "race": "President 2024",
-    "method": "simple mean of final aggregator averages (D minus R)",
-    "compiled_from": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_Iowa",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [
      {
       "source": "270toWin",
@@ -245,8 +252,9 @@
       "as_of": "through Nov 3, 2024"
      }
     ],
-    "note": null,
-    "miss": -8.7
+    "note": "RCP's 2024 Iowa presidential page lists polls but no RCP average. Shown: other aggregators only.",
+    "miss": -8.7,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "outstanding_note": null,
    "outstanding": null
@@ -351,16 +359,22 @@
    "poll_2022": {
     "margin_dem_minus_rep": null,
     "race": "US Senate",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [],
-    "note": "No final polling average found for the 2022 US Senate race (no aggregator table in the source checked; polling too sparse).",
-    "miss": null
+    "note": "RCP's 2022 Kansas Senate page lists 3 polls but no RCP average. No other aggregator average was found either.",
+    "miss": null,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "poll_2024": {
     "margin_dem_minus_rep": null,
     "race": "President 2024",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [],
-    "note": "No final polling average found for the 2024 President 2024 race (no aggregator table in the source checked; polling too sparse).",
-    "miss": null
+    "note": "RCP's 2024 Kansas presidential page lists 3 polls but no RCP average. No other aggregator average was found either.",
+    "miss": null,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "outstanding_note": null,
    "outstanding": null
@@ -468,11 +482,18 @@
     "watch": false
    },
    "poll_2022": {
-    "margin_dem_minus_rep": 7.0,
+    "margin_dem_minus_rep": 7.6,
     "race": "Governor",
-    "method": "simple mean of final aggregator averages (D minus R)",
-    "compiled_from": "https://en.wikipedia.org/wiki/2022_Maine_gubernatorial_election",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [
+     {
+      "source": "RealClearPolling (RCP Average)",
+      "url": "https://www.realclearpolling.com/polls/governor/general/2022/maine/lepage-vs-mills",
+      "archive": "https://web.archive.org/web/20241109180426id_/https://www.realclearpolling.com/polls/governor/general/2022/maine/lepage-vs-mills",
+      "margin_dem_minus_rep": 8.2,
+      "as_of": "RCP final average, dates 12/31 - 12/31 (RCP date field reads 12/31; may rest on few or old polls)"
+     },
      {
       "source": "FiveThirtyEight",
       "url": "https://projects.fivethirtyeight.com/polls/governor/2022/maine/",
@@ -481,14 +502,26 @@
      }
     ],
     "note": null,
-    "miss": 6.1
+    "miss": 5.5,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "poll_2024": {
-    "margin_dem_minus_rep": null,
+    "margin_dem_minus_rep": 13.0,
     "race": "President 2024",
-    "inputs": [],
-    "note": "No final polling average found for the 2024 President 2024 race (no aggregator table in the source checked; polling too sparse).",
-    "miss": null
+    "label": "RCP only",
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
+    "inputs": [
+     {
+      "source": "RealClearPolling (RCP Average)",
+      "url": "https://www.realclearpolling.com/polls/president/general/2024/maine/trump-vs-harris",
+      "archive": "https://web.archive.org/web/20241106153509id_/https://www.realclearpolling.com/polls/president/general/2024/maine/trump-vs-harris",
+      "margin_dem_minus_rep": 13.0,
+      "as_of": "RCP final average, dates 12/31 - 12/31 (RCP date field reads 12/31; may rest on few or old polls)"
+     }
+    ],
+    "note": null,
+    "miss": -6.1,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "outstanding_note": null,
    "outstanding": null
@@ -550,9 +583,9 @@
     "source": "MEDSL statewide results (D minus R)"
    },
    "margin_2024": {
-    "value": -1.41,
-    "race": "President 2024",
-    "source": "MEDSL statewide results (D minus R)"
+    "value": 0.34,
+    "race": "US Senate 2024",
+    "source": "Certified result as reported on Wikipedia (Slotkin (D) 48.64% vs Rogers (R) 48.30%) https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Michigan"
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT four western UP counties",
    "counting_note": "Slow; reports by locality. Early D from Ann Arbor/Grand Rapids, then R gains, late Detroit absentees, Washtenaw, Genesee.",
@@ -584,14 +617,15 @@
    "poll_2022": {
     "margin_dem_minus_rep": 3.3,
     "race": "Governor",
-    "method": "simple mean of final aggregator averages (D minus R)",
-    "compiled_from": "https://en.wikipedia.org/wiki/2022_Michigan_gubernatorial_election",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [
      {
-      "source": "RealClearPolitics",
-      "url": "https://www.realclearpolitics.com/epolls/2022/governor/mi/michigan_governor_dixon_vs_whitmer-7545.html",
+      "source": "RealClearPolling (RCP Average)",
+      "url": "https://www.realclearpolling.com/polls/governor/general/2022/michigan/dixon-vs-whitmer",
+      "archive": "https://web.archive.org/web/20240523190227id_/https://www.realclearpolling.com/polls/governor/general/2022/michigan/dixon-vs-whitmer",
       "margin_dem_minus_rep": 1.0,
-      "as_of": "Oct 30-Nov 7, 2022"
+      "as_of": "RCP final average, dates 10/30 - 11/7"
      },
      {
       "source": "FiveThirtyEight",
@@ -607,41 +641,26 @@
      }
     ],
     "note": null,
-    "miss": 7.5
+    "miss": 7.5,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "poll_2024": {
-    "margin_dem_minus_rep": 1.1,
-    "race": "President 2024",
-    "method": "simple mean of final aggregator averages (D minus R)",
-    "compiled_from": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_Michigan",
+    "margin_dem_minus_rep": 2.3,
+    "race": "US Senate 2024",
+    "label": "RCP only",
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [
      {
-      "source": "270toWin",
-      "url": "https://www.270towin.com/2024-presidential-election-polls/michigan",
-      "margin_dem_minus_rep": 1.8,
-      "as_of": "through Nov 4, 2024"
-     },
-     {
-      "source": "538",
-      "url": "https://projects.fivethirtyeight.com/polls/president-general/2024/michigan/",
-      "margin_dem_minus_rep": 1.0,
-      "as_of": "through Nov 4, 2024"
-     },
-     {
-      "source": "Silver Bulletin",
-      "url": "https://www.natesilver.net/p/nate-silver-2024-president-election-polls-model",
-      "margin_dem_minus_rep": 1.2,
-      "as_of": "through Nov 4, 2024"
-     },
-     {
-      "source": "The Hill/DDHQ",
-      "url": "https://elections2024.thehill.com/michigan/harris-trump-michigan/",
-      "margin_dem_minus_rep": 0.4,
-      "as_of": "through Nov 4, 2024"
+      "source": "RealClearPolling (RCP Average)",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2024/michigan/rogers-vs-slotkin",
+      "archive": "https://web.archive.org/web/20241107043335id_/https://www.realclearpolling.com/polls/senate/general/2024/michigan/rogers-vs-slotkin",
+      "margin_dem_minus_rep": 2.3,
+      "as_of": "RCP final average, dates 10/24 - 11/4"
      }
     ],
     "note": null,
-    "miss": -2.5
+    "miss": -2.0,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "outstanding_note": null,
    "outstanding": null
@@ -705,9 +724,9 @@
     "source": "MEDSL statewide results (D minus R)"
    },
    "margin_2024": {
-    "value": -11.21,
-    "race": "President 2024",
-    "source": "MEDSL statewide results (D minus R)"
+    "value": -3.62,
+    "race": "US Senate 2024",
+    "source": "Certified result as reported on Wikipedia (Brown (D) 46.47% vs Moreno (R) 50.09%) https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Ohio_(special)"
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
@@ -739,14 +758,15 @@
    "poll_2022": {
     "margin_dem_minus_rep": -7.3,
     "race": "US Senate",
-    "method": "simple mean of final aggregator averages (D minus R)",
-    "compiled_from": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Ohio",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [
      {
-      "source": "RealClearPolitics",
-      "url": "https://www.realclearpolitics.com/epolls/2022/senate/oh/ohio_senate_vance_vs_ryan-7624.html",
+      "source": "RealClearPolling (RCP Average)",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2022/ohio/vance-vs-ryan",
+      "archive": "https://web.archive.org/web/20240515140708id_/https://www.realclearpolling.com/polls/senate/general/2022/ohio/vance-vs-ryan",
       "margin_dem_minus_rep": -8.0,
-      "as_of": "Oct 30-Nov 5, 2022"
+      "as_of": "RCP final average, dates 10/30 - 11/5"
      },
      {
       "source": "FiveThirtyEight",
@@ -762,35 +782,26 @@
      }
     ],
     "note": null,
-    "miss": 1.2
+    "miss": 1.2,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "poll_2024": {
-    "margin_dem_minus_rep": -8.0,
-    "race": "President 2024",
-    "method": "simple mean of final aggregator averages (D minus R)",
-    "compiled_from": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_Ohio",
+    "margin_dem_minus_rep": -1.7,
+    "race": "US Senate 2024",
+    "label": "RCP only",
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [
      {
-      "source": "270toWin",
-      "url": "https://www.270towin.com/2024-presidential-election-polls/ohio",
-      "margin_dem_minus_rep": -7.7,
-      "as_of": "through Nov 4, 2024"
-     },
-     {
-      "source": "538",
-      "url": "https://projects.fivethirtyeight.com/polls/president-general/2024/ohio/",
-      "margin_dem_minus_rep": -8.8,
-      "as_of": "through Nov 4, 2024"
-     },
-     {
-      "source": "The Hill/DDHQ",
-      "url": "https://elections2024.thehill.com/",
-      "margin_dem_minus_rep": -7.6,
-      "as_of": "through Nov 3, 2024"
+      "source": "RealClearPolling (RCP Average)",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2024/ohio/brown-vs-moreno",
+      "archive": "https://web.archive.org/web/20241106223459id_/https://www.realclearpolling.com/polls/senate/general/2024/ohio/brown-vs-moreno",
+      "margin_dem_minus_rep": -1.7,
+      "as_of": "RCP final average, dates 10/23 - 11/4"
      }
     ],
     "note": null,
-    "miss": -3.2
+    "miss": -1.9,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "outstanding_note": null,
    "outstanding": null
@@ -852,9 +863,9 @@
     "source": "MEDSL statewide results (D minus R)"
    },
    "margin_2024": {
-    "value": -13.69,
-    "race": "President 2024",
-    "source": "MEDSL statewide results (D minus R)"
+    "value": -8.49,
+    "race": "US Senate 2024",
+    "source": "Certified result as reported on Wikipedia (Allred (D) 44.56% vs Cruz (R) 53.05%) https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Texas"
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT El Paso area",
    "counting_note": "Big early-vote dumps (Harris) first can show D lead; many small R counties then; Dallas/Harris Election Day late. Mail postmarked by E-Day accepted until 5 PM Nov 4.",
@@ -884,16 +895,17 @@
     "watch": false
    },
    "poll_2022": {
-    "margin_dem_minus_rep": -8.9,
+    "margin_dem_minus_rep": -9.4,
     "race": "Governor",
-    "method": "simple mean of final aggregator averages (D minus R)",
-    "compiled_from": "https://en.wikipedia.org/wiki/2022_Texas_gubernatorial_election",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [
      {
-      "source": "RealClearPolitics",
-      "url": "https://www.realclearpolitics.com/epolls/2022/governor/tx/texas-governor-abbott-vs-orourke-7376.html",
-      "margin_dem_minus_rep": -9.3,
-      "as_of": "Oct 3-19, 2022 (as listed Oct 25)"
+      "source": "RealClearPolling (RCP Average)",
+      "url": "https://www.realclearpolling.com/polls/governor/general/2022/texas/abbott-vs-orourke",
+      "archive": "https://web.archive.org/web/20250128155032id_/https://www.realclearpolling.com/polls/governor/general/2022/texas/abbott-vs-orourke",
+      "margin_dem_minus_rep": -10.4,
+      "as_of": "RCP final average, dates 10/16 - 10/26"
      },
      {
       "source": "FiveThirtyEight",
@@ -903,41 +915,26 @@
      }
     ],
     "note": null,
-    "miss": -2.0
+    "miss": -1.5,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "poll_2024": {
-    "margin_dem_minus_rep": -7.5,
-    "race": "President 2024",
-    "method": "simple mean of final aggregator averages (D minus R)",
-    "compiled_from": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_Texas",
+    "margin_dem_minus_rep": -4.4,
+    "race": "US Senate 2024",
+    "label": "RCP only",
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [
      {
-      "source": "270toWin",
-      "url": "https://www.270towin.com/2024-presidential-election-polls/texas",
-      "margin_dem_minus_rep": -7.4,
-      "as_of": "through Nov 3, 2024"
-     },
-     {
-      "source": "538",
-      "url": "https://projects.fivethirtyeight.com/polls/president-general/2024/texas/",
-      "margin_dem_minus_rep": -7.9,
-      "as_of": "through Nov 3, 2024"
-     },
-     {
-      "source": "Silver Bulletin",
-      "url": "https://www.natesilver.net/p/nate-silver-2024-president-election-polls-model",
-      "margin_dem_minus_rep": -7.1,
-      "as_of": "through Nov 3, 2024"
-     },
-     {
-      "source": "The Hill/DDHQ",
-      "url": "https://elections2024.thehill.com/texas/harris-trump-texas/",
-      "margin_dem_minus_rep": -7.6,
-      "as_of": "through Oct 29, 2024"
+      "source": "RealClearPolling (RCP Average)",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2024/texas/cruz-vs-allred",
+      "archive": "https://web.archive.org/web/20241106153605id_/https://www.realclearpolling.com/polls/senate/general/2024/texas/cruz-vs-allred",
+      "margin_dem_minus_rep": -4.4,
+      "as_of": "RCP final average, dates 10/22 - 11/4"
      }
     ],
     "note": null,
-    "miss": -6.2
+    "miss": -4.1,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "outstanding_note": null,
    "outstanding": null
@@ -1017,16 +1014,17 @@
     "watch": true
    },
    "poll_2022": {
-    "margin_dem_minus_rep": -5.1,
+    "margin_dem_minus_rep": -5.2,
     "race": "US Senate",
-    "method": "simple mean of final aggregator averages (D minus R)",
-    "compiled_from": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_North_Carolina",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [
      {
-      "source": "RealClearPolitics",
-      "url": "https://www.realclearpolitics.com/epolls/2022/senate/nc/north_carolina_senate_budd_vs_beasley-7588.html",
-      "margin_dem_minus_rep": -6.0,
-      "as_of": "Oct 20-Nov 6, 2022"
+      "source": "RealClearPolling (RCP Average)",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2022/north-carolina/budd-vs-beasley",
+      "archive": "https://web.archive.org/web/20241005220635id_/https://www.realclearpolling.com/polls/senate/general/2022/north-carolina/budd-vs-beasley",
+      "margin_dem_minus_rep": -6.2,
+      "as_of": "RCP final average, dates 11/1 - 11/6"
      },
      {
       "source": "FiveThirtyEight",
@@ -1042,14 +1040,22 @@
      }
     ],
     "note": null,
-    "miss": 1.9
+    "miss": 2.0,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "poll_2024": {
     "margin_dem_minus_rep": -1.2,
     "race": "President 2024",
-    "method": "simple mean of final aggregator averages (D minus R)",
-    "compiled_from": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_North_Carolina",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [
+     {
+      "source": "RealClearPolling (RCP Average)",
+      "url": "https://www.realclearpolling.com/polls/president/general/2024/north-carolina/trump-vs-harris",
+      "archive": "https://web.archive.org/web/20241106201330id_/https://www.realclearpolling.com/polls/president/general/2024/north-carolina/trump-vs-harris",
+      "margin_dem_minus_rep": -1.2,
+      "as_of": "RCP final average, dates 10/22 - 11/4"
+     },
      {
       "source": "270toWin",
       "url": "https://www.270towin.com/2024-presidential-election-polls/north-carolina",
@@ -1076,7 +1082,8 @@
      }
     ],
     "note": null,
-    "miss": -2.0
+    "miss": -2.0,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "outstanding_note": null,
    "outstanding": null
@@ -1160,16 +1167,22 @@
    "poll_2022": {
     "margin_dem_minus_rep": null,
     "race": "US Senate",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [],
-    "note": "No final polling average found for the 2022 US Senate race (no aggregator table in the source checked; polling too sparse).",
-    "miss": null
+    "note": "No RCP page for the 2022 South Carolina Senate race was found in the archive. No other aggregator average was found either.",
+    "miss": null,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "poll_2024": {
     "margin_dem_minus_rep": null,
     "race": "President 2024",
+    "label": null,
+    "method": "simple mean of final aggregator averages (D minus R); RCP taken from RCP's own page via web.archive.org",
     "inputs": [],
-    "note": "No final polling average found for the 2024 President 2024 race (no aggregator table in the source checked; polling too sparse).",
-    "miss": null
+    "note": "RCP's 2024 South Carolina presidential page lists 4 polls but no RCP average. No other aggregator average was found either.",
+    "miss": null,
+    "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "outstanding_note": null,
    "outstanding": null

@@ -71,13 +71,9 @@ function share(D){var el=document.getElementById("share"),rs=D.races||[];var cur
   document.getElementById("scdl").onclick=function(){var a=document.createElement("a");a.download="race-"+r.state+".png";a.href=cv.toDataURL("image/png");a.click();};
   var sh=document.getElementById("scsh");sh.onclick=function(){cv.toBlob(function(b){var f=new File([b],"race-"+r.state+".png",{type:"image/png"});var d={title:"Election Night 2026: "+r.name,text:r.name+" Senate: "+document.getElementById("scalt").textContent,url:SITE};
    if(navigator.canShare&&navigator.canShare({files:[f]}))d.files=[f];if(navigator.share)navigator.share(d).catch(function(){});else{navigator.clipboard&&navigator.clipboard.writeText(SITE);sh.textContent="Link copied";}});};}}
-/* ---------- a11y toggles + i18n ---------- */
-var ES={takeaways:"Puntos clave",map:"Mapa del Senado",trends:"Si las tendencias se mantienen",seats:"Escaños declarados y caminos al control",races:"Contiendas clave del Senado",out:"Lo que falta por contar",persp:"Lo que dice cada lado",ev:"Voto anticipado",closings:"Cierre de urnas (MT)",alerts:"Declaraciones y alertas",timeline:"Repetición cronológica",share:"Compartir tarjeta de contienda",glossary:"Glosario en lenguaje sencillo",bigtext:"Texto más grande",contrast:"Alto contraste"},EN={};
+/* ---------- a11y toggles ---------- */
 function pref(k,cls,btn){var on=localStorage.getItem(k)==="1";document.documentElement.classList.toggle(cls,on);btn.setAttribute("aria-pressed",String(on));btn.onclick=function(){localStorage.setItem(k,on?"0":"1");pref(k,cls,btn);};}
-function lang(){var es=localStorage.getItem("enr-lang")==="es",b=document.getElementById("lang");document.documentElement.lang=es?"es":"en";b.textContent=es?"English":"Español";b.setAttribute("aria-pressed",String(es));document.getElementById("langnote").hidden=!es;
- document.querySelectorAll("[data-i18n]").forEach(function(n){var k=n.getAttribute("data-i18n");if(!(k in EN))EN[k]=n.innerHTML;n.innerHTML=es?ES[k]:EN[k];});
- b.onclick=function(){localStorage.setItem("enr-lang",es?"en":"es");lang();};}
-pref("enr-big","big",document.getElementById("bigtext"));pref("enr-hc","hc",document.getElementById("contrast"));lang();glossary();
+pref("enr-big","big",document.getElementById("bigtext"));pref("enr-hc","hc",document.getElementById("contrast"));glossary();
 document.addEventListener("enr-data",function(){var D=window.ENR.DATA;headTerms();out(D);persp(D);trends(D);share(D);loadHist();arrows();});
 document.addEventListener("enr-map",arrows);
 })();
