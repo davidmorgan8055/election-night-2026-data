@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T15:55:00-07:00 (MT)",
+ "updated_at": "2026-11-02T16:00:00-07:00 (MT)",
  "status_note": "Pre-election baseline. Results begin after polls close on Nov 3.",
  "races": [
   {
@@ -79,6 +79,18 @@
    "results_sources": {
     "official": "https://www.elections.alaska.gov/election-results/",
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "neutral (no party data)",
+    "early_vote_confidence": "low",
+    "key": true,
+    "watch": false
    }
   },
   {
@@ -163,6 +175,18 @@
    "results_sources": {
     "official": "https://electionresults.iowa.gov/",
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "leans R",
+    "early_vote_confidence": "low",
+    "key": true,
+    "watch": false
    }
   },
   {
@@ -249,6 +273,18 @@
    "results_sources": {
     "official": "https://www.sos.ks.gov/elections/elections_results.html",
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "neutral",
+    "early_vote_confidence": "low",
+    "key": true,
+    "watch": false
    }
   },
   {
@@ -340,6 +376,18 @@
    "results_sources": {
     "official": "https://www.maine.gov/sos/cec/elec/results/index.html",
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "neutral",
+    "early_vote_confidence": "low",
+    "key": true,
+    "watch": false
    }
   },
   {
@@ -417,6 +465,18 @@
    "results_sources": {
     "official": "https://mielections.us/election/results/",
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "neutral (no party data)",
+    "early_vote_confidence": "low",
+    "key": true,
+    "watch": false
    }
   },
   {
@@ -496,6 +556,18 @@
    "results_sources": {
     "official": "https://liveresults.ohiosos.gov/",
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "neutral (no party data)",
+    "early_vote_confidence": "low",
+    "key": true,
+    "watch": false
    }
   },
   {
@@ -573,6 +645,18 @@
    "results_sources": {
     "official": "https://results.texas-election.com/races",
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "neutral (no party data)",
+    "early_vote_confidence": "low",
+    "key": true,
+    "watch": false
    }
   },
   {
@@ -636,6 +720,18 @@
    "results_sources": {
     "official": "https://er.ncsbe.gov/",
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "leans D",
+    "early_vote_confidence": "low",
+    "key": false,
+    "watch": true
    }
   },
   {
@@ -701,6 +797,18 @@
    "results_sources": {
     "official": "https://www.enr-scvotes.org/SC/",
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "neutral (no party data)",
+    "early_vote_confidence": "low",
+    "key": false,
+    "watch": true
    }
   }
  ],
@@ -761,5 +869,290 @@
   "Projected margins are an independent model projection, not a call.",
   "Prediction-market figures, if shown, are trader odds, not forecasts.",
   "All times Mountain Time (MT)."
- ]
+ ],
+ "early_vote": {
+  "compiled_mt": "2026-11-02 15:56 MT",
+  "tracker": "Call the Map US.csv https://www.callthemap.com/early-vote/data/US.csv (checked 2026-11-02 3:28 PM MT)",
+  "general_caveats": [
+   "Party registration is not vote choice",
+   "Early vote may cannibalize Election Day vote; Republicans shifted toward Election Day after 2020",
+   "Unaffiliated voters decide outcomes",
+   "MI, OH, TX, SC, AK(here) have no party split; no modeled estimates gathered",
+   "Figures are compiled by a third-party tracker from official files; not independently re-tallied"
+  ],
+  "states": {
+   "AK": {
+    "figures": {
+     "counts_through": "2026-11-01",
+     "total": "90570",
+     "mail": "32308",
+     "in_person": "58262"
+    },
+    "sources": [
+     {
+      "name": "civicAPI, compiled from state and county election offices",
+      "url": "https://civicapi.org/early-vote"
+     },
+     {
+      "name": "Call the Map",
+      "url": "https://www.callthemap.com/early-vote"
+     }
+    ],
+    "official_page": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=15.20.010&secEnd=15.20.064",
+    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02 UTC)",
+    "stale": "false",
+    "signal": "neutral (no party data)",
+    "confidence": "low",
+    "basis": "turnout only"
+   },
+   "IA": {
+    "figures": {
+     "counts_through": "2026-11-01",
+     "total": "464008",
+     "mail": "149325",
+     "in_person": "314683",
+     "dem": "213835",
+     "rep": "156900",
+     "unaffiliated_other": "93273",
+     "gap_now": "12.27",
+     "vs_2022_change": "+36%",
+     "gap_2022": "18.68",
+     "vs_2024_change": "\u221227%",
+     "gap_2024": "-1.3"
+    },
+    "sources": [
+     {
+      "name": "Iowa Secretary of State, daily absentee statistics by county",
+      "url": "https://sos.iowa.gov/sites/default/files/2026-10/AbsenteeCounty2026_1.pdf"
+     },
+     {
+      "name": "Call the Map",
+      "url": "https://www.callthemap.com/early-vote"
+     }
+    ],
+    "official_page": "https://sos.iowa.gov/iowans/election-results-statistics",
+    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02 UTC)",
+    "stale": "false",
+    "signal": "leans R",
+    "confidence": "low",
+    "basis": "D reg lead D+12.3 vs D+18.7 at same point 2022, volume +36%"
+   },
+   "KS": {
+    "figures": {
+     "counts_through": "2026-11-01",
+     "total": "470170",
+     "mail": "77986",
+     "in_person": "392184",
+     "dem": "192007",
+     "rep": "203502",
+     "unaffiliated_other": "74661",
+     "gap_now": "-2.44"
+    },
+    "sources": [
+     {
+      "name": "civicAPI, compiled from state and county election offices",
+      "url": "https://civicapi.org/early-vote"
+     },
+     {
+      "name": "Call the Map",
+      "url": "https://www.callthemap.com/early-vote"
+     }
+    ],
+    "official_page": "https://www.kssos.org/elections/advance-voting-data.html",
+    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02 UTC)",
+    "stale": "false",
+    "signal": "neutral",
+    "confidence": "low",
+    "basis": "R+2.4; no 2022 comparison available"
+   },
+   "KY": {
+    "figures": {
+     "counts_through": "2026-10-31",
+     "total": "438602",
+     "mail": "47866",
+     "in_person": "390736",
+     "vs_2024_change": "\u221226%"
+    },
+    "sources": [
+     {
+      "name": "civicAPI, compiled from state and county election offices",
+      "url": "https://civicapi.org/early-vote"
+     },
+     {
+      "name": "Call the Map",
+      "url": "https://www.callthemap.com/early-vote"
+     }
+    ],
+    "official_page": "https://elect.ky.gov",
+    "as_of_mt": "counts through 2026-10-31 (file 2026-11-02 UTC)",
+    "stale": "false",
+    "signal": "neutral (no party data)",
+    "confidence": "low",
+    "basis": "turnout only",
+    "cam_lopez_post": {
+     "label": "partisan-affiliated (KDP data director), unconfirmed",
+     "claim": "Statewide D+4.1% early vote heading into Election Day, 1.6 pts better than 2022, 14 ahead of 2024 (via leftslantsports.com)",
+     "check": "Not verified: no official KY party breakdown retrieved; tracker shows 438,602 early ballots through Oct 31, -26% vs 2024 pace"
+    }
+   },
+   "ME": {
+    "figures": {
+     "counts_through": "2026-11-01",
+     "total": "295220",
+     "mail": "133845",
+     "in_person": "161375",
+     "dem": "138621",
+     "rep": "67392",
+     "unaffiliated_other": "89207",
+     "gap_now": "24.13",
+     "vs_2022_change": "+39%",
+     "gap_2022": "25.49",
+     "vs_2024_change": "\u221216%",
+     "gap_2024": "14.08"
+    },
+    "sources": [
+     {
+      "name": "Maine Secretary of State, statewide absentee voter file",
+      "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/11-3-26%20AB%20Voter%20File%20as%20of%2011-2-26.txt"
+     },
+     {
+      "name": "Call the Map",
+      "url": "https://www.callthemap.com/early-vote"
+     }
+    ],
+    "official_page": "https://www.maine.gov/sos/elections-voting/voter-data",
+    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02T19:24:48Z UTC)",
+    "stale": "false",
+    "signal": "neutral",
+    "confidence": "low",
+    "basis": "D+24.1 vs D+25.5 in 2022, volume +39%"
+   },
+   "MI": {
+    "figures": {
+     "counts_through": "2026-11-01",
+     "total": "1628714"
+    },
+    "sources": [
+     {
+      "name": "civicAPI, compiled from state and county election offices",
+      "url": "https://civicapi.org/early-vote"
+     },
+     {
+      "name": "Call the Map",
+      "url": "https://www.callthemap.com/early-vote"
+     }
+    ],
+    "official_page": "https://www.michigan.gov/sos/elections/election-results-and-data/voter-participation-dashboard",
+    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02 UTC)",
+    "stale": "false",
+    "signal": "neutral (no party data)",
+    "confidence": "low",
+    "basis": "turnout only"
+   },
+   "NC": {
+    "figures": {
+     "counts_through": "2026-11-01",
+     "total": "2819922",
+     "mail": "93597",
+     "in_person": "2726325",
+     "dem": "1081911",
+     "rep": "737349",
+     "unaffiliated_other": "1000662",
+     "gap_now": "12.22",
+     "vs_2022_change": "+31%",
+     "gap_2022": "6.87",
+     "vs_2024_change": "\u221237%",
+     "gap_2024": "-0.88"
+    },
+    "sources": [
+     {
+      "name": "North Carolina State Board of Elections, absentee file",
+      "url": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_20261103.zip"
+     },
+     {
+      "name": "Call the Map",
+      "url": "https://www.callthemap.com/early-vote"
+     }
+    ],
+    "official_page": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS",
+    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02T10:28:32Z UTC)",
+    "stale": "false",
+    "signal": "leans D",
+    "confidence": "low",
+    "basis": "D+12.2 vs D+6.9 in 2022, volume +31%; unaffiliated 35%"
+   },
+   "OH": {
+    "figures": {
+     "counts_through": "2026-11-01",
+     "total": "1730112",
+     "mail": "632255",
+     "in_person": "1097857"
+    },
+    "sources": [
+     {
+      "name": "civicAPI, compiled from state and county election offices",
+      "url": "https://civicapi.org/early-vote"
+     },
+     {
+      "name": "Call the Map",
+      "url": "https://www.callthemap.com/early-vote"
+     }
+    ],
+    "official_page": "https://www.ohiosos.gov",
+    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02 UTC)",
+    "stale": "false",
+    "signal": "neutral (no party data)",
+    "confidence": "low",
+    "basis": "turnout only"
+   },
+   "SC": {
+    "figures": {
+     "counts_through": "2026-10-30",
+     "total": "948592",
+     "in_person": "948592"
+    },
+    "sources": [
+     {
+      "name": "South Carolina Election Commission, early voting turnout report",
+      "url": "https://scvotes.gov/wp-content/uploads/2026/10/EV-Totals-10-30-26.csv"
+     },
+     {
+      "name": "Call the Map",
+      "url": "https://www.callthemap.com/early-vote"
+     }
+    ],
+    "official_page": "https://scvotes.gov/elections-statistics/voter-participation/",
+    "as_of_mt": "counts through 2026-10-30 (file 2026-10-31T12:22:46Z UTC)",
+    "stale": "true",
+    "signal": "neutral (no party data)",
+    "confidence": "low",
+    "basis": "turnout only"
+   },
+   "TX": {
+    "figures": {
+     "counts_through": "2026-10-30",
+     "total": "7718734",
+     "mail": "259793",
+     "in_person": "7458941"
+    },
+    "sources": [
+     {
+      "name": "Texas Secretary of State, early voting turnout by county",
+      "url": "https://goelect.txelections.civixapps.com/ivis-evr-ui/evr"
+     },
+     {
+      "name": "Call the Map",
+      "url": "https://www.callthemap.com/early-vote"
+     }
+    ],
+    "official_page": "https://goelect.txelections.civixapps.com/ivis-evr-ui/evr",
+    "as_of_mt": "counts through 2026-10-30 (file 2026-11-02 UTC)",
+    "stale": "false",
+    "signal": "neutral (no party data)",
+    "confidence": "low",
+    "basis": "turnout only"
+   }
+  }
+ },
+ "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site)."
 }
