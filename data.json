@@ -1,1 +1,765 @@
-{"status_note":"write test"}
+{
+ "updated_at": "2026-11-02T15:55:00-07:00 (MT)",
+ "status_note": "Pre-election baseline. Results begin after polls close on Nov 3.",
+ "races": [
+  {
+   "state": "AK",
+   "name": "Alaska",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Mary Peltola",
+     "party": "D"
+    },
+    {
+     "name": "Dan Sullivan (inc.)",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [
+    "Gerald Heikes (R) \u2014 per electiontracker.live; RCV"
+   ],
+   "rcv": true,
+   "incumbent_party": "R",
+   "polling_avg": {
+    "margin_dem_minus_rep": 1.6,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "inputs": [
+     {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+      "margin_dem_minus_rep": 1.2,
+      "as_of": "2026-10-16 (window 9/28-10/16)",
+      "note": null
+     },
+     {
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
+      "margin_dem_minus_rep": 2,
+      "as_of": "2026-10-29",
+      "note": null
+     },
+     {
+      "source": "uspd",
+      "url": "https://uspollingdata.com/races/",
+      "margin_dem_minus_rep": 1.2,
+      "as_of": "2026-10-30",
+      "note": null
+     },
+     {
+      "source": "siena",
+      "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+      "margin_dem_minus_rep": 2,
+      "as_of": "2026-11-01",
+      "note": "single poll"
+     }
+    ]
+   },
+   "margin_2022": {
+    "value": -30.56,
+    "race": "Governor (first-round; Walker (I) in other)",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "margin_2024": {
+    "value": -13.8,
+    "race": "President 2024",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "poll_close_mt": "10:00 PM MT (most); 11:00 PM MT Aleutians",
+   "counting_note": "Election-night totals are first choices only; absentees arrive through Nov 13 (Nov 18 overseas); RCV tabulation Nov 18; certification targeted Nov 25.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "status": "not called",
+    "by": null,
+    "time_mt": null
+   },
+   "results_sources": {
+    "official": "https://www.elections.alaska.gov/election-results/",
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   }
+  },
+  {
+   "state": "IA",
+   "name": "Iowa",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Josh Turek",
+     "party": "D"
+    },
+    {
+     "name": "Ashley Hinson",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [],
+   "rcv": false,
+   "incumbent_party": "R (open; Ernst retiring)",
+   "polling_avg": {
+    "margin_dem_minus_rep": 0.4,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "inputs": [
+     {
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
+      "margin_dem_minus_rep": 1,
+      "as_of": "2026-11-01",
+      "note": null
+     },
+     {
+      "source": "uspd",
+      "url": "https://uspollingdata.com/races/",
+      "margin_dem_minus_rep": 0.2,
+      "as_of": "2026-11-01",
+      "note": null
+     },
+     {
+      "source": "f51",
+      "url": "https://fiftyplusone.news/averages",
+      "margin_dem_minus_rep": 0.3,
+      "as_of": "~2026-11-02",
+      "note": null
+     },
+     {
+      "source": "siena",
+      "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+      "margin_dem_minus_rep": 1,
+      "as_of": "2026-11-01",
+      "note": "single poll"
+     },
+     {
+      "source": "ddhq",
+      "url": "https://votes.decisiondeskhq.com/polls/office/us-senate",
+      "margin_dem_minus_rep": -0.4,
+      "as_of": "2026-11-02",
+      "note": "via search synthesis of DDHQ race page; verify"
+     }
+    ]
+   },
+   "margin_2022": {
+    "value": -12.18,
+    "race": "US Senate",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "margin_2024": {
+    "value": -13.26,
+    "race": "President 2024",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "poll_close_mt": "7:00 PM MT",
+   "counting_note": "Fast-count state; most vote reported election night.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "status": "not called",
+    "by": null,
+    "time_mt": null
+   },
+   "results_sources": {
+    "official": "https://electionresults.iowa.gov/",
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   }
+  },
+  {
+   "state": "KS",
+   "name": "Kansas",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Adam Hamilton",
+     "party": "D"
+    },
+    {
+     "name": "Roger Marshall (inc.)",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [
+    "David Graham (L) \u2014 4% in NYT/Siena"
+   ],
+   "rcv": false,
+   "incumbent_party": "R",
+   "polling_avg": {
+    "margin_dem_minus_rep": 3.1,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "inputs": [
+     {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+      "margin_dem_minus_rep": -0.3,
+      "as_of": "2026-10-14 (window 9/8-10/14)",
+      "note": null
+     },
+     {
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
+      "margin_dem_minus_rep": 4,
+      "as_of": "2026-11-01",
+      "note": null
+     },
+     {
+      "source": "uspd",
+      "url": "https://uspollingdata.com/races/",
+      "margin_dem_minus_rep": 3.5,
+      "as_of": "2026-11-01",
+      "note": null
+     },
+     {
+      "source": "f51",
+      "url": "https://fiftyplusone.news/averages",
+      "margin_dem_minus_rep": 3.3,
+      "as_of": "~2026-11-02",
+      "note": null
+     },
+     {
+      "source": "siena",
+      "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+      "margin_dem_minus_rep": 5,
+      "as_of": "2026-11-01",
+      "note": "single poll"
+     }
+    ]
+   },
+   "margin_2022": {
+    "value": -22.96,
+    "race": "US Senate",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "margin_2024": {
+    "value": -16.12,
+    "race": "President 2024",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT four western Mountain-time counties",
+   "counting_note": "Mail ballots postmarked by Election Day accepted through Nov 6.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "status": "not called",
+    "by": null,
+    "time_mt": null
+   },
+   "results_sources": {
+    "official": "https://www.sos.ks.gov/elections/elections_results.html",
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   }
+  },
+  {
+   "state": "ME",
+   "name": "Maine",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Troy Jackson",
+     "party": "D"
+    },
+    {
+     "name": "Susan Collins (inc.)",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [],
+   "rcv": true,
+   "incumbent_party": "R",
+   "polling_avg": {
+    "margin_dem_minus_rep": 4.5,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "inputs": [
+     {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+      "margin_dem_minus_rep": 1.4,
+      "as_of": "2026-10-23 (window 9/23-10/23)",
+      "note": null
+     },
+     {
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
+      "margin_dem_minus_rep": 5,
+      "as_of": "2026-11-01",
+      "note": null
+     },
+     {
+      "source": "uspd",
+      "url": "https://uspollingdata.com/races/",
+      "margin_dem_minus_rep": 4.4,
+      "as_of": "2026-11-01",
+      "note": null
+     },
+     {
+      "source": "f51",
+      "url": "https://fiftyplusone.news/averages",
+      "margin_dem_minus_rep": 5.0,
+      "as_of": "~2026-11-02",
+      "note": null
+     },
+     {
+      "source": "ddhq",
+      "url": "https://votes.decisiondeskhq.com/polls/office/us-senate",
+      "margin_dem_minus_rep": 4.9,
+      "as_of": "2026-11-02",
+      "note": "via search synthesis; verify"
+     },
+     {
+      "source": "siena",
+      "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+      "margin_dem_minus_rep": 6,
+      "as_of": "2026-11-01",
+      "note": "single poll"
+     }
+    ]
+   },
+   "margin_2022": {
+    "value": 13.07,
+    "race": "Governor",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "margin_2024": {
+    "value": 6.94,
+    "race": "President 2024",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "poll_close_mt": "6:00 PM MT",
+   "counting_note": "Town-by-town reporting; if no one >50%, RCV count in Augusta the week after the election.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "status": "not called",
+    "by": null,
+    "time_mt": null
+   },
+   "results_sources": {
+    "official": "https://www.maine.gov/sos/cec/elec/results/index.html",
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   }
+  },
+  {
+   "state": "MI",
+   "name": "Michigan",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Abdul El-Sayed",
+     "party": "D"
+    },
+    {
+     "name": "Mike Rogers",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [],
+   "rcv": false,
+   "incumbent_party": "D (open; Peters retiring)",
+   "polling_avg": {
+    "margin_dem_minus_rep": 7.1,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "inputs": [
+     {
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
+      "margin_dem_minus_rep": 6,
+      "as_of": "2026-10-31",
+      "note": null
+     },
+     {
+      "source": "uspd",
+      "url": "https://uspollingdata.com/races/",
+      "margin_dem_minus_rep": 6.1,
+      "as_of": "2026-11-01",
+      "note": null
+     },
+     {
+      "source": "f51",
+      "url": "https://fiftyplusone.news/averages",
+      "margin_dem_minus_rep": 5.3,
+      "as_of": "~2026-11-02",
+      "note": null
+     },
+     {
+      "source": "siena",
+      "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+      "margin_dem_minus_rep": 11,
+      "as_of": "2026-11-01",
+      "note": "single poll"
+     }
+    ]
+   },
+   "margin_2022": {
+    "value": 10.83,
+    "race": "Governor",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "margin_2024": {
+    "value": -1.41,
+    "race": "President 2024",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT four western UP counties",
+   "counting_note": "Slow; reports by locality. Early D from Ann Arbor/Grand Rapids, then R gains, late Detroit absentees, Washtenaw, Genesee.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "status": "not called",
+    "by": null,
+    "time_mt": null
+   },
+   "results_sources": {
+    "official": "https://mielections.us/election/results/",
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   }
+  },
+  {
+   "state": "OH",
+   "name": "Ohio (special)",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Sherrod Brown",
+     "party": "D"
+    },
+    {
+     "name": "Jon Husted (inc.)",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [
+    "Greg Levy (I) \u2014 per electiontracker.live"
+   ],
+   "rcv": false,
+   "incumbent_party": "R",
+   "polling_avg": {
+    "margin_dem_minus_rep": 3.5,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "inputs": [
+     {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+      "margin_dem_minus_rep": 3.3,
+      "as_of": "2026-10-22 (window 9/22-10/22)",
+      "note": null
+     },
+     {
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
+      "margin_dem_minus_rep": 2,
+      "as_of": "2026-10-31",
+      "note": null
+     },
+     {
+      "source": "uspd",
+      "url": "https://uspollingdata.com/races/",
+      "margin_dem_minus_rep": 3.9,
+      "as_of": "2026-11-01",
+      "note": null
+     },
+     {
+      "source": "siena",
+      "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+      "margin_dem_minus_rep": 5,
+      "as_of": "2026-11-01",
+      "note": "single poll"
+     }
+    ]
+   },
+   "margin_2022": {
+    "value": -6.11,
+    "race": "US Senate",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "margin_2024": {
+    "value": -11.21,
+    "race": "President 2024",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "poll_close_mt": "5:30 PM MT",
+   "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "status": "not called",
+    "by": null,
+    "time_mt": null
+   },
+   "results_sources": {
+    "official": "https://liveresults.ohiosos.gov/",
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   }
+  },
+  {
+   "state": "TX",
+   "name": "Texas",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "James Talarico",
+     "party": "D"
+    },
+    {
+     "name": "Ken Paxton",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [],
+   "rcv": false,
+   "incumbent_party": "R (open; Cornyn lost May 26 runoff)",
+   "polling_avg": {
+    "margin_dem_minus_rep": 4.5,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "inputs": [
+     {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+      "margin_dem_minus_rep": 1.5,
+      "as_of": "2026-10-21 (window 10/8-10/21)",
+      "note": null
+     },
+     {
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
+      "margin_dem_minus_rep": 6,
+      "as_of": "2026-11-01",
+      "note": null
+     },
+     {
+      "source": "uspd",
+      "url": "https://uspollingdata.com/races/",
+      "margin_dem_minus_rep": 3.5,
+      "as_of": "2026-11-01",
+      "note": null
+     },
+     {
+      "source": "siena",
+      "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+      "margin_dem_minus_rep": 7,
+      "as_of": "2026-11-01",
+      "note": "single poll"
+     }
+    ]
+   },
+   "margin_2022": {
+    "value": -10.88,
+    "race": "Governor",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "margin_2024": {
+    "value": -13.69,
+    "race": "President 2024",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT El Paso area",
+   "counting_note": "Big early-vote dumps (Harris) first can show D lead; many small R counties then; Dallas/Harris Election Day late. Mail postmarked by E-Day accepted until 5 PM Nov 4.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "status": "not called",
+    "by": null,
+    "time_mt": null
+   },
+   "results_sources": {
+    "official": "https://results.texas-election.com/races",
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   }
+  },
+  {
+   "state": "NC",
+   "name": "North Carolina (watch)",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Roy Cooper",
+     "party": "D"
+    },
+    {
+     "name": "Michael Whatley",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [],
+   "rcv": false,
+   "incumbent_party": "R (open; Tillis retiring)",
+   "polling_avg": {
+    "margin_dem_minus_rep": 10.8,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "inputs": [
+     {
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
+      "margin_dem_minus_rep": 10,
+      "as_of": "2026-10-29",
+      "note": null
+     },
+     {
+      "source": "uspd",
+      "url": "https://uspollingdata.com/races/",
+      "margin_dem_minus_rep": 11.6,
+      "as_of": "2026-10-29",
+      "note": null
+     }
+    ]
+   },
+   "margin_2022": {
+    "value": -3.23,
+    "race": "US Senate",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "margin_2024": {
+    "value": -3.22,
+    "race": "President 2024",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "poll_close_mt": "5:30 PM MT",
+   "counting_note": "Early/absentee processed ahead and reported first.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "status": "not called",
+    "by": null,
+    "time_mt": null
+   },
+   "results_sources": {
+    "official": "https://er.ncsbe.gov/",
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   }
+  },
+  {
+   "state": "SC",
+   "name": "South Carolina (watch)",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Annie Andrews",
+     "party": "D"
+    },
+    {
+     "name": "Darline Graham (appointed inc.)",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [
+    "Catherine Fleming Bruce (certified write-in)"
+   ],
+   "rcv": false,
+   "incumbent_party": "R",
+   "polling_avg": {
+    "margin_dem_minus_rep": -2.0,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "inputs": [
+     {
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
+      "margin_dem_minus_rep": -2,
+      "as_of": "2026-10-26",
+      "note": null
+     },
+     {
+      "source": "uspd",
+      "url": "https://uspollingdata.com/races/",
+      "margin_dem_minus_rep": -2.0,
+      "as_of": "2026-10-25",
+      "note": null
+     }
+    ]
+   },
+   "margin_2022": {
+    "value": -25.87,
+    "race": "US Senate",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "margin_2024": {
+    "value": -17.87,
+    "race": "President 2024",
+    "source": "MEDSL statewide results (D minus R)"
+   },
+   "poll_close_mt": "5:00 PM MT",
+   "counting_note": "missing \u2014 not researched this run",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "status": "not called",
+    "by": null,
+    "time_mt": null
+   },
+   "results_sources": {
+    "official": "https://www.enr-scvotes.org/SC/",
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   }
+  }
+ ],
+ "seat_tracker": {
+  "senate": {
+   "current": {
+    "R": 53,
+    "D": 45,
+    "I_caucus_D": 2,
+    "source": "https://www.congresscountdown.com/info/party-breakdown"
+   },
+   "seats_up": 35,
+   "seats_up_note": "33 Class II + specials in FL and OH",
+   "control_math": "Republicans hold 53 seats; Democrats (45 + 2 independents who caucus with them) need a net gain of 4 for 51; VP JD Vance breaks 50-50 ties for R.",
+   "source": "https://abcnews.com/Politics/control-congress-grabs-election-day-math-democrats-republicans/story?id=137229697",
+   "called": {
+    "D": null,
+    "R": null
+   },
+   "undecided": null
+  },
+  "house": {
+   "majority": 218,
+   "current": {
+    "R": 218,
+    "D": 214,
+    "I": 1,
+    "vacancies": [
+     "FL-20",
+     "TX-23"
+    ]
+   },
+   "source": "https://www.congresscountdown.com/info/party-breakdown",
+   "called": {
+    "D": null,
+    "R": null
+   },
+   "undecided": null
+  }
+ },
+ "poll_closings_mt": {
+  "4:00 PM": "IN (most), KY (east)",
+  "5:00 PM": "FL (most), GA, IN (rest), KY (rest), NH (most), SC, VT, VA",
+  "5:30 PM": "NC, OH, WV",
+  "6:00 PM": "AL, CT, DE, DC, FL panhandle, IL, KS (most), ME, MD, MA, MI (most), MS, MO, NH (rest), NJ, ND (earliest), OK, PA, RI, SD (east), TN, TX (most)",
+  "6:30 PM": "AR",
+  "7:00 PM": "AZ, CO, IA, KS (west), LA, MI (western UP), MN, NE, NM, NY, SD (west), TX (El Paso), WI, WY",
+  "8:00 PM": "ID (most), MT, NV, OR (Malheur), UT",
+  "9:00 PM": "CA, ID (north), ND (latest), OR (most), WA",
+  "10:00 PM": "HI, AK (most)",
+  "11:00 PM": "AK (Aleutians)",
+  "source": "https://midtermresultslive.com/poll-closing-times/ (ET converted: MT = ET-2, standard time after Nov 1)"
+ },
+ "calls_log": [],
+ "alerts": [],
+ "notes": [
+  "A race is marked called only when AP or a network decision desk calls it.",
+  "Projected margins are an independent model projection, not a call.",
+  "Prediction-market figures, if shown, are trader odds, not forecasts.",
+  "All times Mountain Time (MT)."
+ ]
+}
