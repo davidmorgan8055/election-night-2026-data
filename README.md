@@ -1,10 +1,19 @@
-# Election Night 2026 — public results feed
+# Election Night 2026 — nonpartisan results tracker
 
-`data.json` is the public, strictly nonpartisan data feed behind the Election Night 2026 Tracker (Nov 3, 2026 US midterms, Senate and House). Each commit is one snapshot, so the commit history is the update log.
+Static site (no build step): `index.html`, `styles.css`, `app.js`, `data.json`.
+Live: https://davidmorgan8055.github.io/election-night-2026-data/
 
-- **Sources:** every number carries a source (polling averages, prior results, official and AP results pages). No figures are invented. Live fields stay null until results come in.
-- **Calls:** a race is marked called only when AP or a network decision desk calls it.
-- **Projections:** projected margins come from an independent model. They are not calls.
-- **Prediction markets:** if shown, they are trader odds, not forecasts.
-- **Times:** all times are Mountain Time (MT).
-- **Privacy:** contains no personal data.
+## Data feed
+`data.json` is the single source of truth. The page re-fetches it every 60 seconds (`data.json?t=<timestamp>`) and re-renders. Updates are committed straight to this file on `main`, so the commit history is a public, versioned record of every change.
+
+Key fields: `updated_at` (MT), `status_note`, `races[]` (candidates, `polling_avg` + sources, `margin_2022`, `margin_2024`, `poll_close_mt`, `current_margin`, `pct_in`, `projected_margin`, `projection_confidence`, `call {status, by, time_mt}`), `seat_tracker`, `calls_log[]`, `alerts[]`, `early_vote`, `notes`. Margins are Democrat minus Republican, in points. Live fields are `null` until results arrive.
+
+Rules: a race is shown as called only when AP or a network decision desk calls it. Projections are an independent model, not calls. Prediction-market figures, if shown, are trader odds. Map: us-atlas (public domain) + d3 via jsDelivr.
+
+## Import into Replit (no Agent needed)
+1. Replit → **Create App** → **Import from GitHub** → pick `davidmorgan8055/election-night-2026-data`.
+2. Skip/decline any Agent setup. Deploy → **Static** deployment, public directory `/` (repo root), no build command.
+3. The static deploy serves a snapshot; for live data either redeploy, or simply use the GitHub Pages URL above (it updates on every push).
+
+## Local preview
+`python3 -m http.server 8000` then open http://localhost:8000

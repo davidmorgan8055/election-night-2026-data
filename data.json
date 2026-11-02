@@ -730,7 +730,7 @@
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
     "early_vote_signal": "leans D",
     "early_vote_confidence": "low",
-    "key": false,
+    "key": true,
     "watch": true
    }
   },
@@ -807,7 +807,7 @@
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
     "early_vote_signal": "neutral (no party data)",
     "early_vote_confidence": "low",
-    "key": false,
+    "key": true,
     "watch": true
    }
   }
@@ -847,6 +847,11 @@
     "R": null
    },
    "undecided": null
+  },
+  "paths_to_control": {
+   "senate": "Democrats need a net gain of 4 seats (to 51) from the current R 53 / D 45 + 2 independents. A 50-50 split gives Republicans control via the VP tie-break.",
+   "house": "218 seats for a majority.",
+   "source": "https://abcnews.com/Politics/control-congress-grabs-election-day-math-democrats-republicans/story?id=137229697"
   }
  },
  "poll_closings_mt": {
@@ -1152,6 +1157,11 @@
     "confidence": "low",
     "basis": "turnout only"
    }
+  },
+  "overall_direction_vs_2022": {
+   "summary": "Mixed, not one-directional. Among states with party registration: NC early electorate more Democratic than at the same point in 2022 (D+12.2 vs D+6.9); IA less Democratic (D+12.3 vs D+18.7); ME roughly flat (D+24.1 vs D+25.5); KS has no 2022 comparison. MI, OH, TX, SC, AK do not register by party.",
+   "confidence": "low",
+   "source": "Call the Map early-vote tracker (https://www.callthemap.com/early-vote), compiled from official state files; counts through 2026-11-01"
   }
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site)."
