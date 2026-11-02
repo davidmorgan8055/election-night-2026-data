@@ -77,10 +77,17 @@ function closings(){var c=DATA.poll_closings_mt||{};var keys=["AK","IA","KS","ME
 function alerts(){var a=[].concat((DATA.calls_log||[]).map(function(x){x._t="Call";return x;}),(DATA.alerts||[]));
  document.getElementById("alerts").innerHTML=a.length?a.map(function(x){return'<div class="card"><span class="pill">'+esc(x._t||x.type||"Alert")+"</span> <b>"+esc(x.time_mt||"")+"</b> "+esc(x.text||x.summary||(x.state?x.state+" called for "+x.winner+" by "+x.by:""))+" "+link(x.source||x.url)+"</div>";}).join(""):'<p class="small">No calls or alerts yet. Results begin after polls close.</p>';}
 function notes(){document.getElementById("notes").innerHTML=(DATA.notes||[]).map(function(n){return"<li>"+esc(n)+"</li>";}).join("")+(DATA.map_notes?"<li>"+esc(DATA.map_notes)+"</li>":"");}
+var TK_ALL=false;
+function takeaways(){var t=DATA.takeaways||[],s=DATA.takeaways_summary,f=document.getElementById("tk-feed"),b=document.getElementById("tk-more");
+ document.getElementById("tk-sum").innerHTML=s?'<h3>Bottom line right now</h3><p>'+esc(s)+'</p>':"";
+ var n=TK_ALL?t.length:Math.min(6,t.length);
+ f.innerHTML=t.slice(0,n).map(function(x){var cls=String(x.tag||"note").replace(/[^a-z]/g,"");return'<li><article class="tk-card"><div class="tk-meta"><span class="tk-tag tag-'+cls+'">'+esc(x.tag||"note")+'</span> <time>'+esc(x.time_mt||"")+'</time>'+(x.confidence?' <span class="tk-conf">Confidence: '+esc(x.confidence)+'</span>':"")+'</div><h3>'+esc(x.headline)+'</h3><p>'+esc(x.detail||"")+'</p>'+(x.source_url||x.source_label?'<p class="tk-src">Source: '+(x.source_url?link(x.source_url,x.source_label||x.source_url):esc(x.source_label))+'</p>':"")+'</article></li>';}).join("")||"<li>No takeaways yet.</li>";
+ b.hidden=t.length<=6;b.textContent=TK_ALL?"Show fewer":"Show more ("+(t.length-6)+" more)";b.setAttribute("aria-expanded",TK_ALL?"true":"false");
+ b.onclick=function(){TK_ALL=!TK_ALL;takeaways();};}
 function render(){document.getElementById("updated").textContent=DATA.updated_at||DASH;
  var anyRes=DATA.races.some(function(r){return r.current_margin!=null;});
  document.getElementById("status").textContent=(DATA.status_note||"")+(anyRes||/polls close/.test(DATA.status_note||"")?"":" Results begin after polls close.");
- seats();table();early();closings();alerts();notes();drawMap();}
+ takeaways();seats();table();early();closings();alerts();notes();drawMap();}
 function load(){var dot=document.getElementById("dot");fetch("data.json?t="+Date.now(),{cache:"no-store"}).then(function(r){if(!r.ok)throw r.status;return r.json();})
  .then(function(d){DATA=d;render();dot.className="dot ok";document.getElementById("refresh").textContent="checked "+new Date().toLocaleTimeString("en-US",{timeZone:"America/Denver",hour:"numeric",minute:"2-digit",second:"2-digit"})+" MT · refreshes every 60s";})
  .catch(function(e){dot.className="dot err";document.getElementById("refresh").textContent="refresh failed; retrying in 60s";console.error(e);});}

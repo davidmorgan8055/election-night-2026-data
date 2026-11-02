@@ -17,7 +17,7 @@
     }
    ],
    "other_candidates": [
-    "Gerald Heikes (R) \u2014 per electiontracker.live; RCV"
+    "Gerald Heikes (R) — per electiontracker.live; RCV"
    ],
    "rcv": true,
    "incumbent_party": "R",
@@ -204,7 +204,7 @@
     }
    ],
    "other_candidates": [
-    "David Graham (L) \u2014 4% in NYT/Siena"
+    "David Graham (L) — 4% in NYT/Siena"
    ],
    "rcv": false,
    "incumbent_party": "R",
@@ -494,7 +494,7 @@
     }
    ],
    "other_candidates": [
-    "Greg Levy (I) \u2014 per electiontracker.live"
+    "Greg Levy (I) — per electiontracker.live"
    ],
    "rcv": false,
    "incumbent_party": "R",
@@ -784,7 +784,7 @@
     "source": "MEDSL statewide results (D minus R)"
    },
    "poll_close_mt": "5:00 PM MT",
-   "counting_note": "missing \u2014 not researched this run",
+   "counting_note": "missing — not researched this run",
    "current_margin": null,
    "pct_in": null,
    "projected_margin": null,
@@ -922,7 +922,7 @@
      "gap_now": "12.27",
      "vs_2022_change": "+36%",
      "gap_2022": "18.68",
-     "vs_2024_change": "\u221227%",
+     "vs_2024_change": "−27%",
      "gap_2024": "-1.3"
     },
     "sources": [
@@ -976,7 +976,7 @@
      "total": "438602",
      "mail": "47866",
      "in_person": "390736",
-     "vs_2024_change": "\u221226%"
+     "vs_2024_change": "−26%"
     },
     "sources": [
      {
@@ -1012,7 +1012,7 @@
      "gap_now": "24.13",
      "vs_2022_change": "+39%",
      "gap_2022": "25.49",
-     "vs_2024_change": "\u221216%",
+     "vs_2024_change": "−16%",
      "gap_2024": "14.08"
     },
     "sources": [
@@ -1066,7 +1066,7 @@
      "gap_now": "12.22",
      "vs_2022_change": "+31%",
      "gap_2022": "6.87",
-     "vs_2024_change": "\u221237%",
+     "vs_2024_change": "−37%",
      "gap_2024": "-0.88"
     },
     "sources": [
@@ -1164,5 +1164,68 @@
    "source": "Call the Map early-vote tracker (https://www.callthemap.com/early-vote), compiled from official state files; counts through 2026-11-01"
   }
  },
- "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site)."
+ "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
+ "takeaways_summary": "Early voting does not show a clear shift toward either party compared with 2022. In North Carolina, early ballots lean more Democratic than in 2022; in Iowa they lean less Democratic; in Maine they look about the same. These are low-confidence signals, not results.",
+ "takeaways": [
+  {
+   "time_mt": "4:40 PM MT, Nov 2",
+   "headline": "Overall: no clear direction yet compared with 2022",
+   "detail": "Of the states that report voters' party registration, one moved toward Democrats, one toward Republicans, and one stayed about the same versus 2022. Other states do not report party, so they say nothing about direction.",
+   "source_label": "Call the Map early-vote tracker",
+   "source_url": "https://www.callthemap.com/early-vote",
+   "tag": "early vote",
+   "confidence": "low"
+  },
+  {
+   "time_mt": "4:40 PM MT, Nov 2",
+   "headline": "North Carolina early ballots lean more Democratic than in 2022",
+   "detail": "Among about 2.82 million early ballots, registered Democrats lead registered Republicans by 12.2 points, compared with a 6.9-point Democratic lead in 2022. About 1 million ballots came from unaffiliated voters, who could go either way.",
+   "source_label": "Call the Map early-vote tracker",
+   "source_url": "https://www.callthemap.com/early-vote",
+   "tag": "early vote",
+   "confidence": "low"
+  },
+  {
+   "time_mt": "4:40 PM MT, Nov 2",
+   "headline": "Iowa early ballots lean less Democratic than in 2022",
+   "detail": "Among about 464,000 early ballots, registered Democrats lead by 12.3 points, down from an 18.7-point Democratic lead at the same point in 2022. Total early ballots are up 36% from 2022.",
+   "source_label": "Call the Map early-vote tracker",
+   "source_url": "https://www.callthemap.com/early-vote",
+   "tag": "early vote",
+   "confidence": "low"
+  },
+  {
+   "time_mt": "4:40 PM MT, Nov 2",
+   "headline": "Maine early ballots look about the same as 2022",
+   "detail": "Registered Democrats lead among about 295,000 early ballots by 24.1 points, close to the 25.5-point Democratic lead in 2022.",
+   "source_label": "Call the Map early-vote tracker",
+   "source_url": "https://www.callthemap.com/early-vote",
+   "tag": "early vote",
+   "confidence": "low"
+  },
+  {
+   "time_mt": "4:40 PM MT, Nov 2",
+   "headline": "Party registration is not the same as votes",
+   "detail": "These numbers count which party early voters are registered with, not who they voted for. Since 2020 many Republicans have shifted to voting on Election Day, so early ballots often lean Democratic and Election Day ballots lean Republican. Early leads in the count can shrink or grow as more votes come in.",
+   "source_label": "Call the Map early-vote tracker",
+   "source_url": "https://www.callthemap.com/early-vote",
+   "tag": "note"
+  },
+  {
+   "time_mt": "4:40 PM MT, Nov 2",
+   "headline": "First polls close Tuesday at 4:00 PM MT",
+   "detail": "Most of Indiana and eastern Kentucky close first at 4:00 PM MT on Nov 3; North Carolina and Ohio close at 5:30 PM MT; Iowa at 7:00 PM MT; most of Alaska at 10:00 PM MT.",
+   "source_label": "Midterm Results Live poll closing times",
+   "source_url": "https://midtermresultslive.com/poll-closing-times/",
+   "tag": "note"
+  },
+  {
+   "time_mt": "4:40 PM MT, Nov 2",
+   "headline": "Several states give turnout only, with no party breakdown",
+   "detail": "Michigan, Ohio, Texas, South Carolina and Alaska report how many people voted early but not their party, so they cannot show a shift toward either side.",
+   "source_label": "Call the Map early-vote tracker",
+   "source_url": "https://www.callthemap.com/early-vote",
+   "tag": "turnout"
+  }
+ ]
 }
