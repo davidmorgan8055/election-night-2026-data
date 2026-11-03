@@ -14,7 +14,7 @@ var G={"D+ / R+":"How far ahead a party is, in percentage points. D+5 means Demo
 "Tracker data":"From an independent early-vote tracker; not yet checked against official state data.",
 "Trader odds":"Prices on betting or prediction markets. They show what traders are wagering, not a forecast or a poll."};
 window.ENR=window.ENR||{};
-function glossary(){document.getElementById("glossary").innerHTML=Object.keys(G).map(function(k){return"<dt>"+E(k)+"</dt><dd>"+E(G[k])+"</dd>";}).join("");}
+function glossary(){document.getElementById("glossary").innerHTML=Object.keys(G).map(function(k){return"<div><dt>"+E(k)+"</dt><dd>"+E(G[k])+"</dd></div>";}).join("");}
 var gid=0;function term(label,key){gid++;return'<span class="gl"><button type="button" class="glb" aria-describedby="gl'+gid+'" aria-expanded="false">'+E(label)+' <span aria-hidden="true">ⓘ</span></button><span role="tooltip" id="gl'+gid+'" class="gltip" hidden>'+E(G[key])+"</span></span>";}
 document.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest(".glb");document.querySelectorAll(".gltip").forEach(function(t){if(!b||t.id!==b.getAttribute("aria-describedby")){t.hidden=true;}});if(b){var t=document.getElementById(b.getAttribute("aria-describedby"));t.hidden=!t.hidden;b.setAttribute("aria-expanded",String(!t.hidden));}});
 document.addEventListener("focusin",function(e){if(e.target.classList&&e.target.classList.contains("glb")){document.getElementById(e.target.getAttribute("aria-describedby")).hidden=false;}});
