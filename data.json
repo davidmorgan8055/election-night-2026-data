@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03T12:12:00-07:00",
- "status_note": "Pre-election baseline. Results begin after polls close on Nov 3.",
+ "updated_at": "2026-11-03T14:10:00-07:00",
+ "status_note": "Pre-closing briefing, 2:10 PM MT. No results yet. First key-state polls close at 5:00 PM MT (SC), then NC and OH at 5:30 PM MT.",
  "races": [
   {
    "state": "AK",
@@ -17,12 +17,12 @@
     }
    ],
    "other_candidates": [
-    "Gerald Heikes (R) \u2014 per electiontracker.live; RCV"
+    "Gerald Heikes (R) — per electiontracker.live; RCV"
    ],
    "rcv": true,
    "incumbent_party": "R",
    "polling_avg": {
-    "margin_dem_minus_rep": 1.6,
+    "margin_dem_minus_rep": 1.9,
     "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
     "inputs": [
      {
@@ -35,8 +35,8 @@
      {
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
-      "margin_dem_minus_rep": 2,
-      "as_of": "2026-10-29",
+      "margin_dem_minus_rep": 3,
+      "as_of": "2026-11-01",
       "note": null
      },
      {
@@ -133,13 +133,13 @@
    "rcv": false,
    "incumbent_party": "R (open; Ernst retiring)",
    "polling_avg": {
-    "margin_dem_minus_rep": 0.4,
+    "margin_dem_minus_rep": 0.6,
     "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
     "inputs": [
      {
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
-      "margin_dem_minus_rep": 1,
+      "margin_dem_minus_rep": 2,
       "as_of": "2026-11-01",
       "note": null
      },
@@ -274,12 +274,12 @@
     }
    ],
    "other_candidates": [
-    "David Graham (L) \u2014 4% in NYT/Siena"
+    "David Graham (L) — 4% in NYT/Siena"
    ],
    "rcv": false,
    "incumbent_party": "R",
    "polling_avg": {
-    "margin_dem_minus_rep": 3.1,
+    "margin_dem_minus_rep": 3.3,
     "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
     "inputs": [
      {
@@ -292,7 +292,7 @@
      {
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
-      "margin_dem_minus_rep": 4,
+      "margin_dem_minus_rep": 5,
       "as_of": "2026-11-01",
       "note": null
      },
@@ -397,7 +397,7 @@
    "rcv": true,
    "incumbent_party": "R",
    "polling_avg": {
-    "margin_dem_minus_rep": 4.5,
+    "margin_dem_minus_rep": 4.6,
     "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
     "inputs": [
      {
@@ -410,7 +410,7 @@
      {
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
-      "margin_dem_minus_rep": 5,
+      "margin_dem_minus_rep": 6,
       "as_of": "2026-11-01",
       "note": null
      },
@@ -551,7 +551,7 @@
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
       "margin_dem_minus_rep": 6,
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-02",
       "note": null
      },
      {
@@ -680,12 +680,12 @@
     }
    ],
    "other_candidates": [
-    "Greg Levy (I) \u2014 per electiontracker.live"
+    "Greg Levy (I) — per electiontracker.live"
    ],
    "rcv": false,
    "incumbent_party": "R",
    "polling_avg": {
-    "margin_dem_minus_rep": 3.5,
+    "margin_dem_minus_rep": 3.8,
     "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
     "inputs": [
      {
@@ -698,8 +698,8 @@
      {
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
-      "margin_dem_minus_rep": 2,
-      "as_of": "2026-10-31",
+      "margin_dem_minus_rep": 3,
+      "as_of": "2026-11-02",
       "note": null
      },
      {
@@ -824,7 +824,7 @@
    "rcv": false,
    "incumbent_party": "R (open; Cornyn lost May 26 runoff)",
    "polling_avg": {
-    "margin_dem_minus_rep": 4.5,
+    "margin_dem_minus_rep": 4.2,
     "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
     "inputs": [
      {
@@ -837,8 +837,8 @@
      {
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
-      "margin_dem_minus_rep": 6,
-      "as_of": "2026-11-01",
+      "margin_dem_minus_rep": 5,
+      "as_of": "2026-11-02",
       "note": null
      },
      {
@@ -957,14 +957,14 @@
    "rcv": false,
    "incumbent_party": "R (open; Tillis retiring)",
    "polling_avg": {
-    "margin_dem_minus_rep": 10.8,
+    "margin_dem_minus_rep": 11.3,
     "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
     "inputs": [
      {
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
-      "margin_dem_minus_rep": 10,
-      "as_of": "2026-10-29",
+      "margin_dem_minus_rep": 11,
+      "as_of": "2026-11-01",
       "note": null
      },
      {
@@ -1138,7 +1138,7 @@
     "source": "MEDSL statewide results (D minus R)"
    },
    "poll_close_mt": "5:00 PM MT",
-   "counting_note": "missing \u2014 not researched this run",
+   "counting_note": "missing — not researched this run",
    "current_margin": null,
    "pct_in": null,
    "projected_margin": null,
@@ -1252,8 +1252,8 @@
   "All times Mountain Time (MT)."
  ],
  "early_vote": {
-  "compiled_mt": "2026-11-03 12:12 MT",
-  "tracker": "Call the Map US.csv https://www.callthemap.com/early-vote/data/US.csv (checked_at 2026-11-03T16:11:24Z = 9:11 AM MT Nov 3; new counts only for OH; SC file flagged stale/unreadable; others unchanged)",
+  "compiled_mt": "2026-11-03 2:10 PM MT",
+  "tracker": "Call the Map US.csv https://www.callthemap.com/early-vote/data/US.csv (checked_at 2026-11-03T20:26:12Z = 1:26 PM MT Nov 3; new counts for KS, ME, MI, CO, CA and others; SC file still stale)",
   "general_caveats": [
    "Party registration is not vote choice",
    "Early vote may cannibalize Election Day vote; Republicans shifted toward Election Day after 2020",
@@ -1299,7 +1299,7 @@
      "gap_now": "10.73",
      "vs_2022_change": "+35%",
      "gap_2022": "17.49",
-     "vs_2024_change": "\u221226%",
+     "vs_2024_change": "−26%",
      "gap_2024": "-1.64"
     },
     "sources": [
@@ -1324,14 +1324,14 @@
    },
    "KS": {
     "figures": {
-     "counts_through": "2026-11-01",
-     "total": "470170",
-     "mail": "77986",
-     "in_person": "392184",
-     "dem": "192007",
-     "rep": "203502",
-     "unaffiliated_other": "74661",
-     "gap_now": "-2.44"
+     "counts_through": "2026-11-02",
+     "total": "505641",
+     "mail": "85802",
+     "in_person": "419839",
+     "dem": "202784",
+     "rep": "221086",
+     "unaffiliated_other": "81771",
+     "gap_now": "-3.62"
     },
     "sources": [
      {
@@ -1344,11 +1344,11 @@
      }
     ],
     "official_page": "https://www.kssos.org/elections/advance-voting-data.html",
-    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02 UTC)",
+    "as_of_mt": "counts through 2026-11-02 (Call the Map checked 1:26 PM MT Nov 3)",
     "stale": "false",
     "signal": "neutral",
     "confidence": "low",
-    "basis": "R+2.4; no 2022 comparison available",
+    "basis": "R+3.6 (was R+2.4 a day earlier); no 2022 comparison available",
     "signal_vs_2022": "no 2022 comparison"
    },
    "KY": {
@@ -1357,7 +1357,7 @@
      "total": "438602",
      "mail": "47866",
      "in_person": "390736",
-     "vs_2024_change": "\u221226%"
+     "vs_2024_change": "−26%"
     },
     "sources": [
      {
@@ -1384,23 +1384,23 @@
    },
    "ME": {
     "figures": {
-     "counts_through": "2026-11-01",
-     "total": "295220",
-     "mail": "133845",
-     "in_person": "161375",
-     "dem": "138621",
-     "rep": "67392",
-     "unaffiliated_other": "89207",
-     "gap_now": "24.13",
-     "vs_2022_change": "+39%",
-     "gap_2022": "25.49",
-     "vs_2024_change": "\u221216%",
+     "counts_through": "2026-11-02",
+     "total": "307719",
+     "mail": "145738",
+     "in_person": "161981",
+     "dem": "143338",
+     "rep": "70388",
+     "unaffiliated_other": "93993",
+     "gap_now": "23.71",
+     "vs_2022_change": "+34%",
+     "gap_2022": "25.15",
+     "vs_2024_change": "−16%",
      "gap_2024": "14.08"
     },
     "sources": [
      {
       "name": "Maine Secretary of State, statewide absentee voter file",
-      "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/11-3-26%20AB%20Voter%20File%20as%20of%2011-2-26.txt"
+      "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/11-3-26%20AB%20Voter%20File%20as%20of%2011-3-26%202pm.txt"
      },
      {
       "name": "Call the Map",
@@ -1408,18 +1408,18 @@
      }
     ],
     "official_page": "https://www.maine.gov/sos/elections-voting/voter-data",
-    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02T19:24:48Z UTC)",
+    "as_of_mt": "counts through 2026-11-02 (state file 12:30 PM MT Nov 3)",
     "stale": "false",
     "signal": "neutral",
     "confidence": "low",
-    "basis": "D+24.1 vs D+25.5 in 2022, volume +39%",
+    "basis": "D+23.7 vs D+25.2 at the same point in 2022, volume +34%",
     "signal_vs_2022": "about the same (slightly right)",
     "trust": "Tracker data"
    },
    "MI": {
     "figures": {
-     "counts_through": "2026-11-01",
-     "total": "1628714",
+     "counts_through": "2026-11-02",
+     "total": "1745903",
      "pct_active_registered_voted_by_5am_mt_nov3": "32.9%",
      "ballots_cast_mon_morning": "2313165",
      "early_in_person": "750469"
@@ -1439,7 +1439,7 @@
      }
     ],
     "official_page": "https://www.michigan.gov/sos/elections/election-results-and-data/voter-participation-dashboard",
-    "as_of_mt": "32.9% of active registered voters had voted by 5:00 AM MT Nov 3; 2,313,165 ballots as of Monday morning Nov 2 (state data via CBS Detroit). Call the Map still shows 1,628,714 (stale).",
+    "as_of_mt": "Tracker 1,745,903 through Nov 2 (still below the 2,313,165 state figure reported via CBS Detroit); 32.9% of active voters had voted by 5 AM MT Nov 3",
     "stale": "false",
     "signal": "neutral (no party data)",
     "confidence": "low",
@@ -1458,7 +1458,7 @@
      "gap_now": "12.25",
      "vs_2022_change": "+30%",
      "gap_2022": "6.97",
-     "vs_2024_change": "\u221237%",
+     "vs_2024_change": "−37%",
      "gap_2024": "-0.88"
     },
     "sources": [
@@ -1658,7 +1658,7 @@
    "confidence": "low",
    "direction_vs_2024": "left (in every party-registration state tracked), but midterm vs presidential electorates differ",
    "confidence_vs_2024": "low",
-   "basis": "vs 2022: NC (D+12.25 vs D+6.97) and TX lean left, IA (D+10.7 vs D+17.5) leans right, ME about the same; KS/MI/OH/AK/SC/KY no like-for-like comparison. Unchanged from the 9:10 AM MT Nov 3 read (only OH turnout updated; no new party data)."
+   "basis": "vs 2022: NC (D+12.25 vs D+6.97) and TX lean left, IA (D+10.7 vs D+17.5) leans right, ME about the same (D+23.7 vs D+25.2); KS R+3.6 with no 2022 comparison; MI/OH/AK/SC/KY no like-for-like comparison. Unchanged direction at the 2:10 PM MT Nov 3 read."
   },
   "election_day_reports": [
    {
@@ -1688,12 +1688,29 @@
     "source": "ABC13 Houston",
     "url": "https://abc13.com/live-updates/texas-midterm-elections-2026-election-day-arrives-record-breaking-turnout-during-early-voting-period/19981970/entry/20012110/",
     "vs_2022": "no like-for-like 2022 figure retrieved"
+   },
+   {
+    "state": "OH",
+    "text": "Analyst says Franklin County's Election Day share of total votes passed its final 2024 Election Day share by about 1:48 PM MT, with other suburban, higher-education counties close behind.",
+    "source": "@JordanSchwartz on X (unconfirmed)",
+    "url": "https://x.com/JordanSchwartz/status/2117720700077117779",
+    "vs_2022": "not like-for-like; Ohio posts no live county ED totals"
    }
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Compared with the 2022 midterm, early voting is mixed with a slight tilt toward Democrats, at low confidence, and the final pre-Election Day numbers didn't change that. North Carolina's early ballots lean more Democratic than in 2022 (checked against the state's own file), and in Texas turnout grew faster in Democratic-leaning counties than in Republican-leaning ones. Iowa leans less Democratic than 2022, and Maine looks about the same. Early votes are not results: many Republicans vote on Election Day, and unaffiliated voters decide close races.",
+ "takeaways_summary": "Before polls close, early voting compared with the 2022 midterm is still mixed with a slight tilt toward Democrats, at low confidence: North Carolina and Texas lean more Democratic than 2022, Iowa leans less, and Maine is about the same. Final polling averages nudged slightly toward Democrats in most key Senate races, but these are polls, not results. The first key results come after South Carolina closes at 5:00 PM MT and North Carolina and Ohio at 5:30 PM MT.",
  "takeaways": [
+  {
+   "time_mt": "2:10 PM MT, Nov 3",
+   "headline": "Pre-closing read: early vote still mixed, tilting slightly left vs 2022",
+   "detail": "New counts: Kansas early ballots reached 505,641 with registered Republicans ahead by 3.6 points (up from 2.4 a day earlier). Maine reached 307,719, a 23.7-point Democratic registration edge versus 25.2 at the same point in 2022. Final polling averages moved slightly toward Democrats in AK, IA, KS, ME, OH and NC and slightly toward Republicans in TX. Registration isn't vote choice, and Republicans tend to vote more on Election Day.",
+   "source_label": "Call the Map (state and county offices); Electoral-Vote.com averages",
+   "source_url": "https://www.callthemap.com/early-vote",
+   "tag": "early vote",
+   "confidence": "low",
+   "trust": "Tracker data"
+  },
   {
    "time_mt": "12:12 PM MT, Nov 3",
    "headline": "Ohio's early vote reached 1.75 million ballots",
@@ -1842,58 +1859,71 @@
   }
  ],
  "perspectives": {
+  "updated_at": "2026-11-03T14:10:00-07:00",
   "left": [
    {
-    "paraphrase": "By early afternoon ET, Ohio Election Day turnout was beating expectations more in Democratic-leaning counties than in redder ones, with Warren County an exception.",
+    "paraphrase": "Franklin County, Ohio (Columbus) became the first county with data where the Election Day share of total votes passed its final 2024 Election Day share, with other suburban, higher-education counties close behind.",
     "author": "Jordan Schwartz (@JordanSchwartz)",
-    "url": "https://x.com/JordanSchwartz/status/2117683041250513252",
-    "trust": "Unconfirmed (X)",
-    "fact_check": "Can't be checked yet: it measures against his own expected-turnout model, Ohio doesn't post live county Election Day totals, and midday pace often shifts by evening."
+    "url": "https://x.com/JordanSchwartz/status/2117720700077117779",
+    "time_mt": "1:48 PM MT",
+    "fact_check": "Can't be checked yet: Ohio doesn't post live county Election Day totals, and the comparison relies on his own data feed. Ohio's statewide early vote was 1,754,731 through Monday, but the state doesn't report party for early voters.",
+    "fact_check_url": "https://www.callthemap.com/early-vote",
+    "trust": "Unconfirmed (X)"
    },
    {
-    "paraphrase": "Early vote turnout is about 20% above 2022, with a surge among young voters and voters of color; he says Election Day reads should be adjusted 2-3 points toward Democrats because independents have swung their way.",
-    "author": "Simon Rosenberg (@SimonWDC)",
-    "url": "https://x.com/SimonWDC/status/2117634086168592689",
-    "trust": "Unconfirmed (X)",
-    "fact_check": "Partly supported. Turnout is up versus 2022 (Texas +40.5%, Florida pace +8.2% per On Point). The demographic surge and the 2-3 point independent adjustment are his own estimates and can't be checked."
+    "paraphrase": "In Maricopa County, Arizona, the partisanship of Election Day turnout has held steady; the Republican Election Day edge is similar to 2024, but Republicans have a much larger early-vote deficit to make up this year.",
+    "author": "Jordan Schwartz (@JordanSchwartz)",
+    "url": "https://x.com/JordanSchwartz/status/2117702246133854619",
+    "time_mt": "12:35 PM MT",
+    "fact_check": "Partly supported. The tracker's statewide Arizona early vote shows registered Republicans ahead by only 0.8 points (615,085 D vs 628,397 R through Nov 1); the Election Day partisanship figure comes from a private data vendor and can't be checked.",
+    "fact_check_url": "https://www.callthemap.com/early-vote",
+    "trust": "Unconfirmed (X)"
    },
    {
-    "paraphrase": "North Carolina's early vote is 12.8 points more Democratic than 2024 and 4.9 points more than 2022, pointing to a strong Democratic showing.",
+    "paraphrase": "Their Oct. 28 poll found 79.8% of 2024 Harris voters certain to vote versus 64.7% of 2024 Trump voters; they say close races break Democratic if that gap shows up today and tighten if it doesn't.",
     "author": "On Point Politics (@onpointpolitics)",
-    "url": "https://x.com/onpointpolitics/status/2117062887714029824",
-    "trust": "Unconfirmed (X)",
-    "fact_check": "Broadly consistent with the data: the state file shows a 12.2-point Democratic registration edge, about 5 points more than 2022 and 13 more than 2024 per the tracker. Their Senate forecast is their own, and registration isn't vote choice."
+    "url": "https://x.com/onpointpolitics/status/2117715943560232974",
+    "time_mt": "1:30 PM MT",
+    "fact_check": "This is their own poll and can't be checked against turnout yet. Early-vote data is mixed: North Carolina's registered-Democrat edge grew versus 2022, while Iowa's shrank (D+10.7 vs D+17.5).",
+    "fact_check_url": "https://www.callthemap.com/early-vote",
+    "trust": "Unconfirmed (X)"
    }
   ],
   "right": [
    {
+    "paraphrase": "On a same-time snapshot, Florida's vote is over 100,000 ahead of Election Day 2024, and overall Florida is running at a D+4 shift relative to 2024; Nevada started slowly but is ramping up in rural areas.",
+    "author": "DataRepublican (@DataRepublican)",
+    "url": "https://x.com/DataRepublican/status/2117710086831558838",
+    "time_mt": "1:06 PM MT",
+    "fact_check": "The pre-Election Day data points the same direction: Florida's registered-Republican early-vote edge was 2.4 points (2,194,546 R vs 2,065,302 D) versus 10.1 points at the same point in 2024. Her live same-time comparison uses her own snapshots and can't be checked.",
+    "fact_check_url": "https://countyfilesvbm-ev.floridados.gov/VoteByMailEarlyVotingReports/PublicStats",
+    "trust": "Unconfirmed (X)"
+   },
+   {
+    "paraphrase": "Nevada Republicans are leading Election Day voting by 11.5 points, and every county is shifting right.",
+    "author": "Ryan Fournier (@RyanAFournier)",
+    "url": "https://x.com/RyanAFournier/status/2117716303922561067",
+    "time_mt": "1:31 PM MT",
+    "fact_check": "No official source given or found for the 11.5-point figure or the every-county claim. The only Nevada data in the tracker is Clark County mail ballots through Oct 30: registered Democrats ahead by 20.6 points versus 23.5 at the same point in 2022, a modest shift right in that slice.",
+    "fact_check_url": "https://www.callthemap.com/early-vote",
+    "trust": "Unconfirmed (X)"
+   },
+   {
     "paraphrase": "Early Tuesday morning, heavily Republican Montgomery County, Texas, had already reached 10% of its 2022 Election Day turnout versus 3% in Democratic-leaning Dallas County, an encouraging early sign for Republicans.",
     "author": "Rhein Amacher (@RheinAmacher)",
     "url": "https://x.com/RheinAmacher/status/2117682218583933207",
-    "trust": "Unconfirmed (X)",
-    "fact_check": "Can't be confirmed, and it isn't like-for-like: it's an 8 AM snapshot, and Dallas had already cast a slightly larger share of its voters early (41.9% vs 39.4% of registered, per Transparency USA), so less of its vote was left for Election Day."
-   },
-   {
-    "paraphrase": "Florida Election Day in-person voting is running ahead of the same time in 2024 for Republicans, with rural counties strongest; she says Florida never looked in danger, and the real test is whether the Senate holds, which she puts as possible in a D+8 or better environment.",
-    "author": "DataRepublican (@DataRepublican)",
-    "url": "https://x.com/DataRepublican/status/2117634889856229584",
-    "trust": "Unconfirmed (X)",
-    "fact_check": "Unverifiable for now: the comparison uses her own minute-by-minute 2024 snapshots, and the state doesn't publish live Election Day totals in a comparable form. The pre-Election Day data shows the Republican ballot lead (133,177) is smaller than 2022's (about 300,000), so a strong Republican Election Day is needed to match past margins."
-   },
-   {
-    "paraphrase": "Republicans held strong in early voting in Maine, Ohio, Texas and Michigan, with late rural surges.",
-    "author": "Election2026 Updates (@MadAboutSkin01)",
-    "url": "https://x.com/MadAboutSkin01/status/2117411514827039049",
-    "trust": "Unconfirmed (X)",
-    "fact_check": "Partly supported. Maine is close to 2022. Ohio and Michigan don't report party, so it can't be checked. In Texas, Republican-leaning counties grew 34% vs 2022 but Democratic-leaning counties grew faster (48%)."
+    "time_mt": "11:16 AM MT",
+    "fact_check": "Can't be confirmed, and it isn't like-for-like: it's an early-morning snapshot, and Dallas had already cast a slightly larger share of its voters early (41.9% vs 39.4% of registered, per Transparency USA, as reported in the earlier read), so less of its vote was left for Election Day.",
+    "fact_check_url": "https://www.callthemap.com/early-vote",
+    "trust": "Unconfirmed (X)"
    }
-  ],
-  "updated_at": "2026-11-03T12:12:00-07:00"
+  ]
  },
  "if_trends_hold": {
   "senate": null,
   "house": null,
-  "updated_at": null,
-  "label": "Model projection, not a call"
+  "updated_at": "2026-11-03T14:10:00-07:00",
+  "label": "Model projection, not a call",
+  "note": "No results yet; the model starts once counties report after 5:00 PM MT."
  }
 }
