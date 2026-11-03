@@ -143,3 +143,6 @@ section>:not(h2){margin-left:28px!important;margin-right:28px!important}
 [data-theme=dark] #persp .pc-fc{background:#1d212a;border-left-color:#5b6475}
 [data-theme=dark] a{color:#9db4ff}
 [data-theme=dark] #map path.st{stroke:var(--bg)}
+[data-theme=dark] .tk-sum p,[data-theme=dark] .tk{color:var(--ink)}
+[data-theme=dark] .kick,[data-theme=dark] section[data-k]::before,[data-theme=dark] .seat .k,[data-theme=dark] .lb{color:var(--mut)}
+@media(max-width:600px){.themebtn{top:10px;transform:none}.hd .kick{padding-right:44px}.hd h1{padding-right:40px}}
