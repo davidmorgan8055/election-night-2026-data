@@ -146,3 +146,18 @@ section>:not(h2){margin-left:28px!important;margin-right:28px!important}
 [data-theme=dark] .tk-sum p,[data-theme=dark] .tk{color:var(--ink)}
 [data-theme=dark] .kick,[data-theme=dark] section[data-k]::before,[data-theme=dark] .seat .k,[data-theme=dark] .lb{color:var(--mut)}
 @media(max-width:600px){.themebtn{top:10px;transform:none}.hd .kick{padding-right:44px}.hd h1{padding-right:40px}}
+/* dark polish */
+[data-theme=dark] h1,[data-theme=dark] h2,[data-theme=dark] h3,[data-theme=dark] h4,[data-theme=dark] .tk-card h3,[data-theme=dark] .card h3,[data-theme=dark] b,[data-theme=dark] strong,[data-theme=dark] th{color:#e8eaed}
+[data-theme=dark] p,[data-theme=dark] li,[data-theme=dark] dd,[data-theme=dark] td,[data-theme=dark] .pc-claim{color:#c9ced6}
+[data-theme=dark] .small,[data-theme=dark] .pc-fc{color:#aab1bd}
+[data-theme=dark] .tk-sum h3{color:var(--mut)}
+[data-theme=dark] .gloss-note{border-top-color:var(--line);color:#9aa2af}
+[data-theme=dark] .gloss-note .gloss dt{color:#d5d9e0}[data-theme=dark] .gloss-note .gloss dd{color:#9aa2af}
+[data-theme=dark] .gltip{background:#e8eaed;color:#0f1115}
+[data-theme=dark] .pbar{background:#2b303b}
+[data-theme=dark] .pbar .fd{background:#5b9bf0}[data-theme=dark] .pbar .fr{background:#f06a6a}
+[data-theme=dark] .u.N{background:#8b93a1}
+[data-theme=dark] .base{border-top-color:var(--line)}
+[data-theme=dark] #map path[fill="#e4e4e4"]{fill:#3a404c!important}
+[data-theme=dark] #map path[fill="#bdbdbd"]{fill:#5a6272!important}
+@media(max-width:600px){.themebtn{right:14px}}
