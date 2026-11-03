@@ -22,14 +22,14 @@
    "rcv": true,
    "incumbent_party": "R",
    "polling_avg": {
-    "margin_dem_minus_rep": 1.9,
-    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "margin_dem_minus_rep": 1.8,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, uspd, siena",
     "inputs": [
      {
       "source": "rcp",
-      "url": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
-      "margin_dem_minus_rep": 1.2,
-      "as_of": "2026-10-16 (window 9/28-10/16)",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/alaska/peltola-vs-sullivan",
+      "margin_dem_minus_rep": 1.0,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
       "note": null
      },
      {
@@ -133,9 +133,16 @@
    "rcv": false,
    "incumbent_party": "R (open; Ernst retiring)",
    "polling_avg": {
-    "margin_dem_minus_rep": 0.6,
-    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "margin_dem_minus_rep": 0.5,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, uspd, f51, siena, ddhq",
     "inputs": [
+     {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/iowa/hinson-vs-turek",
+      "margin_dem_minus_rep": 0.0,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
+      "note": null
+     },
      {
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
@@ -279,14 +286,14 @@
    "rcv": false,
    "incumbent_party": "R",
    "polling_avg": {
-    "margin_dem_minus_rep": 3.3,
-    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "margin_dem_minus_rep": 4.2,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, uspd, f51, siena",
     "inputs": [
      {
       "source": "rcp",
-      "url": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
-      "margin_dem_minus_rep": -0.3,
-      "as_of": "2026-10-14 (window 9/8-10/14)",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/kansas/hamilton-vs-marshall",
+      "margin_dem_minus_rep": 4.1,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
       "note": null
      },
      {
@@ -397,14 +404,14 @@
    "rcv": true,
    "incumbent_party": "R",
    "polling_avg": {
-    "margin_dem_minus_rep": 4.6,
-    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "margin_dem_minus_rep": 5.0,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, uspd, f51, ddhq, siena",
     "inputs": [
      {
       "source": "rcp",
-      "url": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
-      "margin_dem_minus_rep": 1.4,
-      "as_of": "2026-10-23 (window 9/23-10/23)",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/maine---3-electoral/jackson-vs-collins",
+      "margin_dem_minus_rep": 3.6,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
       "note": null
      },
      {
@@ -544,9 +551,16 @@
    "rcv": false,
    "incumbent_party": "D (open; Peters retiring)",
    "polling_avg": {
-    "margin_dem_minus_rep": 7.1,
-    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "margin_dem_minus_rep": 6.7,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, uspd, f51, siena",
     "inputs": [
+     {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/michigan/rogers-vs-el-sayed",
+      "margin_dem_minus_rep": 5.3,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
+      "note": null
+     },
      {
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
@@ -685,14 +699,14 @@
    "rcv": false,
    "incumbent_party": "R",
    "polling_avg": {
-    "margin_dem_minus_rep": 3.8,
-    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "margin_dem_minus_rep": 3.7,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, uspd, siena",
     "inputs": [
      {
       "source": "rcp",
-      "url": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
-      "margin_dem_minus_rep": 3.3,
-      "as_of": "2026-10-22 (window 9/22-10/22)",
+      "url": "https://www.realclearpolling.com/polls/senate/special-election/2026/ohio/husted-vs-brown",
+      "margin_dem_minus_rep": 2.8,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
       "note": null
      },
      {
@@ -824,14 +838,14 @@
    "rcv": false,
    "incumbent_party": "R (open; Cornyn lost May 26 runoff)",
    "polling_avg": {
-    "margin_dem_minus_rep": 4.2,
-    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "margin_dem_minus_rep": 4.5,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, uspd, siena",
     "inputs": [
      {
       "source": "rcp",
-      "url": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
-      "margin_dem_minus_rep": 1.5,
-      "as_of": "2026-10-21 (window 10/8-10/21)",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/texas/talarico-vs-paxton",
+      "margin_dem_minus_rep": 2.6,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
       "note": null
      },
      {
@@ -957,9 +971,16 @@
    "rcv": false,
    "incumbent_party": "R (open; Tillis retiring)",
    "polling_avg": {
-    "margin_dem_minus_rep": 11.3,
-    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "margin_dem_minus_rep": 11.2,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, uspd",
     "inputs": [
+     {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/north-carolina/cooper-vs-whatley",
+      "margin_dem_minus_rep": 11.0,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
+      "note": null
+     },
      {
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
@@ -1108,9 +1129,16 @@
    "rcv": false,
    "incumbent_party": "R",
    "polling_avg": {
-    "margin_dem_minus_rep": -2.0,
-    "method": "simple mean of the polling averages/polls listed below (D minus R, points)",
+    "margin_dem_minus_rep": -2.2,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, uspd",
     "inputs": [
+     {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/south-carolina/graham-nordone-vs-andrews",
+      "margin_dem_minus_rep": -2.6,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
+      "note": null
+     },
      {
       "source": "evp",
       "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
@@ -1207,6 +1235,13 @@
    "polling_avg": {
     "inputs": [
      {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/florida/moody-vs-nixon",
+      "margin_dem_minus_rep": -6.3,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
+      "note": "Moody 49.7, Nixon 43.4"
+     },
+     {
       "as_of": "2026-11-02",
       "margin_dem_minus_rep": -5,
       "note": null,
@@ -1228,8 +1263,8 @@
       "url": "https://politixplus.com/"
      }
     ],
-    "margin_dem_minus_rep": -5.6,
-    "method": "simple mean of the polling averages listed (D minus R, points)"
+    "margin_dem_minus_rep": -5.8,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, fiftyplusone, politix+"
    },
    "margin_2022": {
     "race": "Senate 2022 (Rubio vs Demings)",
@@ -1310,6 +1345,13 @@
    "polling_avg": {
     "inputs": [
      {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/georgia/ossoff-vs-collins",
+      "margin_dem_minus_rep": 8.6,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
+      "note": null
+     },
+     {
       "as_of": "2026-11-02",
       "margin_dem_minus_rep": 10,
       "note": null,
@@ -1331,8 +1373,8 @@
       "url": "https://politixplus.com/"
      }
     ],
-    "margin_dem_minus_rep": 9.6,
-    "method": "simple mean of the polling averages listed (D minus R, points)"
+    "margin_dem_minus_rep": 9.4,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, fiftyplusone, politix+"
    },
    "margin_2022": {
     "race": "Senate 2022 general (Warnock vs Walker; runoff D+2.8)",
@@ -1413,6 +1455,13 @@
    "polling_avg": {
     "inputs": [
      {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/minnesota/tafoya-vs-flanagan",
+      "margin_dem_minus_rep": 5.2,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
+      "note": null
+     },
+     {
       "as_of": "2026-10-31",
       "margin_dem_minus_rep": 4,
       "note": null,
@@ -1435,7 +1484,7 @@
      }
     ],
     "margin_dem_minus_rep": 5.3,
-    "method": "simple mean of the polling averages listed (D minus R, points)"
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, fiftyplusone, politix+"
    },
    "margin_2022": {
     "race": "Governor 2022 (Walz vs Jensen)",
@@ -1516,6 +1565,13 @@
    "polling_avg": {
     "inputs": [
      {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/new-hampshire/pappas-vs-sununu",
+      "margin_dem_minus_rep": 8.0,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
+      "note": null
+     },
+     {
       "as_of": "2026-11-01",
       "margin_dem_minus_rep": 10,
       "note": null,
@@ -1537,8 +1593,8 @@
       "url": "https://politixplus.com/"
      }
     ],
-    "margin_dem_minus_rep": 8.8,
-    "method": "simple mean of the polling averages listed (D minus R, points)"
+    "margin_dem_minus_rep": 8.6,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, evp, fiftyplusone, politix+"
    },
    "margin_2022": {
     "race": "Senate 2022 (Hassan vs Bolduc)",
@@ -1619,6 +1675,13 @@
    "polling_avg": {
     "inputs": [
      {
+      "source": "rcp",
+      "url": "https://www.realclearpolling.com/polls/senate/general/2026/nebraska/ricketts-vs-osborn",
+      "margin_dem_minus_rep": -3.7,
+      "as_of": "2026-11-03 ~3 PM MT (final average)",
+      "note": "Osborn (I) minus Ricketts"
+     },
+     {
       "as_of": "2026-10-29",
       "margin_dem_minus_rep": null,
       "note": "EVP lists no Democrat (Ricketts 49%); Osborn (I) not shown, excluded",
@@ -1654,8 +1717,8 @@
       "url": "https://www.270towin.com/2026-senate-polls/nebraska"
      }
     ],
-    "margin_dem_minus_rep": -1.9,
-    "method": "simple mean of the polling averages listed (D minus R, points); here independent Osborn minus Ricketts"
+    "margin_dem_minus_rep": -2.3,
+    "method": "simple mean of the polling averages/polls listed below (D minus R, points); sources: rcp, fiftyplusone, politix+, trackthevote, 270towin"
    },
    "margin_2022": {
     "race": "Governor 2022 (Pillen vs Blood)",
