@@ -1252,7 +1252,7 @@
   "All times Mountain Time (MT)."
  ],
  "early_vote": {
-  "compiled_mt": "2026-11-03 09:20 MT",
+  "compiled_mt": "2026-11-03 09:10 MT",
   "tracker": "Call the Map US.csv https://www.callthemap.com/early-vote/data/US.csv (checked_at 2026-11-03T15:29:09Z = 8:29 AM MT Nov 3; new counts for AK, IA, NC; TX revised slightly; KS, ME, MI, OH, SC, KY unchanged)",
   "general_caveats": [
    "Party registration is not vote choice",
@@ -1605,7 +1605,7 @@
    }
   },
   "x_framings": {
-   "checked_mt": "2026-11-03 9:20 AM MT",
+   "checked_mt": "2026-11-03 9:10 AM MT",
    "items": [
     {
      "side": "Dem-favorable framing",
@@ -1665,7 +1665,7 @@
  "takeaways_summary": "Compared with the 2022 midterm, early voting is mixed with a slight tilt toward Democrats, at low confidence, and the final pre-Election Day numbers didn't change that. North Carolina's early ballots lean more Democratic than in 2022 (checked against the state's own file), and in Texas turnout grew faster in Democratic-leaning counties than in Republican-leaning ones. Iowa leans less Democratic than 2022, and Maine looks about the same. Early votes are not results: many Republicans vote on Election Day, and unaffiliated voters decide close races.",
  "takeaways": [
   {
-   "time_mt": "9:20 AM MT, Nov 3",
+   "time_mt": "9:10 AM MT, Nov 3",
    "headline": "Michigan: about a third of active voters had already voted when polls opened",
    "detail": "State data show 32.9% of Michigan's active registered voters had cast ballots by 7 AM ET Tuesday, including 750,469 early in-person votes; 2,313,165 ballots had been cast as of Monday morning. Michigan doesn't register by party, so this is turnout, not direction.",
    "source_label": "CBS Detroit citing Michigan state data",
@@ -1675,7 +1675,7 @@
    "trust": "Tracker data"
   },
   {
-   "time_mt": "9:20 AM MT, Nov 3",
+   "time_mt": "9:10 AM MT, Nov 3",
    "headline": "North Carolina's final early vote: registered Democrats up 12.25 points",
    "detail": "The state's own file shows 2,828,288 accepted ballots: 1,085,329 from registered Democrats, 738,750 Republicans and 995,435 unaffiliated, a 12.25-point Democratic edge versus about 7.0 at the same point in 2022 (tracker). Registration isn't vote choice.",
    "source_label": "NC State Board of Elections absentee file",
@@ -1685,7 +1685,7 @@
    "trust": "Official count"
   },
   {
-   "time_mt": "9:20 AM MT, Nov 3",
+   "time_mt": "9:10 AM MT, Nov 3",
    "headline": "Iowa's final early vote still leans less Democratic than 2022",
    "detail": "498,713 early ballots, with registered Democrats ahead by 10.7 points versus 17.5 at the same point in 2022. Volume is up 35%.",
    "source_label": "Call the Map (Iowa Secretary of State data)",
