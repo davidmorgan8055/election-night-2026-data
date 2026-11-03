@@ -38,7 +38,7 @@ function shifts(D,v){var o=[];(D.races||[]).forEach(function(r){var val=null,bas
  if(r.current_margin!=null){var b=r[v==="shift22"?"margin_2022":"margin_2024"];if(b&&b.value!=null){val=+r.current_margin-b.value;basis="Results swing vs "+(v==="shift22"?"2022 ":"2024 ")+b.race;}}
  else if(v==="shift22"){var e=((D.early_vote||{}).states||{})[r.state],f=e&&e.figures||{};if(f.gap_now!=null&&f.gap_2022!=null){val=+f.gap_now-+f.gap_2022;basis="Early-vote signal (Tracker data: from an independent early-vote tracker, not yet checked against official state data): change in party-registration gap of early ballots vs 2022 (not votes)";}}
  if(val!=null)o.push({st:r.state,name:r.name,val:Math.round(val*10)/10,basis:basis});});return o;}
-var FIPS={"02":"AK","19":"IA","20":"KS","23":"ME","26":"MI","39":"OH","48":"TX","37":"NC","45":"SC"};
+var FIPS={"02":"AK","19":"IA","20":"KS","23":"ME","26":"MI","39":"OH","48":"TX","37":"NC","45":"SC","12":"FL","13":"GA","27":"MN","33":"NH","31":"NE"};
 function arrows(){var D=window.ENR.DATA,G2=window.ENR.GEO,v=window.ENR.VIEW,svg=d3.select("#map");svg.selectAll("g.arrows").remove();var list=document.getElementById("shiftlist");
  if(!D||!G2||!/^shift/.test(v)){list.innerHTML="";return;}var s=shifts(D,v),by={};s.forEach(function(x){by[x.st]=x;});
  var g=svg.append("g").attr("class","arrows").attr("aria-hidden","true"),path=d3.geoPath();

@@ -17,7 +17,7 @@
     }
    ],
    "other_candidates": [
-    "Gerald Heikes (R) — per electiontracker.live; RCV"
+    "Gerald Heikes (R) \u2014 per electiontracker.live; RCV"
    ],
    "rcv": true,
    "incumbent_party": "R",
@@ -274,7 +274,7 @@
     }
    ],
    "other_candidates": [
-    "David Graham (L) — 4% in NYT/Siena"
+    "David Graham (L) \u2014 4% in NYT/Siena"
    ],
    "rcv": false,
    "incumbent_party": "R",
@@ -680,7 +680,7 @@
     }
    ],
    "other_candidates": [
-    "Greg Levy (I) — per electiontracker.live"
+    "Greg Levy (I) \u2014 per electiontracker.live"
    ],
    "rcv": false,
    "incumbent_party": "R",
@@ -1138,7 +1138,7 @@
     "source": "MEDSL statewide results (D minus R)"
    },
    "poll_close_mt": "5:00 PM MT",
-   "counting_note": "missing — not researched this run",
+   "counting_note": "missing \u2014 not researched this run",
    "current_margin": null,
    "pct_in": null,
    "projected_margin": null,
@@ -1183,6 +1183,535 @@
     "note": "RCP's 2024 South Carolina presidential page lists 4 polls but no RCP average. No other aggregator average was found either.",
     "miss": null,
     "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
+   },
+   "outstanding_note": null,
+   "outstanding": null
+  },
+  {
+   "state": "FL",
+   "name": "Florida",
+   "seat": "Senate (special)",
+   "candidates": [
+    {
+     "name": "Angie Nixon",
+     "party": "D"
+    },
+    {
+     "name": "Ashley Moody (inc., appointed)",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [],
+   "rcv": false,
+   "incumbent_party": "R",
+   "polling_avg": {
+    "inputs": [
+     {
+      "as_of": "2026-11-02",
+      "margin_dem_minus_rep": -5,
+      "note": null,
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html"
+     },
+     {
+      "as_of": "2026-11-03 final",
+      "margin_dem_minus_rep": -6.1,
+      "note": null,
+      "source": "fiftyplusone",
+      "url": "https://fiftyplusone.news/averages"
+     },
+     {
+      "as_of": "2026-11-03",
+      "margin_dem_minus_rep": -5.6,
+      "note": null,
+      "source": "politix+",
+      "url": "https://politixplus.com/"
+     }
+    ],
+    "margin_dem_minus_rep": -5.6,
+    "method": "simple mean of the polling averages listed (D minus R, points)"
+   },
+   "margin_2022": {
+    "race": "Senate 2022 (Rubio vs Demings)",
+    "source": "https://www.fec.gov/resources/cms-content/documents/federalelections2022.pdf",
+    "value": -16.41
+   },
+   "margin_2024": {
+    "race": "President 2024",
+    "source": "2024 county presidential totals (raw/pres2024.csv, D minus R)",
+    "value": -13.1
+   },
+   "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
+   "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "by": null,
+    "status": "not called",
+    "time_mt": null
+   },
+   "results_sources": {
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "R lead in pre-Election Day ballots (FL Division of Elections; see early-vote section)",
+    "early_vote_confidence": "low",
+    "key": true,
+    "watch": false
+   },
+   "poll_2022": {
+    "inputs": [],
+    "label": null,
+    "margin_dem_minus_rep": null,
+    "miss": null,
+    "race": "Senate 2022 (Rubio vs Demings)",
+    "note": "Final 2022 polling average not compiled for this newly added race.",
+    "compiled_from": null,
+    "method": null
+   },
+   "poll_2024": {
+    "inputs": [],
+    "label": null,
+    "margin_dem_minus_rep": null,
+    "miss": null,
+    "race": "President 2024",
+    "note": "Final 2024 polling average not compiled for this newly added race.",
+    "compiled_from": null,
+    "method": null
+   },
+   "outstanding_note": null,
+   "outstanding": null
+  },
+  {
+   "state": "GA",
+   "name": "Georgia",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Jon Ossoff (inc.)",
+     "party": "D"
+    },
+    {
+     "name": "Mike Collins",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [],
+   "rcv": false,
+   "incumbent_party": "D",
+   "polling_avg": {
+    "inputs": [
+     {
+      "as_of": "2026-11-02",
+      "margin_dem_minus_rep": 10,
+      "note": null,
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html"
+     },
+     {
+      "as_of": "2026-11-03 final",
+      "margin_dem_minus_rep": 9.6,
+      "note": null,
+      "source": "fiftyplusone",
+      "url": "https://fiftyplusone.news/averages"
+     },
+     {
+      "as_of": "2026-11-03",
+      "margin_dem_minus_rep": 9.3,
+      "note": null,
+      "source": "politix+",
+      "url": "https://politixplus.com/"
+     }
+    ],
+    "margin_dem_minus_rep": 9.6,
+    "method": "simple mean of the polling averages listed (D minus R, points)"
+   },
+   "margin_2022": {
+    "race": "Senate 2022 general (Warnock vs Walker; runoff D+2.8)",
+    "source": "https://www.fec.gov/resources/cms-content/documents/federalelections2022.pdf",
+    "value": 0.93
+   },
+   "margin_2024": {
+    "race": "President 2024",
+    "source": "2024 county presidential totals (raw/pres2024.csv, D minus R)",
+    "value": -2.19
+   },
+   "poll_close_mt": "5:00 PM MT",
+   "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "by": null,
+    "status": "not called",
+    "time_mt": null
+   },
+   "results_sources": {
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "no party early-vote data compiled",
+    "early_vote_confidence": null,
+    "key": true,
+    "watch": false
+   },
+   "poll_2022": {
+    "inputs": [],
+    "label": null,
+    "margin_dem_minus_rep": null,
+    "miss": null,
+    "race": "Senate 2022 general (Warnock vs Walker; runoff D+2.8)",
+    "note": "Final 2022 polling average not compiled for this newly added race.",
+    "compiled_from": null,
+    "method": null
+   },
+   "poll_2024": {
+    "inputs": [],
+    "label": null,
+    "margin_dem_minus_rep": null,
+    "miss": null,
+    "race": "President 2024",
+    "note": "Final 2024 polling average not compiled for this newly added race.",
+    "compiled_from": null,
+    "method": null
+   },
+   "outstanding_note": null,
+   "outstanding": null
+  },
+  {
+   "state": "MN",
+   "name": "Minnesota",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Peggy Flanagan",
+     "party": "D"
+    },
+    {
+     "name": "Michele Tafoya",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [],
+   "rcv": false,
+   "incumbent_party": "D",
+   "polling_avg": {
+    "inputs": [
+     {
+      "as_of": "2026-10-31",
+      "margin_dem_minus_rep": 4,
+      "note": null,
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html"
+     },
+     {
+      "as_of": "2026-11-03 final",
+      "margin_dem_minus_rep": 6.2,
+      "note": null,
+      "source": "fiftyplusone",
+      "url": "https://fiftyplusone.news/averages"
+     },
+     {
+      "as_of": "2026-11-03",
+      "margin_dem_minus_rep": 5.7,
+      "note": null,
+      "source": "politix+",
+      "url": "https://politixplus.com/"
+     }
+    ],
+    "margin_dem_minus_rep": 5.3,
+    "method": "simple mean of the polling averages listed (D minus R, points)"
+   },
+   "margin_2022": {
+    "race": "Governor 2022 (Walz vs Jensen)",
+    "source": "https://en.wikipedia.org/wiki/2022_Minnesota_gubernatorial_election",
+    "value": 7.66
+   },
+   "margin_2024": {
+    "race": "President 2024",
+    "source": "2024 county presidential totals (raw/pres2024.csv, D minus R)",
+    "value": 4.26
+   },
+   "poll_close_mt": "7:00 PM MT",
+   "counting_note": "Open seat (Tina Smith retiring). Rural precincts often report early and lean Republican; Hennepin and Ramsey (Minneapolis/St. Paul) absentee and Election Day totals tend to push the count toward Democrats later.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "by": null,
+    "status": "not called",
+    "time_mt": null
+   },
+   "results_sources": {
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "no party early-vote data compiled",
+    "early_vote_confidence": null,
+    "key": true,
+    "watch": false
+   },
+   "poll_2022": {
+    "inputs": [],
+    "label": null,
+    "margin_dem_minus_rep": null,
+    "miss": null,
+    "race": "Governor 2022 (Walz vs Jensen)",
+    "note": "Final 2022 polling average not compiled for this newly added race.",
+    "compiled_from": null,
+    "method": null
+   },
+   "poll_2024": {
+    "inputs": [],
+    "label": null,
+    "margin_dem_minus_rep": null,
+    "miss": null,
+    "race": "President 2024",
+    "note": "Final 2024 polling average not compiled for this newly added race.",
+    "compiled_from": null,
+    "method": null
+   },
+   "outstanding_note": null,
+   "outstanding": null
+  },
+  {
+   "state": "NH",
+   "name": "New Hampshire",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Chris Pappas",
+     "party": "D"
+    },
+    {
+     "name": "John E. Sununu",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [],
+   "rcv": false,
+   "incumbent_party": "D",
+   "polling_avg": {
+    "inputs": [
+     {
+      "as_of": "2026-11-01",
+      "margin_dem_minus_rep": 10,
+      "note": null,
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html"
+     },
+     {
+      "as_of": "2026-11-03 final",
+      "margin_dem_minus_rep": 8.8,
+      "note": null,
+      "source": "fiftyplusone",
+      "url": "https://fiftyplusone.news/averages"
+     },
+     {
+      "as_of": "2026-11-03",
+      "margin_dem_minus_rep": 7.6,
+      "note": null,
+      "source": "politix+",
+      "url": "https://politixplus.com/"
+     }
+    ],
+    "margin_dem_minus_rep": 8.8,
+    "method": "simple mean of the polling averages listed (D minus R, points)"
+   },
+   "margin_2022": {
+    "race": "Senate 2022 (Hassan vs Bolduc)",
+    "source": "https://www.fec.gov/resources/cms-content/documents/federalelections2022.pdf",
+    "value": 9.16
+   },
+   "margin_2024": {
+    "race": "President 2024",
+    "source": "2024 county presidential totals (raw/pres2024.csv, D minus R)",
+    "value": 2.79
+   },
+   "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
+   "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "by": null,
+    "status": "not called",
+    "time_mt": null
+   },
+   "results_sources": {
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "no party early-vote data compiled",
+    "early_vote_confidence": null,
+    "key": true,
+    "watch": false
+   },
+   "poll_2022": {
+    "inputs": [],
+    "label": null,
+    "margin_dem_minus_rep": null,
+    "miss": null,
+    "race": "Senate 2022 (Hassan vs Bolduc)",
+    "note": "Final 2022 polling average not compiled for this newly added race.",
+    "compiled_from": null,
+    "method": null
+   },
+   "poll_2024": {
+    "inputs": [],
+    "label": null,
+    "margin_dem_minus_rep": null,
+    "miss": null,
+    "race": "President 2024",
+    "note": "Final 2024 polling average not compiled for this newly added race.",
+    "compiled_from": null,
+    "method": null
+   },
+   "outstanding_note": null,
+   "outstanding": null
+  },
+  {
+   "state": "NE",
+   "name": "Nebraska",
+   "seat": "Senate",
+   "candidates": [
+    {
+     "name": "Dan Osborn",
+     "party": "I"
+    },
+    {
+     "name": "Pete Ricketts (inc.)",
+     "party": "R"
+    }
+   ],
+   "other_candidates": [],
+   "rcv": false,
+   "incumbent_party": "R",
+   "polling_avg": {
+    "inputs": [
+     {
+      "as_of": "2026-10-29",
+      "margin_dem_minus_rep": null,
+      "note": "EVP lists no Democrat (Ricketts 49%); Osborn (I) not shown, excluded",
+      "source": "evp",
+      "url": "https://electoral-vote.com/evp2026/Senate/averages.html"
+     },
+     {
+      "as_of": "2026-11-03 final",
+      "margin_dem_minus_rep": -2.0,
+      "note": "Osborn (I) minus Ricketts",
+      "source": "fiftyplusone",
+      "url": "https://fiftyplusone.news/averages"
+     },
+     {
+      "as_of": "2026-11-03",
+      "margin_dem_minus_rep": -1.1,
+      "note": "Osborn (I) minus Ricketts",
+      "source": "politix+",
+      "url": "https://politixplus.com/race/u-s-senate-nebraska-general-osborn-vs-ricketts"
+     },
+     {
+      "as_of": "2026-11-03",
+      "margin_dem_minus_rep": -2.0,
+      "note": "Osborn (I) minus Ricketts",
+      "source": "trackthevote",
+      "url": "https://www.trackthevote.net/senate/nebraska"
+     },
+     {
+      "as_of": "2026-11-03",
+      "margin_dem_minus_rep": -2.6,
+      "note": "Osborn (I) minus Ricketts",
+      "source": "270towin",
+      "url": "https://www.270towin.com/2026-senate-polls/nebraska"
+     }
+    ],
+    "margin_dem_minus_rep": -1.9,
+    "method": "simple mean of the polling averages listed (D minus R, points); here independent Osborn minus Ricketts"
+   },
+   "margin_2022": {
+    "race": "Governor 2022 (Pillen vs Blood)",
+    "source": "https://exa.ai/library/election/contest/1zj9f5dtvrz",
+    "value": -23.24
+   },
+   "margin_2024": {
+    "race": "President 2024",
+    "source": "2024 county presidential totals (raw/pres2024.csv, D minus R)",
+    "value": -20.57
+   },
+   "poll_close_mt": "7:00 PM MT (most of state; Mountain-time western counties close 7:00 PM MT too)",
+   "counting_note": "No Democratic nominee: independent Dan Osborn vs Republican Pete Ricketts. Margins here are Osborn minus Ricketts. Omaha (Douglas) and Lincoln (Lancaster) early ballots tend to report first and favor Osborn; rural counties move it toward Ricketts.",
+   "current_margin": null,
+   "pct_in": null,
+   "projected_margin": null,
+   "projection_confidence": null,
+   "call": {
+    "by": null,
+    "status": "not called",
+    "time_mt": null
+   },
+   "results_sources": {
+    "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
+   },
+   "map": {
+    "status": "not_reporting",
+    "leader": null,
+    "current_margin": null,
+    "projected_margin": null,
+    "polling_miss": null,
+    "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
+    "early_vote_signal": "no party early-vote data compiled",
+    "early_vote_confidence": null,
+    "key": true,
+    "watch": false
+   },
+   "poll_2022": {
+    "inputs": [],
+    "label": null,
+    "margin_dem_minus_rep": null,
+    "miss": null,
+    "race": "Governor 2022 (Pillen vs Blood)",
+    "note": "Final 2022 polling average not compiled for this newly added race.",
+    "compiled_from": null,
+    "method": null
+   },
+   "poll_2024": {
+    "inputs": [],
+    "label": null,
+    "margin_dem_minus_rep": null,
+    "miss": null,
+    "race": "President 2024",
+    "note": "Final 2024 polling average not compiled for this newly added race.",
+    "compiled_from": null,
+    "method": null
    },
    "outstanding_note": null,
    "outstanding": null
@@ -1249,7 +1778,8 @@
   "A race is marked called only when AP or a network decision desk calls it.",
   "Projected margins are an independent model projection, not a call.",
   "Prediction-market figures, if shown, are trader odds, not forecasts.",
-  "All times Mountain Time (MT)."
+  "All times Mountain Time (MT).",
+  "Added Nov 3 (3 PM MT): FL special, GA, MN, NH, NE Senate races. Nebraska has no Democrat; margins there are independent Dan Osborn minus Republican Pete Ricketts. 2022/2024 polling-miss baselines not compiled for these five."
  ],
  "early_vote": {
   "compiled_mt": "2026-11-03 2:05 PM MT",
@@ -1299,7 +1829,7 @@
      "gap_now": "10.73",
      "vs_2022_change": "+35%",
      "gap_2022": "17.49",
-     "vs_2024_change": "−26%",
+     "vs_2024_change": "\u221226%",
      "gap_2024": "-1.64"
     },
     "sources": [
@@ -1357,7 +1887,7 @@
      "total": "438602",
      "mail": "47866",
      "in_person": "390736",
-     "vs_2024_change": "−26%"
+     "vs_2024_change": "\u221226%"
     },
     "sources": [
      {
@@ -1394,7 +1924,7 @@
      "gap_now": "23.71",
      "vs_2022_change": "+34%",
      "gap_2022": "25.15",
-     "vs_2024_change": "−16%",
+     "vs_2024_change": "\u221216%",
      "gap_2024": "14.08"
     },
     "sources": [
@@ -1458,7 +1988,7 @@
      "gap_now": "12.25",
      "vs_2022_change": "+30%",
      "gap_2022": "6.97",
-     "vs_2024_change": "−37%",
+     "vs_2024_change": "\u221237%",
      "gap_2024": "-0.88"
     },
     "sources": [

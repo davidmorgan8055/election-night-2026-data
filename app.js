@@ -1,6 +1,6 @@
 (function(){
 "use strict";
-var FIPS={"02":"AK","19":"IA","20":"KS","23":"ME","26":"MI","39":"OH","48":"TX","37":"NC","45":"SC"};
+var FIPS={"02":"AK","19":"IA","20":"KS","23":"ME","26":"MI","39":"OH","48":"TX","37":"NC","45":"SC","12":"FL","13":"GA","27":"MN","33":"NH","31":"NE"};
 var DATA=null,VIEW="status",GEO=null;window.ENR={};
 var VIEWS=[["status","Senate status"],["current","Current margin"],["projected","Model projection"],["miss","Polling miss"],["ev","Early-vote signal"],["shift22","Shift vs 2022"],["shift24","Shift vs 2024"]];
 var NOTE={status:"Called = AP or a network decision desk has called the race (caller shown). Leading = votes counted, no call.",
@@ -81,9 +81,9 @@ function early(){var e=DATA.early_vote||{},o=e.overall_direction_vs_2022||{},h="
   h+="<tr><td><b>"+k+"</b></td><td>"+(f.total?(+f.total).toLocaleString():DASH)+"</td><td>"+esc(f.vs_2022_change||DASH)+"</td><td>"+g(f.gap_now)+"</td><td>"+g(f.gap_2022)+"</td><td>"+esc(s.signal||DASH)+"</td><td>"+esc(s.confidence||DASH)+"</td><td class=small>"+esc(s.as_of_mt||"")+"</td><td>"+(s.sources||[]).map(function(x){return link(x.url,x.name.split(",")[0]);}).join("<br>")+"</td></tr>";});
  h+='</tbody></table></div><p class="small">Reg. gap = Democratic minus Republican share of early ballots by party registration (points). Caveats: '+esc((e.general_caveats||[]).join("; "))+".</p>";
  document.getElementById("ev").innerHTML=h;}
-function closings(){var c=DATA.poll_closings_mt||{};var keys=["AK","IA","KS","ME","MI","OH","TX","NC","SC"];
+function closings(){var c=DATA.poll_closings_mt||{};var keys=["AK","IA","KS","ME","MI","OH","TX","NC","SC","FL","GA","MN","NH","NE"];
  document.getElementById("closings").innerHTML='<div class="tblwrap"><table><tbody>'+Object.keys(c).filter(function(k){return k!=="source";}).map(function(k){
-  var s=esc(c[k]).replace(/\b(AK|IA|KS|ME|MI|OH|TX|NC|SC)\b/g,"<b>$1</b>");return"<tr><td><b>"+esc(k)+" MT</b></td><td style='white-space:normal'>"+s+"</td></tr>";}).join("")+"</tbody></table></div><p class=small>Bold = key races tracked here. "+link((c.source||"").split(" ")[0],"Source")+" "+esc((c.source||"").replace(/^\S+\s*/,""))+"</p>";}
+  var s=esc(c[k]).replace(/\b(AK|IA|KS|ME|MI|OH|TX|NC|SC|FL|GA|MN|NH|NE)\b/g,"<b>$1</b>");return"<tr><td><b>"+esc(k)+" MT</b></td><td style='white-space:normal'>"+s+"</td></tr>";}).join("")+"</tbody></table></div><p class=small>Bold = key races tracked here. "+link((c.source||"").split(" ")[0],"Source")+" "+esc((c.source||"").replace(/^\S+\s*/,""))+"</p>";}
 function alerts(){var a=[].concat((DATA.calls_log||[]).map(function(x){x._t="Call";return x;}),(DATA.alerts||[]));
  document.getElementById("alerts").innerHTML=a.length?a.map(function(x){return'<div class="card"><span class="pill">'+esc(x._t||x.type||"Alert")+"</span> "+(x.trust||x._t==="Call"?'<span class="trust">'+esc(x.trust||"Called by AP/network")+"</span> ":"")+"<b>"+esc(x.time_mt||"")+"</b> "+esc(x.text||x.summary||(x.state?x.state+" called for "+x.winner+" by "+x.by:""))+" "+link(x.source||x.url)+"</div>";}).join(""):'<p class="small">No calls or alerts yet. Results begin after polls close.</p>';}
 function notes(){document.getElementById("notes").innerHTML=(DATA.notes||[]).map(function(n){return"<li>"+esc(n)+"</li>";}).join("")+(DATA.map_notes?"<li>"+esc(DATA.map_notes)+"</li>":"");}
