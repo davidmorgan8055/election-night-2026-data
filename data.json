@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T12:25:00-07:00",
+ "updated_at": "2026-11-03T12:12:00-07:00",
  "status_note": "Pre-election baseline. Results begin after polls close on Nov 3.",
  "races": [
   {
@@ -1252,7 +1252,7 @@
   "All times Mountain Time (MT)."
  ],
  "early_vote": {
-  "compiled_mt": "2026-11-03 12:25 MT",
+  "compiled_mt": "2026-11-03 12:12 MT",
   "tracker": "Call the Map US.csv https://www.callthemap.com/early-vote/data/US.csv (checked_at 2026-11-03T16:11:24Z = 9:11 AM MT Nov 3; new counts only for OH; SC file flagged stale/unreadable; others unchanged)",
   "general_caveats": [
    "Party registration is not vote choice",
@@ -1607,7 +1607,7 @@
    }
   },
   "x_framings": {
-   "checked_mt": "2026-11-03 12:25 PM MT",
+   "checked_mt": "2026-11-03 12:12 PM MT",
    "items": [
     {
      "side": "Dem-favorable framing",
@@ -1695,7 +1695,7 @@
  "takeaways_summary": "Compared with the 2022 midterm, early voting is mixed with a slight tilt toward Democrats, at low confidence, and the final pre-Election Day numbers didn't change that. North Carolina's early ballots lean more Democratic than in 2022 (checked against the state's own file), and in Texas turnout grew faster in Democratic-leaning counties than in Republican-leaning ones. Iowa leans less Democratic than 2022, and Maine looks about the same. Early votes are not results: many Republicans vote on Election Day, and unaffiliated voters decide close races.",
  "takeaways": [
   {
-   "time_mt": "12:25 PM MT, Nov 3",
+   "time_mt": "12:12 PM MT, Nov 3",
    "headline": "Ohio's early vote reached 1.75 million ballots",
    "detail": "Ohio counted 1,754,731 early ballots through Monday (653,742 by mail, 1,100,989 in person), up 24,619 from the prior count. Ohio doesn't report party for early voters, so this is turnout, not direction. The overall read vs 2022 is still mixed with a slight tilt left, at low confidence.",
    "source_label": "Call the Map (civicAPI, from state and county offices)",
@@ -1888,7 +1888,7 @@
     "fact_check": "Partly supported. Maine is close to 2022. Ohio and Michigan don't report party, so it can't be checked. In Texas, Republican-leaning counties grew 34% vs 2022 but Democratic-leaning counties grew faster (48%)."
    }
   ],
-  "updated_at": "2026-11-03T12:25:00-07:00"
+  "updated_at": "2026-11-03T12:12:00-07:00"
  },
  "if_trends_hold": {
   "senate": null,
