@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03T14:10:00-07:00",
- "status_note": "Pre-closing briefing, 2:10 PM MT. No results yet. First key-state polls close at 5:00 PM MT (SC), then NC and OH at 5:30 PM MT.",
+ "updated_at": "2026-11-03T14:05:00-07:00",
+ "status_note": "Pre-closing briefing, 2:05 PM MT. No results yet. First key-state polls close at 5:00 PM MT (SC), then NC and OH at 5:30 PM MT.",
  "races": [
   {
    "state": "AK",
@@ -1252,7 +1252,7 @@
   "All times Mountain Time (MT)."
  ],
  "early_vote": {
-  "compiled_mt": "2026-11-03 2:10 PM MT",
+  "compiled_mt": "2026-11-03 2:05 PM MT",
   "tracker": "Call the Map US.csv https://www.callthemap.com/early-vote/data/US.csv (checked_at 2026-11-03T20:26:12Z = 1:26 PM MT Nov 3; new counts for KS, ME, MI, CO, CA and others; SC file still stale)",
   "general_caveats": [
    "Party registration is not vote choice",
@@ -1658,7 +1658,7 @@
    "confidence": "low",
    "direction_vs_2024": "left (in every party-registration state tracked), but midterm vs presidential electorates differ",
    "confidence_vs_2024": "low",
-   "basis": "vs 2022: NC (D+12.25 vs D+6.97) and TX lean left, IA (D+10.7 vs D+17.5) leans right, ME about the same (D+23.7 vs D+25.2); KS R+3.6 with no 2022 comparison; MI/OH/AK/SC/KY no like-for-like comparison. Unchanged direction at the 2:10 PM MT Nov 3 read."
+   "basis": "vs 2022: NC (D+12.25 vs D+6.97) and TX lean left, IA (D+10.7 vs D+17.5) leans right, ME about the same (D+23.7 vs D+25.2); KS R+3.6 with no 2022 comparison; MI/OH/AK/SC/KY no like-for-like comparison. Unchanged direction at the 2:05 PM MT Nov 3 read."
   },
   "election_day_reports": [
    {
@@ -1702,7 +1702,7 @@
  "takeaways_summary": "Before polls close, early voting compared with the 2022 midterm is still mixed with a slight tilt toward Democrats, at low confidence: North Carolina and Texas lean more Democratic than 2022, Iowa leans less, and Maine is about the same. Final polling averages nudged slightly toward Democrats in most key Senate races, but these are polls, not results. The first key results come after South Carolina closes at 5:00 PM MT and North Carolina and Ohio at 5:30 PM MT.",
  "takeaways": [
   {
-   "time_mt": "2:10 PM MT, Nov 3",
+   "time_mt": "2:05 PM MT, Nov 3",
    "headline": "Pre-closing read: early vote still mixed, tilting slightly left vs 2022",
    "detail": "New counts: Kansas early ballots reached 505,641 with registered Republicans ahead by 3.6 points (up from 2.4 a day earlier). Maine reached 307,719, a 23.7-point Democratic registration edge versus 25.2 at the same point in 2022. Final polling averages moved slightly toward Democrats in AK, IA, KS, ME, OH and NC and slightly toward Republicans in TX. Registration isn't vote choice, and Republicans tend to vote more on Election Day.",
    "source_label": "Call the Map (state and county offices); Electoral-Vote.com averages",
@@ -1859,7 +1859,7 @@
   }
  ],
  "perspectives": {
-  "updated_at": "2026-11-03T14:10:00-07:00",
+  "updated_at": "2026-11-03T14:05:00-07:00",
   "left": [
    {
     "paraphrase": "Franklin County, Ohio (Columbus) became the first county with data where the Election Day share of total votes passed its final 2024 Election Day share, with other suburban, higher-education counties close behind.",
@@ -1922,7 +1922,7 @@
  "if_trends_hold": {
   "senate": null,
   "house": null,
-  "updated_at": "2026-11-03T14:10:00-07:00",
+  "updated_at": "2026-11-03T14:05:00-07:00",
   "label": "Model projection, not a call",
   "note": "No results yet; the model starts once counties report after 5:00 PM MT."
  }
