@@ -11,6 +11,7 @@ var G={"D+ / R+":"How far ahead a party is, in percentage points. D+5 means Demo
 "Swing":"How much the margin moved compared with an earlier election in the same place.",
 "Polling miss":"The final result margin minus the polling average. A positive miss means Democrats did better than polls showed; negative means Republicans did.",
 "Called vs projected":"A call is made by AP or a network decision desk when they are confident who won. A projection on this site is our own model's estimate and is never a call.",
+"Tracker data":"From an independent early-vote tracker; not yet checked against official state data.",
 "Trader odds":"Prices on betting or prediction markets. They show what traders are wagering, not a forecast or a poll."};
 window.ENR=window.ENR||{};
 function glossary(){document.getElementById("glossary").innerHTML=Object.keys(G).map(function(k){return"<dt>"+E(k)+"</dt><dd>"+E(G[k])+"</dd>";}).join("");}
@@ -35,7 +36,7 @@ function trends(D){var t=D.if_trends_hold||{},s=t.senate,h=t.house;
 /* ---------- shift arrows ---------- */
 function shifts(D,v){var o=[];(D.races||[]).forEach(function(r){var val=null,basis="";
  if(r.current_margin!=null){var b=r[v==="shift22"?"margin_2022":"margin_2024"];if(b&&b.value!=null){val=+r.current_margin-b.value;basis="Results swing vs "+(v==="shift22"?"2022 ":"2024 ")+b.race;}}
- else if(v==="shift22"){var e=((D.early_vote||{}).states||{})[r.state],f=e&&e.figures||{};if(f.gap_now!=null&&f.gap_2022!=null){val=+f.gap_now-+f.gap_2022;basis="Early-vote signal: change in party-registration gap of early ballots vs 2022 (not votes)";}}
+ else if(v==="shift22"){var e=((D.early_vote||{}).states||{})[r.state],f=e&&e.figures||{};if(f.gap_now!=null&&f.gap_2022!=null){val=+f.gap_now-+f.gap_2022;basis="Early-vote signal (Tracker data: from an independent early-vote tracker, not yet checked against official state data): change in party-registration gap of early ballots vs 2022 (not votes)";}}
  if(val!=null)o.push({st:r.state,name:r.name,val:Math.round(val*10)/10,basis:basis});});return o;}
 var FIPS={"02":"AK","19":"IA","20":"KS","23":"ME","26":"MI","39":"OH","48":"TX","37":"NC","45":"SC"};
 function arrows(){var D=window.ENR.DATA,G2=window.ENR.GEO,v=window.ENR.VIEW,svg=d3.select("#map");svg.selectAll("g.arrows").remove();var list=document.getElementById("shiftlist");
