@@ -1538,7 +1538,8 @@
    "summary": "Mixed, not one-directional. Among states with party registration: NC early electorate more Democratic than at the same point in 2022 (D+12.2 vs D+6.9); IA less Democratic (D+12.3 vs D+18.7); ME roughly flat (D+24.1 vs D+25.5); KS has no 2022 comparison. MI, OH, TX, SC, AK do not register by party.",
    "confidence": "low",
    "source": "Call the Map early-vote tracker (https://www.callthemap.com/early-vote), compiled from official state files; counts through 2026-11-01"
-  }
+  },
+  "trust": "Tracker data"
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
  "takeaways_summary": "Early voting does not show a clear shift toward either party compared with 2022. In North Carolina, early ballots lean more Democratic than in 2022; in Iowa they lean less Democratic; in Maine they look about the same. These are low-confidence signals, not results.",
@@ -1551,7 +1552,7 @@
    "source_url": "https://www.callthemap.com/early-vote",
    "tag": "early vote",
    "confidence": "low",
-   "trust": "Official count"
+   "trust": "Tracker data"
   },
   {
    "time_mt": "4:40 PM MT, Nov 2",
@@ -1561,7 +1562,7 @@
    "source_url": "https://www.callthemap.com/early-vote",
    "tag": "early vote",
    "confidence": "low",
-   "trust": "Official count"
+   "trust": "Tracker data"
   },
   {
    "time_mt": "4:40 PM MT, Nov 2",
@@ -1571,7 +1572,7 @@
    "source_url": "https://www.callthemap.com/early-vote",
    "tag": "early vote",
    "confidence": "low",
-   "trust": "Official count"
+   "trust": "Tracker data"
   },
   {
    "time_mt": "4:40 PM MT, Nov 2",
@@ -1581,7 +1582,7 @@
    "source_url": "https://www.callthemap.com/early-vote",
    "tag": "early vote",
    "confidence": "low",
-   "trust": "Official count"
+   "trust": "Tracker data"
   },
   {
    "time_mt": "4:40 PM MT, Nov 2",
@@ -1589,7 +1590,8 @@
    "detail": "These numbers count which party early voters are registered with, not who they voted for. Since 2020 many Republicans have shifted to voting on Election Day, so early ballots often lean Democratic and Election Day ballots lean Republican. Early leads in the count can shrink or grow as more votes come in.",
    "source_label": "Call the Map early-vote tracker",
    "source_url": "https://www.callthemap.com/early-vote",
-   "tag": "note"
+   "tag": "note",
+   "trust": "Tracker data"
   },
   {
    "time_mt": "4:40 PM MT, Nov 2",
@@ -1606,7 +1608,7 @@
    "source_label": "Call the Map early-vote tracker",
    "source_url": "https://www.callthemap.com/early-vote",
    "tag": "turnout",
-   "trust": "Official count"
+   "trust": "Tracker data"
   }
  ],
  "perspectives": {
