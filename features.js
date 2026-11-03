@@ -55,6 +55,6 @@ function timeline(){var el=document.getElementById("timeline");if(!HIST||HIST.le
  document.getElementById("tl").oninput=function(){TI=+this.value;timeline();document.getElementById("tl").focus();};}
 function M0(v){return v==null?"–":v;}
 function loadHist(){fetch("history.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():[];}).then(function(h){HIST=h||[];timeline();}).catch(function(){HIST=[];timeline();});}
-document.addEventListener("enr-data",function(){var D=window.ENR.DATA;headTerms();out(D);persp(D);trends(D);loadHist();arrows();});
+document.addEventListener("enr-data",function(){var D=window.ENR.DATA;headTerms();glossary();out(D);persp(D);trends(D);loadHist();arrows();});
 document.addEventListener("enr-map",arrows);
 })();
