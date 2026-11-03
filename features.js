@@ -55,24 +55,6 @@ function timeline(){var el=document.getElementById("timeline");if(!HIST||HIST.le
  document.getElementById("tl").oninput=function(){TI=+this.value;timeline();document.getElementById("tl").focus();};}
 function M0(v){return v==null?"–":v;}
 function loadHist(){fetch("history.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():[];}).then(function(h){HIST=h||[];timeline();}).catch(function(){HIST=[];timeline();});}
-/* ---------- share card ---------- */
-function share(D){var el=document.getElementById("share"),rs=D.races||[];var cur=(document.getElementById("scsel")||{}).value||rs[0].state;
- el.innerHTML='<label for="scsel">Race: </label><select id="scsel">'+rs.map(function(r){return"<option"+(r.state===cur?" selected":"")+' value="'+r.state+'">'+E(r.name)+"</option>";}).join("")+'</select> <button type="button" id="scdl">Download image</button> <button type="button" id="scsh">Share</button><br><canvas id="sccv" width="1200" height="630" role="img" aria-label="Race card preview" style="max-width:100%;height:auto;border:1px solid #ccc;margin-top:8px"></canvas><p id="scalt" class="small"></p>';
- var sel=document.getElementById("scsel");sel.onchange=function(){draw();};draw();
- function draw(){var r=rs.filter(function(x){return x.state===sel.value;})[0],cv=document.getElementById("sccv"),c=cv.getContext("2d"),t=window.ENR.trustOf(r)||"No votes counted yet";
-  var src=(r.results_sources||{}).ap||(r.results_sources||{}).official||"";
-  c.fillStyle="#fff";c.fillRect(0,0,1200,630);c.fillStyle="#111";c.fillRect(0,0,1200,90);c.fillStyle="#fff";c.font="bold 40px system-ui,sans-serif";c.fillText("Election Night 2026 · US Senate",40,60);
-  c.fillStyle="#111";c.font="bold 64px system-ui,sans-serif";c.fillText(r.name,40,190);c.font="34px system-ui,sans-serif";
-  var cd=(r.candidates||[]).map(function(x){return x.name+" ("+x.party+")";}).join("  vs  ");c.fillText(cd,40,250);
-  c.font="bold 80px system-ui,sans-serif";c.fillText(r.current_margin==null?"Counting not started":M(r.current_margin),40,360);
-  c.font="34px system-ui,sans-serif";c.fillText((r.pct_in==null?"0":r.pct_in)+"% of expected vote counted",40,420);
-  c.strokeStyle="#111";c.lineWidth=3;c.strokeRect(40,445,c.measureText(t).width+30,52);c.fillText(t,55,483);
-  c.font="24px system-ui,sans-serif";c.fillStyle="#333";c.fillText("Source: "+src,40,545);c.fillText("As of "+(D.updated_at||"")+" · "+SITE,40,585);
-  document.getElementById("scalt").textContent="Card text: "+r.name+", "+cd+", "+(r.current_margin==null?"counting not started":M(r.current_margin))+", "+(r.pct_in||0)+"% in, "+t+". Source "+src+". As of "+(D.updated_at||"")+".";
-  document.getElementById("scdl").onclick=function(){var a=document.createElement("a");a.download="race-"+r.state+".png";a.href=cv.toDataURL("image/png");a.click();};
-  var sh=document.getElementById("scsh");sh.onclick=function(){cv.toBlob(function(b){var f=new File([b],"race-"+r.state+".png",{type:"image/png"});var d={title:"Election Night 2026: "+r.name,text:r.name+" Senate: "+document.getElementById("scalt").textContent,url:SITE};
-   if(navigator.canShare&&navigator.canShare({files:[f]}))d.files=[f];if(navigator.share)navigator.share(d).catch(function(){});else{navigator.clipboard&&navigator.clipboard.writeText(SITE);sh.textContent="Link copied";}});};}}
-glossary();
-document.addEventListener("enr-data",function(){var D=window.ENR.DATA;headTerms();out(D);persp(D);trends(D);share(D);loadHist();arrows();});
+document.addEventListener("enr-data",function(){var D=window.ENR.DATA;headTerms();out(D);persp(D);trends(D);loadHist();arrows();});
 document.addEventListener("enr-map",arrows);
 })();
