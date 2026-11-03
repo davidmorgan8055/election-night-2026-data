@@ -50,7 +50,7 @@ function drawMap(){if(!GEO)return;var svg=d3.select("#map"),tip=document.getElem
   .on("mouseleave",function(){tip.style.pointerEvents="none";})
   .merge(p).attr("fill",function(d){return fill(FIPS[d.id]);});
  svg.selectAll("path.key").raise();window.ENR.GEO=GEO;window.ENR.VIEW=VIEW;document.dispatchEvent(new CustomEvent("enr-map"));document.body.addEventListener("click",function(){tip.hidden=true;},{once:false});legend();}
-function views(){document.getElementById("views").innerHTML=VIEWS.map(function(v){return'<button data-v="'+v[0]+'" class="'+(v[0]===VIEW?"on":"")+'">'+v[1]+"</button>";}).join("");
+function views(){document.getElementById("views").innerHTML=VIEWS.map(function(v){return'<button type="button" aria-pressed="'+(v[0]===VIEW)+'" data-v="'+v[0]+'" class="'+(v[0]===VIEW?"on":"")+'">'+v[1]+"</button>";}).join("");
  Array.prototype.forEach.call(document.querySelectorAll("#views button"),function(b){b.onclick=function(){VIEW=b.dataset.v;views();drawMap();};});}
 function seats(){var s=DATA.seat_tracker||{},se=s.senate||{},h=s.house||{},c=se.current||{},pc=s.paths_to_control||{};
  var D=(c.D||0)+(c.I_caucus_D||0),tot=D+(c.R||0)||100,cal=se.called||{};
@@ -91,7 +91,7 @@ function takeaways(){var t=DATA.takeaways||[],s=DATA.takeaways_summary,f=documen
  f.innerHTML=t.slice(0,n).map(function(x){var cls=String(x.tag||"note").replace(/[^a-z]/g,"");return'<li><article class="tk-card"><div class="tk-meta"><span class="tk-tag tag-'+cls+'">'+esc(x.tag||"note")+'</span> <time>'+esc(x.time_mt||"")+'</time>'+(x.trust?' <span class="trust">'+esc(x.trust)+'</span>':'')+(x.confidence?' <span class="tk-conf">Confidence: '+esc(x.confidence)+'</span>':"")+'</div><h3>'+esc(x.headline)+'</h3><p>'+esc(x.detail||"")+'</p>'+(x.source_url||x.source_label?'<p class="tk-src">Source: '+(x.source_url?link(x.source_url,x.source_label||x.source_url):esc(x.source_label))+'</p>':"")+'</article></li>';}).join("")||"<li>No takeaways yet.</li>";
  b.hidden=t.length<=6;b.textContent=TK_ALL?"Show fewer":"Show more ("+(t.length-6)+" more)";b.setAttribute("aria-expanded",TK_ALL?"true":"false");
  b.onclick=function(){TK_ALL=!TK_ALL;takeaways();};}
-function render(){document.getElementById("updated").textContent=DATA.updated_at||DASH;
+function render(){var ud=new Date(String(DATA.updated_at||"").replace(/\s*\(.*\)\s*$/,""));document.getElementById("updated").textContent=isNaN(ud)?(DATA.updated_at||DASH):ud.toLocaleString("en-US",{timeZone:"America/Denver",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" MT";
  var anyRes=DATA.races.some(function(r){return r.current_margin!=null;});
  document.getElementById("status").textContent=(DATA.status_note||"")+(anyRes||/polls close/.test(DATA.status_note||"")?"":" Results begin after polls close.");
 window.ENR.DATA=DATA; takeaways();seats();table();early();closings();alerts();notes();drawMap();document.dispatchEvent(new CustomEvent("enr-data"));}

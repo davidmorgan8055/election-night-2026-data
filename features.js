@@ -71,9 +71,7 @@ function share(D){var el=document.getElementById("share"),rs=D.races||[];var cur
   document.getElementById("scdl").onclick=function(){var a=document.createElement("a");a.download="race-"+r.state+".png";a.href=cv.toDataURL("image/png");a.click();};
   var sh=document.getElementById("scsh");sh.onclick=function(){cv.toBlob(function(b){var f=new File([b],"race-"+r.state+".png",{type:"image/png"});var d={title:"Election Night 2026: "+r.name,text:r.name+" Senate: "+document.getElementById("scalt").textContent,url:SITE};
    if(navigator.canShare&&navigator.canShare({files:[f]}))d.files=[f];if(navigator.share)navigator.share(d).catch(function(){});else{navigator.clipboard&&navigator.clipboard.writeText(SITE);sh.textContent="Link copied";}});};}}
-/* ---------- a11y toggles ---------- */
-function pref(k,cls,btn){var on=localStorage.getItem(k)==="1";document.documentElement.classList.toggle(cls,on);btn.setAttribute("aria-pressed",String(on));btn.onclick=function(){localStorage.setItem(k,on?"0":"1");pref(k,cls,btn);};}
-pref("enr-big","big",document.getElementById("bigtext"));pref("enr-hc","hc",document.getElementById("contrast"));glossary();
+glossary();
 document.addEventListener("enr-data",function(){var D=window.ENR.DATA;headTerms();out(D);persp(D);trends(D);share(D);loadHist();arrows();});
 document.addEventListener("enr-map",arrows);
 })();
