@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T16:00:00-07:00 (MT)",
+ "updated_at": "2026-11-02T20:15:00-07:00",
  "status_note": "Pre-election baseline. Results begin after polls close on Nov 3.",
  "races": [
   {
@@ -889,7 +889,7 @@
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
-    "early_vote_signal": "neutral (no party data)",
+    "early_vote_signal": "leans D",
     "early_vote_confidence": "low",
     "key": true,
     "watch": false
@@ -1159,7 +1159,7 @@
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
-    "early_vote_signal": "neutral (no party data)",
+    "early_vote_signal": "neutral (no like-for-like baseline)",
     "early_vote_confidence": "low",
     "key": true,
     "watch": true
@@ -1252,14 +1252,14 @@
   "All times Mountain Time (MT)."
  ],
  "early_vote": {
-  "compiled_mt": "2026-11-02 15:56 MT",
-  "tracker": "Call the Map US.csv https://www.callthemap.com/early-vote/data/US.csv (checked 2026-11-02 3:28 PM MT)",
+  "compiled_mt": "2026-11-02 20:15 MT",
+  "tracker": "Call the Map US.csv https://www.callthemap.com/early-vote/data/US.csv (re-checked 2026-11-02 8:06 PM MT; no new counts since 3:28 PM MT pull, tracker file checked_at 2026-11-02T22:28:51Z = 3:28 PM MT)",
   "general_caveats": [
    "Party registration is not vote choice",
    "Early vote may cannibalize Election Day vote; Republicans shifted toward Election Day after 2020",
    "Unaffiliated voters decide outcomes",
-   "MI, OH, TX, SC, AK(here) have no party split; no modeled estimates gathered",
-   "Figures are compiled by a third-party tracker from official files; not independently re-tallied"
+   "TX/SC county comparisons measure turnout by place, not by party",
+   "MI, OH, AK, KY: totals only this pass"
   ],
   "states": {
    "AK": {
@@ -1284,7 +1284,8 @@
     "stale": "false",
     "signal": "neutral (no party data)",
     "confidence": "low",
-    "basis": "turnout only"
+    "basis": "turnout only",
+    "signal_vs_2022": "unclear (no party or county early-vote data retrieved)"
    },
    "IA": {
     "figures": {
@@ -1316,7 +1317,9 @@
     "stale": "false",
     "signal": "leans R",
     "confidence": "low",
-    "basis": "D reg lead D+12.3 vs D+18.7 at same point 2022, volume +36%"
+    "basis": "D reg lead D+12.3 vs D+18.7 at same point 2022, volume +36%",
+    "signal_vs_2022": "leans right",
+    "trust": "Tracker data"
    },
    "KS": {
     "figures": {
@@ -1344,7 +1347,8 @@
     "stale": "false",
     "signal": "neutral",
     "confidence": "low",
-    "basis": "R+2.4; no 2022 comparison available"
+    "basis": "R+2.4; no 2022 comparison available",
+    "signal_vs_2022": "no 2022 comparison"
    },
    "KY": {
     "figures": {
@@ -1374,7 +1378,8 @@
      "label": "partisan-affiliated (KDP data director), unconfirmed",
      "claim": "Statewide D+4.1% early vote heading into Election Day, 1.6 pts better than 2022, 14 ahead of 2024 (via leftslantsports.com)",
      "check": "Not verified: no official KY party breakdown retrieved; tracker shows 438,602 early ballots through Oct 31, -26% vs 2024 pace"
-    }
+    },
+    "signal_vs_2022": "unclear"
    },
    "ME": {
     "figures": {
@@ -1406,7 +1411,9 @@
     "stale": "false",
     "signal": "neutral",
     "confidence": "low",
-    "basis": "D+24.1 vs D+25.5 in 2022, volume +39%"
+    "basis": "D+24.1 vs D+25.5 in 2022, volume +39%",
+    "signal_vs_2022": "about the same (slightly right)",
+    "trust": "Tracker data"
    },
    "MI": {
     "figures": {
@@ -1428,7 +1435,8 @@
     "stale": "false",
     "signal": "neutral (no party data)",
     "confidence": "low",
-    "basis": "turnout only"
+    "basis": "turnout only",
+    "signal_vs_2022": "unclear (no party or county early-vote data retrieved)"
    },
    "NC": {
     "figures": {
@@ -1460,7 +1468,10 @@
     "stale": "false",
     "signal": "leans D",
     "confidence": "low",
-    "basis": "D+12.2 vs D+6.9 in 2022, volume +31%; unaffiliated 35%"
+    "basis": "D+12.2 vs D+6.9 in 2022, volume +31%; unaffiliated 35%",
+    "verified": "Verified 2026-11-02 8:12 PM MT against NCSBE statewide absentee file absentee_20261103.zip (last modified 2026-11-02 3:28 AM MT): 2,819,922 ballots with ACCEPTED/ACCEPTED-EXCEPTION/ACCEPTED-CURED status; ACCEPTED-only D 1,077,107 / R 735,139 / other 996,899 = D+12.17. 2022 comparison (D+6.9) is tracker-reported, not re-verified.",
+    "trust": "Official count (2026 figures); Tracker data (2022/2024 comparison)",
+    "signal_vs_2022": "leans left"
    },
    "OH": {
     "figures": {
@@ -1484,30 +1495,43 @@
     "stale": "false",
     "signal": "neutral (no party data)",
     "confidence": "low",
-    "basis": "turnout only"
+    "basis": "turnout only",
+    "signal_vs_2022": "unclear (no party or county early-vote data retrieved)"
    },
    "SC": {
     "figures": {
-     "counts_through": "2026-10-30",
-     "total": "948592",
-     "in_person": "948592"
+     "counts_through": "2026-10-31",
+     "total": "1043810",
+     "in_person": "1043810"
     },
     "sources": [
      {
-      "name": "South Carolina Election Commission, early voting turnout report",
-      "url": "https://scvotes.gov/wp-content/uploads/2026/10/EV-Totals-10-30-26.csv"
-     },
-     {
-      "name": "Call the Map",
-      "url": "https://www.callthemap.com/early-vote"
+      "name": "South Carolina Election Commission, early voting totals (report dated 11/2/2026)",
+      "url": "https://scvotes.gov/wp-content/uploads/2026/11/EV-Totals-10-31-26.csv"
      }
     ],
     "official_page": "https://scvotes.gov/elections-statistics/voter-participation/",
-    "as_of_mt": "counts through 2026-10-30 (file 2026-10-31T12:22:46Z UTC)",
-    "stale": "true",
-    "signal": "neutral (no party data)",
+    "as_of_mt": "counts through 2026-10-31 (final early-voting day), report dated 2026-11-02",
+    "stale": "false",
+    "signal": "neutral (no like-for-like baseline)",
     "confidence": "low",
-    "basis": "turnout only"
+    "basis": "1,043,810 in-person early votes; no 2022 early-vote baseline",
+    "trust": "Official count",
+    "county_analysis": {
+     "method": "2026 early vote as a share of each group's 2024 total vote (no 2022 county early-vote baseline retrieved, so not like-for-like)",
+     "D_strongholds": {
+      "counties": 4,
+      "ev_2026": 115842,
+      "share_of_2024_vote": "48.9%"
+     },
+     "R_strongholds": {
+      "counties": 30,
+      "ev_2026": 741200,
+      "share_of_2024_vote": "39.3%"
+     },
+     "note": "Suggestive only; county early-vote habits differ. Baseline file's 2022 county totals appear doubled (sum 3.39M vs ~1.70M actual); ratios vs 2022 not used."
+    },
+    "signal_vs_2022": "unclear"
    },
    "TX": {
     "figures": {
@@ -1529,40 +1553,125 @@
     "official_page": "https://goelect.txelections.civixapps.com/ivis-evr-ui/evr",
     "as_of_mt": "counts through 2026-10-30 (file 2026-11-02 UTC)",
     "stale": "false",
-    "signal": "neutral (no party data)",
+    "signal": "leans D",
     "confidence": "low",
-    "basis": "turnout only"
+    "basis": "D-stronghold early vote +47.6% vs 2022, R-stronghold +34.0% (county turnout, not party)",
+    "county_analysis": {
+     "method": "2026 final early vote (through Oct 30, last day of early voting) vs 2022 final early vote (through Nov 4, 2022, last day) by county, grouped by counties won by 20+ points in the 2022 governor race or 2024 presidential race (counties/TX.csv). Same weekday alignment.",
+     "source": "Texas SOS early-voting turnout by county, as compiled by early.professorbutts.com/tx (data generated 2026-11-02 2:53 PM MT; 2026 county totals match Call the Map/SOS within 1% for 248 of 254 counties)",
+     "source_url": "https://early.professorbutts.com/tx/",
+     "D_strongholds": {
+      "counties": 8,
+      "ev_2026": 1293601,
+      "ev_2022": 876166,
+      "change": "+47.6%"
+     },
+     "R_strongholds": {
+      "counties": 221,
+      "ev_2026": 2267919,
+      "ev_2022": 1692734,
+      "change": "+34.0%"
+     },
+     "competitive": {
+      "counties": 25,
+      "ev_2026": 4160711,
+      "ev_2022": 2928127,
+      "change": "+42.1%"
+     },
+     "statewide": {
+      "ev_2026": 7722231,
+      "ev_2022": 5497027,
+      "ev_2024": 9058436,
+      "vs_2022": "+40.5%",
+      "vs_2024": "-14.8%"
+     },
+     "notable": "El Paso +61.3%, Hidalgo +59.3%, Dallas +52.6%, Harris +43.3%, Travis +37.6%, Bexar +35.6%; Lubbock +39.0%, Montgomery +36.9%"
+    },
+    "signal_vs_2022": "leans left",
+    "analyst_read": {
+     "author": "Zachary Donnini (Head of Data Science, VoteHub)",
+     "url": "https://x.com/ZacharyDonnini/status/2117256909711433817",
+     "label": "independent analyst on X, modeled, unconfirmed",
+     "claim": "Texas electorate likely more diverse and more Democratic than 2024; Republicans kept the turnout differential from getting out of hand; about a 5 on a 1 (no change from 2024) to 10 (North Carolina) scale"
+    }
    }
   },
-  "overall_direction_vs_2022": {
-   "summary": "Mixed, not one-directional. Among states with party registration: NC early electorate more Democratic than at the same point in 2022 (D+12.2 vs D+6.9); IA less Democratic (D+12.3 vs D+18.7); ME roughly flat (D+24.1 vs D+25.5); KS has no 2022 comparison. MI, OH, TX, SC, AK do not register by party.",
-   "confidence": "low",
-   "source": "Call the Map early-vote tracker (https://www.callthemap.com/early-vote), compiled from official state files; counts through 2026-11-01"
+  "x_framings": {
+   "checked_mt": "2026-11-02 8:08 PM MT",
+   "items": [
+    {
+     "side": "Dem-favorable framing",
+     "author": "@onpointpolitics (On Point Politics, Lester Tellez)",
+     "url": "https://x.com/onpointpolitics/status/2117062887714029824",
+     "quote": "North Carolina's early vote is 12.8 points BLUER than 2024 and 4.9 bluer than 2022.",
+     "check": "Broadly consistent: state file shows D+12.2; tracker puts 2022 at D+6.9 (5.3 bluer) and 2024 at R+0.9 (13.1 bluer). Their 'Cooper +10.2' is their own forecast, not verified; registration is not vote choice."
+    },
+    {
+     "side": "GOP-favorable framing",
+     "author": "@MadAboutSkin01 (Election2026 Updates)",
+     "url": "https://x.com/MadAboutSkin01/status/2117411514827039049",
+     "quote": "Held Strong: Maine, Ohio (late surge really helped), Texas (again strong late rural surge), Michigan, Wisconsin",
+     "check": "Maine consistent (D+24.1 vs D+25.5 in 2022). Ohio and Michigan publish no party data, so unverifiable. Texas: Republican-stronghold early vote grew +34.0% vs 2022 but Democratic strongholds grew faster (+47.6%), which doesn't support a GOP-favorable read vs 2022. Same post calls Iowa 'Blue Wave Likely', but Iowa's Democratic registration lead is narrower than 2022 (D+12.3 vs D+18.7)."
+    },
+    {
+     "side": "analyst (not counted as a side)",
+     "author": "@ZacharyDonnini",
+     "url": "https://x.com/ZacharyDonnini/status/2117256909711433817",
+     "quote": "The 2026 electorate looks likely to be more diverse and more Democratic than the 2024 electorate. Republicans put up a fight and kept the turnout differential from getting out of hand.",
+     "check": "Consistent with county data (D strongholds +47.6% vs R +34.0% vs 2022); modeled, unconfirmed."
+    }
+   ]
   },
-  "trust": "Tracker data"
+  "overall": {
+   "direction_vs_2022": "mixed, tilting slightly left",
+   "confidence": "low",
+   "direction_vs_2024": "left (in every party-registration state tracked), but midterm vs presidential electorates differ",
+   "confidence_vs_2024": "low",
+   "basis": "vs 2022: NC and TX lean left, IA leans right, ME about the same (slightly right), KS/MI/OH/AK/SC/KY no like-for-like comparison"
+  }
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Early voting does not show a clear shift toward either party compared with 2022. In North Carolina, early ballots lean more Democratic than in 2022; in Iowa they lean less Democratic; in Maine they look about the same. These are low-confidence signals, not results.",
+ "takeaways_summary": "Compared with the 2022 midterm, early voting is mixed with a slight tilt toward Democrats, at low confidence. North Carolina's early ballots lean more Democratic than in 2022 (checked against the state's own file), and in Texas, turnout grew faster in Democratic-leaning counties than in Republican-leaning ones. Iowa leans less Democratic than 2022, and Maine looks about the same. Early votes are not results: many Republicans vote on Election Day, and unaffiliated voters decide close races.",
  "takeaways": [
   {
-   "time_mt": "4:40 PM MT, Nov 2",
-   "headline": "Overall: no clear direction yet compared with 2022",
-   "detail": "Of the states that report voters' party registration, one moved toward Democrats, one toward Republicans, and one stayed about the same versus 2022. Other states do not report party, so they say nothing about direction.",
-   "source_label": "Call the Map early-vote tracker",
+   "time_mt": "8:15 PM MT, Nov 2",
+   "headline": "Overall: mixed, tilting slightly toward Democrats compared with 2022",
+   "detail": "North Carolina and Texas lean toward Democrats compared with 2022, Iowa leans toward Republicans, and Maine looks about the same. Kansas, Michigan, Ohio, Alaska and South Carolina have no like-for-like 2022 comparison. This is turnout, not votes.",
+   "source_label": "NC State Board of Elections; Texas SOS via early.professorbutts.com; Call the Map",
    "source_url": "https://www.callthemap.com/early-vote",
    "tag": "early vote",
    "confidence": "low",
    "trust": "Tracker data"
   },
   {
-   "time_mt": "4:40 PM MT, Nov 2",
-   "headline": "North Carolina early ballots lean more Democratic than in 2022",
-   "detail": "Among about 2.82 million early ballots, registered Democrats lead registered Republicans by 12.2 points, compared with a 6.9-point Democratic lead in 2022. About 1 million ballots came from unaffiliated voters, who could go either way.",
-   "source_label": "Call the Map early-vote tracker",
-   "source_url": "https://www.callthemap.com/early-vote",
+   "time_mt": "8:15 PM MT, Nov 2",
+   "headline": "Texas: early voting grew faster in Democratic-leaning counties than in Republican-leaning ones",
+   "detail": "In the 8 counties Democrats won by 20+ points, early votes are up 47.6% from 2022 (1.29 million vs 876,000). In the 221 counties Republicans won by 20+ points, they're up 34.0% (2.27 million vs 1.69 million). Statewide, 7.72 million voted early, up 40.5% from 2022 but down 14.8% from 2024. Texas has no party registration, so this compares places, not voters.",
+   "source_label": "Texas Secretary of State county early-vote data, compiled by early.professorbutts.com",
+   "source_url": "https://early.professorbutts.com/tx/",
    "tag": "early vote",
    "confidence": "low",
    "trust": "Tracker data"
+  },
+  {
+   "time_mt": "8:15 PM MT, Nov 2",
+   "headline": "North Carolina early ballots lean more Democratic than in 2022 (checked against the state's file)",
+   "detail": "The state's own file shows 2,819,922 accepted early ballots. Registered Democrats lead registered Republicans by 12.2 points, compared with a 6.9-point Democratic lead at the same point in 2022, per the Call the Map tracker. About 1 million ballots came from unaffiliated voters, who could go either way.",
+   "source_label": "North Carolina State Board of Elections absentee file",
+   "source_url": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_20261103.zip",
+   "tag": "early vote",
+   "confidence": "low",
+   "trust": "Official count"
+  },
+  {
+   "time_mt": "8:15 PM MT, Nov 2",
+   "headline": "South Carolina's final early vote: 1,043,810 ballots",
+   "detail": "In-person early voting ended Oct 31 with 1,043,810 ballots, per the state election commission. South Carolina has no party registration, and no comparable 2022 county figures were available, so this doesn't show a direction.",
+   "source_label": "South Carolina Election Commission",
+   "source_url": "https://scvotes.gov/wp-content/uploads/2026/11/EV-Totals-10-31-26.csv",
+   "tag": "turnout",
+   "confidence": "low",
+   "trust": "Official count"
   },
   {
    "time_mt": "4:40 PM MT, Nov 2",
@@ -1602,9 +1711,9 @@
    "tag": "note"
   },
   {
-   "time_mt": "4:40 PM MT, Nov 2",
-   "headline": "Several states give turnout only, with no party breakdown",
-   "detail": "Michigan, Ohio, Texas, South Carolina and Alaska report how many people voted early but not their party, so they cannot show a shift toward either side.",
+   "time_mt": "8:15 PM MT, Nov 2",
+   "headline": "Some states give turnout only, with no party breakdown",
+   "detail": "Michigan, Ohio, Texas, South Carolina and Alaska report how many people voted early but not their party. For Texas, county-level turnout is used instead; for the others, no direction can be read yet.",
    "source_label": "Call the Map early-vote tracker",
    "source_url": "https://www.callthemap.com/early-vote",
    "tag": "turnout",
@@ -1612,9 +1721,25 @@
   }
  ],
  "perspectives": {
-  "left": [],
-  "right": [],
-  "updated_at": null
+  "left": [
+   {
+    "paraphrase": "North Carolina's early vote is 12.8 points more Democratic than 2024 and 4.9 points more than 2022, pointing to a strong Democratic showing.",
+    "author": "On Point Politics (@onpointpolitics)",
+    "url": "https://x.com/onpointpolitics/status/2117062887714029824",
+    "trust": "Unconfirmed (X)",
+    "fact_check": "Broadly consistent with the data: the state file shows a 12.2-point Democratic registration edge, about 5 points more than 2022 and 13 more than 2024 per the tracker. Their Senate forecast is their own, and registration isn't vote choice."
+   }
+  ],
+  "right": [
+   {
+    "paraphrase": "Republicans held strong in early voting in Maine, Ohio, Texas and Michigan, with late rural surges.",
+    "author": "Election2026 Updates (@MadAboutSkin01)",
+    "url": "https://x.com/MadAboutSkin01/status/2117411514827039049",
+    "trust": "Unconfirmed (X)",
+    "fact_check": "Partly supported. Maine is close to 2022. Ohio and Michigan don't report party, so it can't be checked. In Texas, Republican-leaning counties grew 34% vs 2022 but Democratic-leaning counties grew faster (48%)."
+   }
+  ],
+  "updated_at": "2026-11-02T20:15:00-07:00"
  },
  "if_trends_hold": {
   "senate": null,
