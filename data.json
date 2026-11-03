@@ -17,7 +17,7 @@
     }
    ],
    "other_candidates": [
-    "Gerald Heikes (R) — per electiontracker.live; RCV"
+    "Gerald Heikes (R) \u2014 per electiontracker.live; RCV"
    ],
    "rcv": true,
    "incumbent_party": "R",
@@ -274,7 +274,7 @@
     }
    ],
    "other_candidates": [
-    "David Graham (L) — 4% in NYT/Siena"
+    "David Graham (L) \u2014 4% in NYT/Siena"
    ],
    "rcv": false,
    "incumbent_party": "R",
@@ -680,7 +680,7 @@
     }
    ],
    "other_candidates": [
-    "Greg Levy (I) — per electiontracker.live"
+    "Greg Levy (I) \u2014 per electiontracker.live"
    ],
    "rcv": false,
    "incumbent_party": "R",
@@ -1138,7 +1138,7 @@
     "source": "MEDSL statewide results (D minus R)"
    },
    "poll_close_mt": "5:00 PM MT",
-   "counting_note": "missing — not researched this run",
+   "counting_note": "missing \u2014 not researched this run",
    "current_margin": null,
    "pct_in": null,
    "projected_margin": null,
@@ -1299,7 +1299,7 @@
      "gap_now": "12.27",
      "vs_2022_change": "+36%",
      "gap_2022": "18.68",
-     "vs_2024_change": "−27%",
+     "vs_2024_change": "\u221227%",
      "gap_2024": "-1.3"
     },
     "sources": [
@@ -1356,7 +1356,7 @@
      "total": "438602",
      "mail": "47866",
      "in_person": "390736",
-     "vs_2024_change": "−26%"
+     "vs_2024_change": "\u221226%"
     },
     "sources": [
      {
@@ -1393,7 +1393,7 @@
      "gap_now": "24.13",
      "vs_2022_change": "+39%",
      "gap_2022": "25.49",
-     "vs_2024_change": "−16%",
+     "vs_2024_change": "\u221216%",
      "gap_2024": "14.08"
     },
     "sources": [
@@ -1450,7 +1450,7 @@
      "gap_now": "12.22",
      "vs_2022_change": "+31%",
      "gap_2022": "6.87",
-     "vs_2024_change": "−37%",
+     "vs_2024_change": "\u221237%",
      "gap_2024": "-0.88"
     },
     "sources": [
@@ -1634,6 +1634,26 @@
  "takeaways_summary": "Compared with the 2022 midterm, early voting is mixed with a slight tilt toward Democrats, at low confidence. North Carolina's early ballots lean more Democratic than in 2022 (checked against the state's own file), and in Texas, turnout grew faster in Democratic-leaning counties than in Republican-leaning ones. Iowa leans less Democratic than 2022, and Maine looks about the same. Early votes are not results: many Republicans vote on Election Day, and unaffiliated voters decide close races.",
  "takeaways": [
   {
+   "time_mt": "8:55 AM MT, Nov 3",
+   "headline": "Florida: Republicans' pre-Election Day ballot lead is smaller than in 2022",
+   "detail": "Registered Republicans led mail and early ballots by 133,177 (2,176,256 R vs 2,043,079 D of 5,408,792) per the Division of Elections on Nov 2, versus about 300,000 in 2022 per the Miami Herald. Election Day in-person voting, which leans Republican, is still under way. This is turnout by registration, not votes.",
+   "source_label": "FL Division of Elections via floridapredictions.com; Miami Herald",
+   "source_url": "https://floridapredictions.com/news/final-early-vote-democrats-pass-2022-governor-odds-slip",
+   "tag": "early vote",
+   "confidence": "low",
+   "trust": "Tracker data"
+  },
+  {
+   "time_mt": "8:55 AM MT, Nov 3",
+   "headline": "Trader odds: Democrats about 76-78% to win the Senate",
+   "detail": "Kalshi 76%, Polymarket 78% for Democratic Senate control as of 8:03 AM MT. Iowa is near a coin flip (52-53%). These are trader odds, not a forecast or a call.",
+   "source_label": "ArbTrader (Kalshi and Polymarket)",
+   "source_url": "https://arbtrader.co/election/data",
+   "tag": "note",
+   "confidence": "low",
+   "trust": "Tracker data"
+  },
+  {
    "time_mt": "8:10 PM MT, Nov 2",
    "headline": "Overall: mixed, tilting slightly toward Democrats compared with 2022",
    "detail": "North Carolina and Texas lean toward Democrats compared with 2022, Iowa leans toward Republicans, and Maine looks about the same. Kansas, Michigan, Ohio, Alaska and South Carolina have no like-for-like 2022 comparison. This is turnout, not votes.",
@@ -1723,6 +1743,13 @@
  "perspectives": {
   "left": [
    {
+    "paraphrase": "Early vote turnout is about 20% above 2022, with a surge among young voters and voters of color; he says Election Day reads should be adjusted 2-3 points toward Democrats because independents have swung their way.",
+    "author": "Simon Rosenberg (@SimonWDC)",
+    "url": "https://x.com/SimonWDC/status/2117634086168592689",
+    "trust": "Unconfirmed (X)",
+    "fact_check": "Partly supported. Turnout is up versus 2022 (Texas +40.5%, Florida pace +8.2% per On Point). The demographic surge and the 2-3 point independent adjustment are his own estimates and can't be checked."
+   },
+   {
     "paraphrase": "North Carolina's early vote is 12.8 points more Democratic than 2024 and 4.9 points more than 2022, pointing to a strong Democratic showing.",
     "author": "On Point Politics (@onpointpolitics)",
     "url": "https://x.com/onpointpolitics/status/2117062887714029824",
@@ -1732,6 +1759,13 @@
   ],
   "right": [
    {
+    "paraphrase": "Florida Election Day in-person voting is running ahead of the same time in 2024 for Republicans, with rural counties strongest; she says Florida never looked in danger, and the real test is whether the Senate holds, which she puts as possible in a D+8 or better environment.",
+    "author": "DataRepublican (@DataRepublican)",
+    "url": "https://x.com/DataRepublican/status/2117634889856229584",
+    "trust": "Unconfirmed (X)",
+    "fact_check": "Unverifiable for now: the comparison uses her own minute-by-minute 2024 snapshots, and the state doesn't publish live Election Day totals in a comparable form. The pre-Election Day data shows the Republican ballot lead (133,177) is smaller than 2022's (about 300,000), so a strong Republican Election Day is needed to match past margins."
+   },
+   {
     "paraphrase": "Republicans held strong in early voting in Maine, Ohio, Texas and Michigan, with late rural surges.",
     "author": "Election2026 Updates (@MadAboutSkin01)",
     "url": "https://x.com/MadAboutSkin01/status/2117411514827039049",
@@ -1739,7 +1773,7 @@
     "fact_check": "Partly supported. Maine is close to 2022. Ohio and Michigan don't report party, so it can't be checked. In Texas, Republican-leaning counties grew 34% vs 2022 but Democratic-leaning counties grew faster (48%)."
    }
   ],
-  "updated_at": "2026-11-02T20:10:00-07:00"
+  "updated_at": "2026-11-03T08:55:00-07:00"
  },
  "if_trends_hold": {
   "senate": null,
