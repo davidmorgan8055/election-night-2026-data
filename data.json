@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T20:10:00-07:00",
+ "updated_at": "2026-11-03T09:09:38-07:00",
  "status_note": "Pre-election baseline. Results begin after polls close on Nov 3.",
  "races": [
   {
@@ -1252,20 +1252,20 @@
   "All times Mountain Time (MT)."
  ],
  "early_vote": {
-  "compiled_mt": "2026-11-02 20:10 MT",
-  "tracker": "Call the Map US.csv https://www.callthemap.com/early-vote/data/US.csv (re-checked 2026-11-02 8:06 PM MT; no new counts since 3:28 PM MT pull, tracker file checked_at 2026-11-02T22:28:51Z = 3:28 PM MT)",
+  "compiled_mt": "2026-11-03 09:20 MT",
+  "tracker": "Call the Map US.csv https://www.callthemap.com/early-vote/data/US.csv (checked_at 2026-11-03T15:29:09Z = 8:29 AM MT Nov 3; new counts for AK, IA, NC; TX revised slightly; KS, ME, MI, OH, SC, KY unchanged)",
   "general_caveats": [
    "Party registration is not vote choice",
    "Early vote may cannibalize Election Day vote; Republicans shifted toward Election Day after 2020",
    "Unaffiliated voters decide outcomes",
    "TX/SC county comparisons measure turnout by place, not by party",
-   "MI, OH, AK, KY: totals only this pass"
+   "MI, OH, AK, KY: totals only (MI 2.3M+ ballots per state data; Call the Map is stale for MI)"
   ],
   "states": {
    "AK": {
     "figures": {
-     "counts_through": "2026-11-01",
-     "total": "90570",
+     "counts_through": "2026-11-02",
+     "total": "99424",
      "mail": "32308",
      "in_person": "58262"
     },
@@ -1280,7 +1280,7 @@
      }
     ],
     "official_page": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=15.20.010&secEnd=15.20.064",
-    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02 UTC)",
+    "as_of_mt": "counts through 2026-11-02 (Call the Map checked 8:29 AM MT Nov 3)",
     "stale": "false",
     "signal": "neutral (no party data)",
     "confidence": "low",
@@ -1289,16 +1289,16 @@
    },
    "IA": {
     "figures": {
-     "counts_through": "2026-11-01",
-     "total": "464008",
+     "counts_through": "2026-11-02",
+     "total": "498713",
      "mail": "149325",
      "in_person": "314683",
      "dem": "213835",
      "rep": "156900",
      "unaffiliated_other": "93273",
-     "gap_now": "12.27",
-     "vs_2022_change": "+36%",
-     "gap_2022": "18.68",
+     "gap_now": "10.73",
+     "vs_2022_change": "+35%",
+     "gap_2022": "17.49",
      "vs_2024_change": "\u221227%",
      "gap_2024": "-1.3"
     },
@@ -1313,11 +1313,11 @@
      }
     ],
     "official_page": "https://sos.iowa.gov/iowans/election-results-statistics",
-    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02 UTC)",
+    "as_of_mt": "counts through 2026-11-02 (Call the Map checked 8:29 AM MT Nov 3)",
     "stale": "false",
     "signal": "leans R",
     "confidence": "low",
-    "basis": "D reg lead D+12.3 vs D+18.7 at same point 2022, volume +36%",
+    "basis": "D+10.7 vs D+17.5 at the same point in 2022 (tracker); volume +35%",
     "signal_vs_2022": "leans right",
     "trust": "Tracker data"
    },
@@ -1418,7 +1418,10 @@
    "MI": {
     "figures": {
      "counts_through": "2026-11-01",
-     "total": "1628714"
+     "total": "1628714",
+     "pct_active_registered_voted_by_5am_mt_nov3": "32.9%",
+     "ballots_cast_mon_morning": "2313165",
+     "early_in_person": "750469"
     },
     "sources": [
      {
@@ -1428,10 +1431,14 @@
      {
       "name": "Call the Map",
       "url": "https://www.callthemap.com/early-vote"
+     },
+     {
+      "name": "CBS Detroit citing Michigan state data (Nov 3, 7:24 AM MT)",
+      "url": "https://www.cbsnews.com/detroit/news/michigan-election-day-voter-turnout-early-voting-2026/"
      }
     ],
     "official_page": "https://www.michigan.gov/sos/elections/election-results-and-data/voter-participation-dashboard",
-    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02 UTC)",
+    "as_of_mt": "32.9% of active registered voters had voted by 5:00 AM MT Nov 3; 2,313,165 ballots as of Monday morning Nov 2 (state data via CBS Detroit). Call the Map still shows 1,628,714 (stale).",
     "stale": "false",
     "signal": "neutral (no party data)",
     "confidence": "low",
@@ -1440,16 +1447,16 @@
    },
    "NC": {
     "figures": {
-     "counts_through": "2026-11-01",
-     "total": "2819922",
+     "counts_through": "2026-11-02",
+     "total": "2828288",
      "mail": "93597",
      "in_person": "2726325",
-     "dem": "1081911",
-     "rep": "737349",
-     "unaffiliated_other": "1000662",
-     "gap_now": "12.22",
-     "vs_2022_change": "+31%",
-     "gap_2022": "6.87",
+     "dem": "1085329",
+     "rep": "738750",
+     "unaffiliated_other": "1004209",
+     "gap_now": "12.25",
+     "vs_2022_change": "+30%",
+     "gap_2022": "6.97",
      "vs_2024_change": "\u221237%",
      "gap_2024": "-0.88"
     },
@@ -1464,12 +1471,12 @@
      }
     ],
     "official_page": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS",
-    "as_of_mt": "counts through 2026-11-01 (file 2026-11-02T10:28:32Z UTC)",
+    "as_of_mt": "counts through 2026-11-02 (NCSBE file last modified 3:36 AM MT Nov 3)",
     "stale": "false",
     "signal": "leans D",
     "confidence": "low",
-    "basis": "D+12.2 vs D+6.9 in 2022, volume +31%; unaffiliated 35%",
-    "verified": "Verified 2026-11-02 8:12 PM MT against NCSBE statewide absentee file absentee_20261103.zip (last modified 2026-11-02 3:28 AM MT): 2,819,922 ballots with ACCEPTED/ACCEPTED-EXCEPTION/ACCEPTED-CURED status; ACCEPTED-only D 1,077,107 / R 735,139 / other 996,899 = D+12.17. 2022 comparison (D+6.9) is tracker-reported, not re-verified.",
+    "basis": "D+12.25 vs D+6.97 same point 2022 (tracker), volume +30%; unaffiliated 35%",
+    "verified": "Verified 2026-11-03 9:10 AM MT against NCSBE absentee_20261103.zip (last modified 3:36 AM MT Nov 3): 2,828,288 ballots ACCEPTED/ACCEPTED-EXCEPTION/ACCEPTED-CURED; D 1,085,329 / R 738,750 / UNA 995,435 / other 8,774 = D+12.25. Call the Map shows 2,828,274. 2022 comparison is tracker-reported.",
     "trust": "Official count (2026 figures); Tracker data (2022/2024 comparison)",
     "signal_vs_2022": "leans left"
    },
@@ -1538,7 +1545,8 @@
      "counts_through": "2026-10-30",
      "total": "7718734",
      "mail": "259793",
-     "in_person": "7458941"
+     "in_person": "7458941",
+     "total_ctm_latest": "7711255"
     },
     "sources": [
      {
@@ -1597,7 +1605,7 @@
    }
   },
   "x_framings": {
-   "checked_mt": "2026-11-02 8:08 PM MT",
+   "checked_mt": "2026-11-03 9:20 AM MT",
    "items": [
     {
      "side": "Dem-favorable framing",
@@ -1619,6 +1627,13 @@
      "url": "https://x.com/ZacharyDonnini/status/2117256909711433817",
      "quote": "The 2026 electorate looks likely to be more diverse and more Democratic than the 2024 electorate. Republicans put up a fight and kept the turnout differential from getting out of hand.",
      "check": "Consistent with county data (D strongholds +47.6% vs R +34.0% vs 2022); modeled, unconfirmed."
+    },
+    {
+     "side": "GOP-favorable framing",
+     "author": "X trending summary (compiled from posts)",
+     "url": "https://x.com/i/trending/2117599776849989816",
+     "quote": "Republicans Surge to 24-Point Leads on Florida Election Day 2026",
+     "check": "Unverified and not like-for-like: Election Day in-person voting leans heavily Republican every cycle, so a morning ED-only margin says little about the final result; FL is not a key race here. FL Division of Elections pre-Election Day figures show a smaller R ballot lead (133,177) than 2022 (~300,000 per Miami Herald)."
     }
    ]
   },
@@ -1627,12 +1642,58 @@
    "confidence": "low",
    "direction_vs_2024": "left (in every party-registration state tracked), but midterm vs presidential electorates differ",
    "confidence_vs_2024": "low",
-   "basis": "vs 2022: NC and TX lean left, IA leans right, ME about the same (slightly right), KS/MI/OH/AK/SC/KY no like-for-like comparison"
-  }
+   "basis": "vs 2022: NC (D+12.25 vs D+6.97) and TX lean left, IA (D+10.7 vs D+17.5) leans right, ME about the same; KS/MI/OH/AK/SC/KY no like-for-like comparison. Unchanged from Nov 2 8:10 PM read."
+  },
+  "election_day_reports": [
+   {
+    "state": "MI",
+    "text": "32.9% of active registered voters had voted before polls opened (by 5 AM MT), up from 31.2% Monday morning; 750,469 early in person.",
+    "source": "CBS Detroit citing state data",
+    "url": "https://www.cbsnews.com/detroit/news/michigan-election-day-voter-turnout-early-voting-2026/",
+    "vs_2022": "no verified like-for-like 2022 figure retrieved"
+   },
+   {
+    "state": "KY",
+    "text": "Fayette County (Lexington) 19,187 Election Day votes by 6:28 AM MT; Secretary of State Michael Adams says 438,602 voted early vs 313,009 in 2023 (an off-year governor race, not a midterm).",
+    "source": "Lexington Herald-Leader live updates",
+    "url": "https://www.kentucky.com/news/politics-government/election/article317881998.html",
+    "vs_2022": "no 2022 comparison given"
+   }
+  ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Compared with the 2022 midterm, early voting is mixed with a slight tilt toward Democrats, at low confidence. North Carolina's early ballots lean more Democratic than in 2022 (checked against the state's own file), and in Texas, turnout grew faster in Democratic-leaning counties than in Republican-leaning ones. Iowa leans less Democratic than 2022, and Maine looks about the same. Early votes are not results: many Republicans vote on Election Day, and unaffiliated voters decide close races.",
+ "takeaways_summary": "Compared with the 2022 midterm, early voting is mixed with a slight tilt toward Democrats, at low confidence, and the final pre-Election Day numbers didn't change that. North Carolina's early ballots lean more Democratic than in 2022 (checked against the state's own file), and in Texas turnout grew faster in Democratic-leaning counties than in Republican-leaning ones. Iowa leans less Democratic than 2022, and Maine looks about the same. Early votes are not results: many Republicans vote on Election Day, and unaffiliated voters decide close races.",
  "takeaways": [
+  {
+   "time_mt": "9:20 AM MT, Nov 3",
+   "headline": "Michigan: about a third of active voters had already voted when polls opened",
+   "detail": "State data show 32.9% of Michigan's active registered voters had cast ballots by 7 AM ET Tuesday, including 750,469 early in-person votes; 2,313,165 ballots had been cast as of Monday morning. Michigan doesn't register by party, so this is turnout, not direction.",
+   "source_label": "CBS Detroit citing Michigan state data",
+   "source_url": "https://www.cbsnews.com/detroit/news/michigan-election-day-voter-turnout-early-voting-2026/",
+   "tag": "turnout",
+   "confidence": "moderate",
+   "trust": "Tracker data"
+  },
+  {
+   "time_mt": "9:20 AM MT, Nov 3",
+   "headline": "North Carolina's final early vote: registered Democrats up 12.25 points",
+   "detail": "The state's own file shows 2,828,288 accepted ballots: 1,085,329 from registered Democrats, 738,750 Republicans and 995,435 unaffiliated, a 12.25-point Democratic edge versus about 7.0 at the same point in 2022 (tracker). Registration isn't vote choice.",
+   "source_label": "NC State Board of Elections absentee file",
+   "source_url": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_20261103.zip",
+   "tag": "early vote",
+   "confidence": "low",
+   "trust": "Official count"
+  },
+  {
+   "time_mt": "9:20 AM MT, Nov 3",
+   "headline": "Iowa's final early vote still leans less Democratic than 2022",
+   "detail": "498,713 early ballots, with registered Democrats ahead by 10.7 points versus 17.5 at the same point in 2022. Volume is up 35%.",
+   "source_label": "Call the Map (Iowa Secretary of State data)",
+   "source_url": "https://www.callthemap.com/early-vote",
+   "tag": "early vote",
+   "confidence": "low",
+   "trust": "Tracker data"
+  },
   {
    "time_mt": "8:55 AM MT, Nov 3",
    "headline": "Florida: Republicans' pre-Election Day ballot lead is smaller than in 2022",
