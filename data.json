@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T17:18:00-07:00",
+ "updated_at": "2026-11-03T17:23:00-07:00",
  "status_note": "As of 5:15 PM MT: Decision Desk HQ has called Virginia's Senate race for Mark Warner (D), a hold. Florida's Senate special has about 25% in with Angie Nixon (D) ahead 53.8% to 45.2%, mostly early and mail ballots so far. Georgia, South Carolina and New Hampshire have essentially no votes counted. NC and OH close at 5:30 PM MT.",
  "races": [
   {
@@ -1282,8 +1282,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
-   "current_margin": 5.6,
-   "pct_in": 36,
+   "current_margin": 4.0,
+   "pct_in": 49.9,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1326,11 +1326,11 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "About two-thirds of Florida's vote is still out, much of it Election Day ballots that have leaned Republican, so Nixon's 5.6-point lead (Decision Desk HQ, est. 36% in) is likely to keep shrinking and could flip.",
+   "outstanding_note": "About half of Florida's expected vote is still out, mostly Election Day ballots and the later-closing panhandle, which have leaned Republican; Nixon's 4-point lead has been shrinking and could still flip.",
    "outstanding": {
-    "by_type": "Est. 64% of expected vote outstanding (DDHQ); mostly Election Day precincts plus the panhandle, which closes 6:00 PM MT",
+    "by_type": "~50% of expected vote out, mainly Election Day in-person and panhandle counties (lean R historically)",
     "can_flip_leader": true,
-    "source": "https://x.com/DecisionDeskHQ/status/2117772532925247606"
+    "source": "AP via NBC News, 5:16 PM MT"
    },
    "current_margin_source": {
     "label": "DDHQ, est. 25% in, 5:09 PM MT: Nixon 1,141,121 (53.8%), Moody 958,052 (45.2%)",
@@ -1400,8 +1400,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
-   "current_margin": null,
-   "pct_in": 0,
+   "current_margin": -16.4,
+   "pct_in": 0.1,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1444,7 +1444,7 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "Polls closed 5:00 PM MT; essentially no vote reported yet (AP via NBC, about 5:01 PM MT).",
+   "outstanding_note": "Almost all of Georgia's vote is still out; the first few thousand votes say little, and early and mail ballots that have leaned Democratic usually come in early, with rural Election Day votes later.",
    "outstanding": {
     "by_type": null,
     "can_flip_leader": null,
@@ -1624,8 +1624,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
-   "current_margin": null,
-   "pct_in": 0,
+   "current_margin": 37.2,
+   "pct_in": 0.2,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1668,7 +1668,7 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "Polls closed 5:00 PM MT; essentially no vote reported yet (AP via NBC, about 5:01 PM MT).",
+   "outstanding_note": "Almost all of New Hampshire's vote is still out; small towns report first and the first returns are too few to read.",
    "outstanding": {
     "by_type": null,
     "can_flip_leader": null,
@@ -2345,7 +2345,7 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Virginia (Mark Warner, D, per Decision Desk HQ) is the only Senate call so far, and it doesn't change the math: Democrats still need a net gain of 4. In Florida, Democrat Angie Nixon leads by 5.6 points with about 36% in, down from 8.6 earlier, as Election Day votes start to narrow a count that began with early and mail ballots; it's too early to say whether the night is shifting left or right vs 2022/2024. North Carolina and Ohio close at 5:30 PM MT.",
+ "takeaways_summary": "Virginia (Mark Warner, D, per Decision Desk HQ) is the only Senate call so far; Democrats still need a net gain of 4. In Florida, Democrat Angie Nixon leads by 4.0 points (D+4) with about half the vote in per AP data, down from 8.6 earlier as Election Day votes narrow a count that began with early and mail ballots; it's too early to say whether results are shifting left or right vs 2022/2024. North Carolina and Ohio close at 5:30 PM MT.",
  "takeaways": [
   {
    "time_mt": "5:15 PM MT, Nov 3",
