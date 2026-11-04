@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03T17:45:00-07:00",
- "status_note": "As of 5:15 PM MT: Decision Desk HQ has called Virginia's Senate race for Mark Warner (D), a hold. Florida's Senate special has about 25% in with Angie Nixon (D) ahead 53.8% to 45.2%, mostly early and mail ballots so far. Georgia, South Carolina and New Hampshire have essentially no votes counted. NC and OH close at 5:30 PM MT.",
+ "updated_at": "2026-11-03T17:54:00-07:00",
+ "status_note": "As of 5:54 PM MT: South Carolina's early count shows Andrews (D) 51.2% to Graham (R) 47.6% at 9.3% in, a lead flip from Graham's early edge, though Republican-leaning Election Day votes are still out. Florida's special is nearly tied, Nixon (D) 49.6% to Moody (R) 49.3% at 81.6% in. Two Senate calls so far, both Democratic holds (VA, GA). Polls close in Maine, Michigan, Texas, Kansas and more at 6 PM MT. Source: AP via NBC News.",
  "races": [
   {
    "state": "AK",
@@ -744,8 +744,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
-   "current_margin": 36.5,
-   "pct_in": 6.2,
+   "current_margin": 32.9,
+   "pct_in": 17.6,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -817,9 +817,15 @@
     "miss": -1.9,
     "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
-   "outstanding_note": "Only about 6% of the vote is in, mostly early and absentee ballots that Ohio reports first and that lean Democratic; Election Day precincts still to come have leaned Republican, so this lead can easily flip.",
+   "outstanding_note": "About 82% of Ohio's vote is still out, mostly Election Day precincts that have leaned Republican, while the 18% counted is mostly early and absentee ballots that Ohio reports first and that lean Democratic, so Brown's lead can shrink a lot.",
    "outstanding": {
-    "by_type": "Mostly Election Day precincts still out",
+    "by_type": [
+     {
+      "type": "Election Day",
+      "est_votes": "unknown (~82% of expected vote)",
+      "lean_hist": "R"
+     }
+    ],
     "can_flip_leader": true,
     "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
    }
@@ -1171,8 +1177,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "missing \u2014 not researched this run",
-   "current_margin": 16.0,
-   "pct_in": 3.1,
+   "current_margin": 3.6,
+   "pct_in": 9.3,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1216,11 +1222,17 @@
     "miss": null,
     "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
-   "outstanding_note": "Under 1% of South Carolina's vote is counted, far too little to read.",
+   "outstanding_note": "About 91% of South Carolina's vote is still out; early and absentee ballots tend to be counted first and lean Democratic, and Election Day votes still to come have leaned Republican, so Andrews' early lead can flip.",
    "outstanding": {
-    "by_type": null,
-    "can_flip_leader": null,
-    "source": "https://www.nbcnews.com/politics/2026-elections/south-carolina-senate-results"
+    "by_type": [
+     {
+      "type": "Election Day and remaining early vote",
+      "est_votes": "unknown (~91% of expected vote)",
+      "lean_hist": "R"
+     }
+    ],
+    "can_flip_leader": true,
+    "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
    }
   },
   {
@@ -1286,8 +1298,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
-   "current_margin": 1.3,
-   "pct_in": 74.2,
+   "current_margin": 0.3,
+   "pct_in": 81.6,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1330,9 +1342,15 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "About a quarter of the expected vote is still out, mostly Election Day ballots and the panhandle, which have leaned Republican in recent Florida elections, so Nixon's 1.3-point lead can still flip.",
+   "outstanding_note": "About 18% of Florida's expected vote is still out, mostly Election Day ballots and the panhandle, which have leaned Republican in recent Florida elections, so Nixon's 0.3-point lead can easily flip.",
    "outstanding": {
-    "by_type": "Mostly Election Day ballots (plus FL panhandle) still out",
+    "by_type": [
+     {
+      "type": "Election Day",
+      "est_votes": "unknown (~18% of expected vote)",
+      "lean_hist": "R"
+     }
+    ],
     "can_flip_leader": true,
     "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
    },
@@ -1404,8 +1422,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
-   "current_margin": 31.8,
-   "pct_in": 29.7,
+   "current_margin": 28.2,
+   "pct_in": 33.3,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1634,7 +1652,7 @@
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
    "current_margin": 25.0,
-   "pct_in": 10.2,
+   "pct_in": 12.5,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1677,7 +1695,7 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "Almost all of New Hampshire's vote is still out; small towns report first and the first returns are too few to read.",
+   "outstanding_note": "About 88% of New Hampshire's vote is still out, and the first towns to report are too few to read.",
    "outstanding": {
     "by_type": null,
     "can_flip_leader": null,
@@ -1842,9 +1860,9 @@
    },
    "source": "https://www.congresscountdown.com/info/party-breakdown",
    "called": {
-    "D": 11,
-    "R": 7,
-    "detail": "AP race calls as shown by NBC News at 7:44 PM ET (5:44 PM MT)",
+    "D": 14,
+    "R": 11,
+    "detail": "AP race calls as shown by NBC News at 7:54 PM ET (5:54 PM MT)",
     "source": "https://www.nbcnews.com/politics/2026-elections/house-results"
    },
    "undecided": null
@@ -1889,6 +1907,12 @@
   }
  ],
  "alerts": [
+  {
+   "time_mt": "5:54 PM MT, Nov 3",
+   "text": "South Carolina Senate, 9.3% in: Andrews (D) 51.2%, Graham (R) 47.6%, lead flipped from Graham; mostly early vote. Florida special, 81.6% in: Nixon (D) 49.6%, Moody (R) 49.3%.",
+   "trust": "Official count",
+   "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+  },
   {
    "time_mt": "5:45 PM MT, Nov 3",
    "text": "Florida Senate special, 74.2% in: Nixon (D) 50.1%, Moody (R) 48.8%, Nixon's lead narrows to 1.3 points from 2.7 as Election Day votes come in. Ohio special, 6.2% in: Brown (D) 66.8%, Husted (R) 30.3%, early and absentee ballots counted first.",
@@ -2399,8 +2423,18 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Two Senate races are called, both Democratic holds (Virginia and Georgia), so Democrats still need a net gain of 4. Florida's Senate special has tightened to Nixon (D) +1.3 with 74% in per AP data, still ahead of the Moody +5.8 polling average and Trump's 13-point 2024 win, a shift left so far, though Republican-leaning Election Day and panhandle votes are still out. Ohio's early lead for Brown reflects early ballots counted first.",
+ "takeaways_summary": "Two Senate races are called, both Democratic holds (Virginia and Georgia), so Democrats still need a net gain of 4. Florida's special is now nearly tied (Nixon D +0.3 at 82% in per AP), still well left of the Moody +5.8 polling average and Trump's 13-point 2024 win, and South Carolina's early count has Andrews (D) ahead; both lean left of 2024 so far, but Republican-leaning Election Day votes are still coming in.",
  "takeaways": [
+  {
+   "time_mt": "5:54 PM MT, Nov 3",
+   "headline": "South Carolina early lead flips to Andrews; Florida now nearly tied",
+   "detail": "Per AP data via NBC News, Annie Andrews (D) leads Lindsey Graham (R) 51.2% to 47.6% (D+3.6, meaning Andrews ahead by 3.6 points) with 9.3% in, after Graham led at 3.1% in. The final polling average was Graham +2.2 and Trump won South Carolina by 17.9 in 2024, but this is mostly early vote, which leans Democratic; Election Day votes still to come have leaned Republican. In Florida, Nixon (D) leads Moody (R) 49.6% to 49.3% at 81.6% in, down from D+1.3.",
+   "source_label": "AP via NBC News",
+   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "tag": "note",
+   "confidence": null,
+   "trust": "Official count"
+  },
   {
    "time_mt": "5:45 PM MT, Nov 3",
    "headline": "Florida tightens: Nixon's lead shrinks to 1.3 points with 74% in",
@@ -2689,8 +2723,8 @@
  "gop_meter": {
   "state": "worse",
   "headline": "Worse than expected for Republicans so far",
-  "reason": "Florida's Senate special has Nixon (D) 50.1% to Moody (R) 48.8% at 74.2% in per AP, versus a Moody +5.8 polling average and Trump +13.1 in 2024, and Georgia was called for Ossoff (DDHQ, NBC); Florida is narrowing as Election Day votes arrive and could still flip.",
-  "as_of_mt": "5:45 PM MT, Nov 3",
+  "reason": "Florida's Senate special is nearly tied (Nixon D 49.6%, Moody R 49.3% at 81.6% in per AP) versus a Moody +5.8 polling average and Trump +13.1 in 2024, and South Carolina's early count shows Andrews (D) ahead of Graham versus a Graham +2.2 average; both counts still lack Republican-leaning Election Day votes.",
+  "as_of_mt": "5:54 PM MT, Nov 3",
   "basis": "Model read vs polling averages, not a call",
   "source_label": "AP via NBC News",
   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
