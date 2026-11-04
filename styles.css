@@ -173,3 +173,55 @@ section>:not(h2){margin-left:28px!important;margin-right:28px!important}
 [data-theme="dark"] .gopm-txt b{color:#e8eaed}
 [data-theme="dark"] .gopm-seg{color:#9aa0a6}[data-theme="dark"] .gopm-seg.on{color:#1a1300}
 @media(max-width:560px){.gopm{flex-direction:column;align-items:stretch}.gopm-sw{display:flex}.gopm-txt{flex:none}.gopm-seg{flex:1;text-align:center;white-space:normal;padding:5px 6px;font-size:11.5px}}
+
+/* ===== NYT-inspired results theme ===== */
+:root{--bg:#fff;--card:#fff;--ink:#121212;--ink2:#333;--mut:#727272;--line:#e2e2e2;--line2:#ebebeb;--chip:#f4f4f4;--acc:#326891;--D:#2a6ebb;--R:#d0021b;
+ --font:"Libre Franklin","Franklin Gothic Medium",Arial,sans-serif;--serif:"Source Serif 4",Georgia,"Times New Roman",serif;--mono:var(--font)}
+body{font-family:var(--font);font-size:16px;background:var(--bg)}
+.wrap{max-width:1000px}
+.hd{padding-top:36px;padding-bottom:18px;border-bottom:1px solid var(--ink);text-align:center}
+.kick{font-family:var(--font);font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--ink)}
+h1{font-family:var(--serif);font-weight:700;font-size:44px;letter-spacing:-.01em;line-height:1.1}
+.upd{justify-content:center;font-family:var(--font);text-transform:none;letter-spacing:0;font-size:12.5px;color:var(--mut)}
+section{border:0;border-radius:0;border-top:1px solid var(--line);background:transparent;margin:0;padding:0 0 28px}
+section>*{margin-left:0!important;margin-right:0!important}
+section>:not(h2){margin-left:0!important;margin-right:0!important}
+section[data-k]::before{font-family:var(--font);font-size:11px;font-weight:700;letter-spacing:.1em;color:var(--mut);margin:22px 0 4px}
+section>h2{font-family:var(--serif);font-size:26px;font-weight:700;letter-spacing:-.01em;padding:0 0 12px;border-bottom:0}
+section>h2+*{margin-top:8px}
+h3{font-family:var(--serif);font-weight:700}
+.tk-sum{border-left:3px solid var(--ink)}.tk-sum h3{font-family:var(--font)}.tk-sum p{font-family:var(--serif);font-size:20px;font-weight:400}
+.card,.tk-card{border:0;border-top:1px solid var(--line);border-radius:0;padding:12px 0;background:transparent}
+.tk-feed{gap:0 28px}
+p,li,dd{color:var(--ink2)}
+.pill,.trust,.tk-tag{font-family:var(--font);border-radius:2px;letter-spacing:.04em;font-weight:600}
+thead th{font-family:var(--font);font-size:11px;font-weight:700;color:var(--mut);border-bottom:1px solid var(--ink)}
+th,td{border-bottom:1px solid var(--line2);padding:9px 10px}
+.num,#races td:nth-child(n+4){font-family:var(--font)}
+.toggle{border-radius:3px}.toggle button{font-family:var(--font);border-radius:2px;letter-spacing:.04em}
+.bar{height:6px;border-radius:0}
+.pbar{border-radius:0;background:#e2e2e2;height:28px}.fd,.fr{border-radius:0!important}.fd{background:var(--D)}.fr{background:var(--R)}
+.seat .k,.lb,.cap,.bl{font-family:var(--font)}.sc .num{font-family:var(--serif);font-weight:700}
+canvas{border-radius:0}.status{font-family:var(--font);letter-spacing:0;font-size:12.5px;text-align:center}
+.themebtn{top:22px;transform:none;border-radius:3px;width:32px;height:32px}
+#persp .pc-fc{border-radius:0;background:#f7f7f7;border-left-color:#999}
+.gloss-k{font-family:var(--font)}
+/* GOP meter */
+.gopm{border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;padding:14px 0;margin:0;gap:18px;align-items:flex-start}
+.gopm-l{display:flex;flex-direction:column;gap:5px;flex:0 1 auto;max-width:100%}
+.gopm-sw{border:1px solid #c7c7c7;border-radius:3px;padding:2px}
+.gopm-seg{font-family:var(--font);font-size:12px;border-radius:2px;color:var(--mut);padding:5px 10px}
+.gopm-seg.on{background:var(--ink);color:#fff}
+.gopm-cap{font-size:11px;color:var(--mut);letter-spacing:.02em}
+.gopm-txt b{font-family:var(--serif);font-size:16px}
+[data-theme=dark]{--bg:#0f1115;--card:#0f1115;--ink:#e8eaed;--ink2:#c9ced6;--mut:#9aa0a6;--line:#2a2f3a;--line2:#222630;--D:#5b9bf0;--R:#f06a6a;--chip:#1c2028}
+[data-theme=dark] .hd{border-bottom-color:#e8eaed}
+[data-theme=dark] thead th{border-bottom-color:#5a6070}
+[data-theme=dark] .gopm{background:transparent;border-color:var(--line)}
+[data-theme=dark] .gopm-sw{border-color:#3a404c}
+[data-theme=dark] .gopm-seg.on{background:#e8eaed;color:#0f1115}
+[data-theme=dark] .toggle button.on{background:#e8eaed;color:#0f1115}
+[data-theme=dark] #persp .pc-fc{background:#171a21}
+@media(max-width:640px){h1{font-size:30px}.hd{padding-top:26px}section>h2{font-size:21px;padding:0 0 10px}.tk-sum p{font-size:17px}
+ .gopm{flex-direction:column;align-items:stretch}.gopm-l{width:100%}.gopm-sw{display:flex}.gopm-seg{flex:1;white-space:normal;text-align:center;font-size:11px;padding:5px 4px;line-height:1.25}
+ .themebtn{top:12px;right:14px}}
