@@ -2652,5 +2652,14 @@
   "updated_at": "2026-11-03T17:37:00-07:00",
   "label": "Model projection, not a call",
   "note": "Not enough county-level vote yet; the only key race with meaningful vote (Florida) is mostly early and mail ballots, which would bias a swing model toward Democrats."
+ },
+ "gop_meter": {
+  "state": "worse",
+  "headline": "Republicans running behind polls so far.",
+  "reason": "Florida's Senate special has Nixon (D) 49.9% to Moody (R) 49.0% at 63.7% in, versus a Moody +5.8 polling average and Trump +13.1 in 2024; Georgia was called for Ossoff (DDHQ 5:18 PM MT, NBC 5:31 PM MT), and Democrats led early in GOP-held FL-27 and FL-13 per DDHQ. Early: Election Day votes and the FL panhandle (closes 6 PM MT) are still out and have leaned Republican.",
+  "as_of_mt": "5:34 PM MT",
+  "basis": "Model read vs polling averages, not a call",
+  "source_label": "AP via NBC News",
+  "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
  }
 }
