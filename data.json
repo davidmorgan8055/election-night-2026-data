@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03T14:05:00-07:00",
- "status_note": "Pre-closing briefing, 2:05 PM MT. No results yet. First key-state polls close at 5:00 PM MT (SC), then NC and OH at 5:30 PM MT.",
+ "updated_at": "2026-11-03T17:02:00-07:00",
+ "status_note": "Polls closed at 5:00 PM MT in Georgia, South Carolina, most of Florida and most of New Hampshire (plus VA, VT, IN, KY). As of 5:02 PM MT no votes were reported in the key Senate races and no race had been called (AP via NPR). NC and OH close at 5:30 PM MT.",
  "races": [
   {
    "state": "AK",
@@ -1168,7 +1168,7 @@
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "missing \u2014 not researched this run",
    "current_margin": null,
-   "pct_in": null,
+   "pct_in": 0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1212,8 +1212,12 @@
     "miss": null,
     "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
-   "outstanding_note": null,
-   "outstanding": null
+   "outstanding_note": "All of the vote is still out (NBC/AP estimate about 2.03 million votes expected). Early leads can swing either way as counties report; too early for any read.",
+   "outstanding": {
+    "by_type": null,
+    "can_flip_leader": null,
+    "source": "https://www.nbcnews.com/politics/2026-elections/south-carolina-senate-results"
+   }
   },
   {
    "state": "FL",
@@ -1279,7 +1283,7 @@
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
    "current_margin": null,
-   "pct_in": null,
+   "pct_in": 0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1322,8 +1326,12 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": null,
-   "outstanding": null
+   "outstanding_note": "All of the vote is still out. Florida reports early and mail ballots first, then Election Day votes that have leaned Republican, and the panhandle closes at 6:00 PM MT, so early margins tend to move toward Republicans.",
+   "outstanding": {
+    "by_type": null,
+    "can_flip_leader": null,
+    "source": "https://www.npr.org/2026/11/03/g-s1-148801/senate-election-results-2026"
+   }
   },
   {
    "state": "GA",
@@ -1389,7 +1397,7 @@
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
    "current_margin": null,
-   "pct_in": null,
+   "pct_in": 0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1432,8 +1440,12 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": null,
-   "outstanding": null
+   "outstanding_note": "All of the vote is still out. Georgia reports early in-person and mail ballots first, which have leaned Democratic, so expect the early lead to shrink as Election Day votes come in; too early to say whether the leader can flip.",
+   "outstanding": {
+    "by_type": null,
+    "can_flip_leader": null,
+    "source": "https://www.npr.org/2026/11/03/g-s1-148801/senate-election-results-2026"
+   }
   },
   {
    "state": "MN",
@@ -1609,7 +1621,7 @@
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
    "current_margin": null,
-   "pct_in": null,
+   "pct_in": 0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1652,8 +1664,12 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": null,
-   "outstanding": null
+   "outstanding_note": "All of the vote is still out. New Hampshire towns report one by one with no strong partisan order, and the last polls close at 6:00 PM MT.",
+   "outstanding": {
+    "by_type": null,
+    "can_flip_leader": null,
+    "source": "https://www.npr.org/2026/11/03/g-s1-148801/senate-election-results-2026"
+   }
   },
   {
    "state": "NE",
@@ -1836,7 +1852,14 @@
   "source": "https://midtermresultslive.com/poll-closing-times/ (ET converted: MT = ET-2, standard time after Nov 1)"
  },
  "calls_log": [],
- "alerts": [],
+ "alerts": [
+  {
+   "time_mt": "5:02 PM MT, Nov 3",
+   "text": "Polls closed at 5:00 PM MT in GA, SC, most of FL and most of NH. No votes reported and no calls yet. Watch for a shift: GA and FL report early/mail ballots first, which tend to make Democrats look stronger early before Election Day votes come in.",
+   "trust": "Official count",
+   "source": "https://www.npr.org/2026/11/03/g-s1-148801/senate-election-results-2026"
+  }
+ ],
  "notes": [
   "A race is marked called only when AP or a network decision desk calls it.",
   "Projected margins are an independent model projection, not a call.",
@@ -2292,8 +2315,18 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Before polls close, early voting compared with the 2022 midterm is still mixed with a slight tilt toward Democrats, at low confidence: North Carolina and Texas lean more Democratic than 2022, Iowa leans less, and Maine is about the same. Final polling averages nudged slightly toward Democrats in most key Senate races, but these are polls, not results. The first key results come after South Carolina closes at 5:00 PM MT and North Carolina and Ohio at 5:30 PM MT.",
+ "takeaways_summary": "The first key polls closed at 5:00 PM MT (Georgia, South Carolina, most of Florida and New Hampshire), but no votes are in yet and nothing has been called, so there's no shift to read against 2022 or 2024 yet. Before the closings, early voting looked mixed with a slight tilt toward Democrats compared with 2022, at low confidence. North Carolina and Ohio close at 5:30 PM MT.",
  "takeaways": [
+  {
+   "time_mt": "5:02 PM MT, Nov 3",
+   "headline": "First key polls closed: Georgia, South Carolina, most of Florida and New Hampshire",
+   "detail": "No votes had been reported in these Senate races as of 5:02 PM MT and nothing has been called. In Georgia and Florida the first numbers are usually early and mail ballots, which have leaned Democratic, so early leads may overstate Democrats until Election Day votes are counted. Final polling averages: Georgia D+9.4 (Democrat ahead by 9.4 points), New Hampshire D+8.6, South Carolina R+2.2, Florida R+5.8.",
+   "source_label": "NPR/AP results page; tracker polling averages (RCP, Electoral-Vote, US Polling Data)",
+   "source_url": "https://www.npr.org/2026/11/03/g-s1-148801/senate-election-results-2026",
+   "tag": "note",
+   "confidence": null,
+   "trust": "Official count"
+  },
   {
    "time_mt": "2:05 PM MT, Nov 3",
    "headline": "Pre-closing read: early vote still mixed, tilting slightly left vs 2022",
@@ -2515,8 +2548,8 @@
  "if_trends_hold": {
   "senate": null,
   "house": null,
-  "updated_at": "2026-11-03T14:05:00-07:00",
+  "updated_at": "2026-11-03T17:02:00-07:00",
   "label": "Model projection, not a call",
-  "note": "No results yet; the model starts once counties report after 5:00 PM MT."
+  "note": "No results yet; the model starts once counties report."
  }
 }
