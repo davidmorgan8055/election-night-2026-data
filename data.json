@@ -2386,7 +2386,7 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Two Senate races are called, both Democratic holds (Virginia's Warner and Georgia's Ossoff, per Decision Desk HQ), so Democrats still need a net gain of 4. Florida has narrowed to a 0.9-point Nixon lead with 63.7% in per AP data, already running well ahead of Moody's +5.8 polling average, but Republican-leaning Election Day and panhandle votes remain; it's still too early to say whether results are shifting left or right vs 2022/2024. North Carolina and Ohio polls closed at 5:30 PM MT.",
+ "takeaways_summary": "Two Senate races are called, both Democratic holds (Virginia's Warner and Georgia's Ossoff, per Decision Desk HQ, with NBC News also calling Georgia), so Democrats still need a net gain of 4. Florida has narrowed to a 0.9-point Nixon lead with 63.7% in per AP data, well ahead of Moody's +5.8 polling average and Trump's 13-point 2024 margin, but Republican-leaning Election Day and panhandle votes are still coming in, so it's too early to say whether results are shifting left or right vs 2022/2024. North Carolina and Ohio polls closed at 5:30 PM MT with no votes counted yet.",
  "takeaways": [
   {
    "time_mt": "5:34 PM MT, Nov 3",
@@ -2586,15 +2586,15 @@
   }
  ],
  "perspectives": {
-  "updated_at": "2026-11-03T17:15:00-07:00",
+  "updated_at": "2026-11-03T17:37:00-07:00",
   "right": [
    {
     "paraphrase": "Asked by a follower \"What about Georgia?\", she replied: \"I'm not optimistic.\"",
     "author": "DataRepublican (@DataRepublican)",
     "url": "https://x.com/DataRepublican/status/2117763089911468164",
     "time_mt": "4:37 PM MT",
-    "fact_check": "No Georgia vote had been counted when she posted (AP showed 0% in). The final polling average was Ossoff (D) +9.4, and Georgia had 2,826,387 early ballots returned.",
-    "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "fact_check": "No Georgia vote had been counted when she posted (AP showed 0% in; final polling average Ossoff (D) +9.4). Decision Desk HQ (5:18 PM MT) and NBC News (5:31 PM MT) have since projected Ossoff the winner; with 25.3% in he leads 66.1% to 33.9%, mostly early and mail ballots.",
+    "fact_check_url": "https://x.com/DecisionDeskHQ/status/2117773436718137533",
     "trust": "Unconfirmed (X)"
    },
    {
@@ -2602,8 +2602,8 @@
     "author": "DataRepublican (@DataRepublican)",
     "url": "https://x.com/DataRepublican/status/2117710086831558838",
     "time_mt": "1:06 PM MT",
-    "fact_check": "Direction is consistent so far: the registered-Republican early-vote edge was 2.4 points vs 10.1 at the same point in 2024, and the first 25% of the Senate count has Nixon (D) +8.6 vs Trump +13.1 in 2024. But that count is mostly early/mail ballots, so the size of any shift can't be judged yet.",
-    "fact_check_url": "https://x.com/DecisionDeskHQ/status/2117771164793622766",
+    "fact_check": "Direction is consistent so far: the registered-Republican early-vote edge was 2.4 points vs 10.1 at the same point in 2024, and with 63.7% in the Senate count is Nixon (D) +0.9 vs Trump R+13.1 in 2024. Nixon's lead has shrunk from +8.6 at 25% in as Election Day ballots are added, so the size of any shift can't be judged yet.",
+    "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
     "trust": "Unconfirmed (X)"
    },
    {
@@ -2649,7 +2649,7 @@
  "if_trends_hold": {
   "senate": null,
   "house": null,
-  "updated_at": "2026-11-03T17:15:00-07:00",
+  "updated_at": "2026-11-03T17:37:00-07:00",
   "label": "Model projection, not a call",
   "note": "Not enough county-level vote yet; the only key race with meaningful vote (Florida) is mostly early and mail ballots, which would bias a swing model toward Democrats."
  }
