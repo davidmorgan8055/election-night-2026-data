@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03T18:29:00-07:00",
- "status_note": "As of 6:29 PM MT: NBC News projects Cooper (D) flips North Carolina, the first Senate seat to change party; Democrats need a net +3 more. Florida (Moody R+2.1 at 94% in) ran well left of polls, and South Carolina's Andrews (D) leads by 5.3 points at 39% in, with Republican-leaning Election Day votes still out (AP via NBC News).",
+ "updated_at": "2026-11-03T18:35:00-07:00",
+ "status_note": "As of 6:35 PM MT: no new Senate calls since NBC projected Cooper (D) flipping North Carolina; Democrats need a net +3 more. Florida (Moody R+2.3 at 95% in) ran well left of polls, and South Carolina's Andrews (D) leads by 4.7 points at 42% in, with Republican-leaning Election Day votes still out (AP via NBC News).",
  "races": [
   {
    "state": "AK",
@@ -17,7 +17,7 @@
     }
    ],
    "other_candidates": [
-    "Gerald Heikes (R) — per electiontracker.live; RCV"
+    "Gerald Heikes (R) \u2014 per electiontracker.live; RCV"
    ],
    "rcv": true,
    "incumbent_party": "R",
@@ -281,7 +281,7 @@
     }
    ],
    "other_candidates": [
-    "David Graham (L) — 4% in NYT/Siena"
+    "David Graham (L) \u2014 4% in NYT/Siena"
    ],
    "rcv": false,
    "incumbent_party": "R",
@@ -338,8 +338,8 @@
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT four western Mountain-time counties",
    "counting_note": "Mail ballots postmarked by Election Day accepted through Nov 6.",
-   "current_margin": 16.8,
-   "pct_in": 12.1,
+   "current_margin": 17.6,
+   "pct_in": 12.8,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -613,8 +613,8 @@
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT four western UP counties",
    "counting_note": "Slow; reports by locality. Early D from Ann Arbor/Grand Rapids, then R gains, late Detroit absentees, Washtenaw, Genesee.",
-   "current_margin": 16.4,
-   "pct_in": 6.5,
+   "current_margin": 14.8,
+   "pct_in": 7.1,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -705,7 +705,7 @@
     }
    ],
    "other_candidates": [
-    "Greg Levy (I) — per electiontracker.live"
+    "Greg Levy (I) \u2014 per electiontracker.live"
    ],
    "rcv": false,
    "incumbent_party": "R",
@@ -755,8 +755,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
-   "current_margin": 18.7,
-   "pct_in": 34.1,
+   "current_margin": 18.2,
+   "pct_in": 34.6,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -908,8 +908,8 @@
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT El Paso area",
    "counting_note": "Big early-vote dumps (Harris) first can show D lead; many small R counties then; Dallas/Harris Election Day late. Mail postmarked by E-Day accepted until 5 PM Nov 4.",
-   "current_margin": 20.9,
-   "pct_in": 23.1,
+   "current_margin": 19.9,
+   "pct_in": 23.8,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1034,8 +1034,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee processed ahead and reported first.",
-   "current_margin": 35.2,
-   "pct_in": 56.2,
+   "current_margin": 34.4,
+   "pct_in": 57.7,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1204,9 +1204,9 @@
     "source": "MEDSL statewide results (D minus R)"
    },
    "poll_close_mt": "5:00 PM MT",
-   "counting_note": "missing — not researched this run",
-   "current_margin": 5.3,
-   "pct_in": 38.6,
+   "counting_note": "missing \u2014 not researched this run",
+   "current_margin": 4.7,
+   "pct_in": 42.2,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1335,8 +1335,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
-   "current_margin": -2.1,
-   "pct_in": 94.0,
+   "current_margin": -2.3,
+   "pct_in": 95.0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1462,7 +1462,7 @@
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
    "current_margin": 26.0,
-   "pct_in": 58.8,
+   "pct_in": 59.1,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1694,8 +1694,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
-   "current_margin": 22.7,
-   "pct_in": 22.5,
+   "current_margin": 22.2,
+   "pct_in": 23.0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1910,9 +1910,9 @@
    },
    "source": "https://www.congresscountdown.com/info/party-breakdown",
    "called": {
-    "D": 41,
-    "R": 17,
-    "detail": "AP race calls as shown by NBC News at 8:29 PM ET (6:29 PM MT); 377 of 435 uncalled",
+    "D": 44,
+    "R": 20,
+    "detail": "AP race calls as shown by NBC News at 8:32 PM ET (6:32 PM MT); 371 of 435 uncalled",
     "source": "https://www.nbcnews.com/politics/2026-elections/house-results"
    },
    "undecided": null
@@ -2133,7 +2133,7 @@
      "gap_now": "10.73",
      "vs_2022_change": "+35%",
      "gap_2022": "17.49",
-     "vs_2024_change": "−26%",
+     "vs_2024_change": "\u221226%",
      "gap_2024": "-1.64"
     },
     "sources": [
@@ -2191,7 +2191,7 @@
      "total": "438602",
      "mail": "47866",
      "in_person": "390736",
-     "vs_2024_change": "−26%"
+     "vs_2024_change": "\u221226%"
     },
     "sources": [
      {
@@ -2228,7 +2228,7 @@
      "gap_now": "23.71",
      "vs_2022_change": "+34%",
      "gap_2022": "25.15",
-     "vs_2024_change": "−16%",
+     "vs_2024_change": "\u221216%",
      "gap_2024": "14.08"
     },
     "sources": [
@@ -2292,7 +2292,7 @@
      "gap_now": "12.25",
      "vs_2022_change": "+30%",
      "gap_2022": "6.97",
-     "vs_2024_change": "−37%",
+     "vs_2024_change": "\u221237%",
      "gap_2024": "-0.88"
     },
     "sources": [
@@ -2533,7 +2533,7 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Democrats have flipped North Carolina (NBC News projection), the only Senate seat to change party so far, so they need a net gain of 3 more seats for control; Republicans held Florida's special. Florida, the only key race nearly fully counted, finished far closer than expected (Moody R+2.1 at 94% in vs a Moody +5.8 polling average and Trump +13.1 in 2024), pointing left of both 2022 and 2024. Early counts in South Carolina, Ohio, Texas, Kansas and Michigan lean Democratic but are mostly early and mail ballots, and Republican-leaning Election Day votes are still out.",
+ "takeaways_summary": "Democrats have flipped North Carolina (NBC News projection), the only Senate seat to change party so far, so they need a net gain of 3 more seats for control; Republicans held Florida's special. Florida, the only key race nearly fully counted, finished far closer than expected (Moody R+2.3 at 95% in vs a Moody +5.8 polling average and Trump +13.1 in 2024), pointing left of both 2022 and 2024. Early counts in South Carolina, Ohio, Texas, Kansas and Michigan lean Democratic but are mostly early and mail ballots, and Republican-leaning Election Day votes are still out.",
  "takeaways": [
   {
    "time_mt": "6:30 PM MT, Nov 3",
@@ -2866,8 +2866,8 @@
  "gop_meter": {
   "state": "worse",
   "headline": "Worse than expected for Republicans so far",
-  "reason": "Democrats flipped North Carolina (NBC News projection) and Republicans held Florida, but Moody leads only 50.5% to 48.4% at 94% in per AP versus a Moody +5.8 polling average and Trump +13.1 in 2024; South Carolina's count shows Andrews (D) ahead 51.8% to 46.5% at 38.6% in versus a Graham +2.2 average, with Republican-leaning Election Day votes still out.",
-  "as_of_mt": "6:29 PM MT, Nov 3",
+  "reason": "Democrats flipped North Carolina (NBC News projection) and Republicans held Florida, but Moody leads only 50.6% to 48.3% at 95% in per AP versus a Moody +5.8 polling average and Trump +13.1 in 2024; South Carolina's count shows Andrews (D) ahead 51.5% to 46.8% at 42.2% in versus a Graham +2.2 average, with Republican-leaning Election Day votes still out.",
+  "as_of_mt": "6:35 PM MT, Nov 3",
   "basis": "Model read vs polling averages, not a call",
   "source_label": "AP via NBC News",
   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
