@@ -225,3 +225,11 @@ canvas{border-radius:0}.status{font-family:var(--font);letter-spacing:0;font-siz
 @media(max-width:640px){h1{font-size:30px}.hd{padding-top:26px}section>h2{font-size:21px;padding:0 0 10px}.tk-sum p{font-size:17px}
  .gopm{flex-direction:column;align-items:stretch}.gopm-l{width:100%}.gopm-sw{display:flex}.gopm-seg{flex:1;white-space:normal;text-align:center;font-size:11px;padding:5px 4px;line-height:1.25}
  .themebtn{top:12px;right:14px}}
+/* Senate holdover bar */
+.pbar.sbar{display:flex;overflow:visible}.sbar .sg{display:block;height:100%;transition:width .4s}
+.sg.dh,.sw.dh{background:#9dbde3}.sg.dc,.sw.dc{background:var(--D)}.sg.nu,.sw.nu{background:#e2e2e2}.sg.rc,.sw.rc{background:var(--R)}.sg.rh,.sw.rh{background:#eb9aa4}
+.sc .sub{font-size:12.5px;color:var(--mut);margin-top:6px}.sc .num small{font-size:15px;font-weight:500;color:var(--mut)}
+.lgd{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;font-size:12px;color:var(--mut);margin:8px 0 0}.lgd span{display:inline-flex;align-items:center;gap:5px}.sw{display:inline-block;width:11px;height:11px}
+[data-theme=dark] .sg.dh,[data-theme=dark] .sw.dh{background:#2f4f7a}[data-theme=dark] .sg.rh,[data-theme=dark] .sw.rh{background:#7a2f37}[data-theme=dark] .sg.nu,[data-theme=dark] .sw.nu{background:#3a404c}
+[data-theme=dark] .pbar.sbar{background:transparent}
+@media(max-width:640px){.sc .sub{display:block;font-size:11px}.lgd{font-size:11px}}
