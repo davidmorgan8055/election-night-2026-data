@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03T17:54:00-07:00",
- "status_note": "As of 5:54 PM MT: South Carolina's early count shows Andrews (D) 51.2% to Graham (R) 47.6% at 9.3% in, a lead flip from Graham's early edge, though Republican-leaning Election Day votes are still out. Florida's special is nearly tied, Nixon (D) 49.6% to Moody (R) 49.3% at 81.6% in. Two Senate calls so far, both Democratic holds (VA, GA). Polls close in Maine, Michigan, Texas, Kansas and more at 6 PM MT. Source: AP via NBC News.",
+ "updated_at": "2026-11-03T17:58:00-07:00",
+ "status_note": "As of 5:58 PM MT: Florida's special flipped to Moody (R) 49.6% to Nixon (D) 49.2% at 83.7% in, with Republican-leaning Election Day and panhandle votes still out. South Carolina's early count shows Andrews (D) 51.5% to Graham (R) 47.2% at 15.5% in. Two Senate calls so far, both Democratic holds (VA, GA). Polls close in Maine, Michigan, Texas, Kansas and more at 6 PM MT. Source: AP via NBC News.",
  "races": [
   {
    "state": "AK",
@@ -744,8 +744,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
-   "current_margin": 32.9,
-   "pct_in": 17.6,
+   "current_margin": 28.5,
+   "pct_in": 23.5,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -760,7 +760,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 36.5,
+    "current_margin": 28.5,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1177,8 +1177,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "missing \u2014 not researched this run",
-   "current_margin": 3.6,
-   "pct_in": 9.3,
+   "current_margin": 4.3,
+   "pct_in": 15.5,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1193,7 +1193,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 16.0,
+    "current_margin": 4.3,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1298,8 +1298,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
-   "current_margin": 0.3,
-   "pct_in": 81.6,
+   "current_margin": -0.4,
+   "pct_in": 83.7,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1312,8 +1312,8 @@
    },
    "map": {
     "status": "reporting",
-    "leader": "D",
-    "current_margin": 1.3,
+    "leader": "R",
+    "current_margin": -0.4,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1422,8 +1422,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
-   "current_margin": 28.2,
-   "pct_in": 33.3,
+   "current_margin": 24.4,
+   "pct_in": 38.4,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1439,7 +1439,7 @@
    "map": {
     "status": "called",
     "leader": "D",
-    "current_margin": 31.8,
+    "current_margin": 24.4,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1651,8 +1651,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
-   "current_margin": 25.0,
-   "pct_in": 12.5,
+   "current_margin": 23.6,
+   "pct_in": 13.8,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1666,7 +1666,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 25.0,
+    "current_margin": 23.6,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1907,6 +1907,12 @@
   }
  ],
  "alerts": [
+  {
+   "time_mt": "5:58 PM MT, Nov 3",
+   "text": "Florida special, 83.7% in: Moody (R) 49.6%, Nixon (D) 49.2%, lead flipped from Nixon. South Carolina, 15.5% in: Andrews (D) 51.5%, Graham (R) 47.2%.",
+   "trust": "Official count",
+   "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+  },
   {
    "time_mt": "5:54 PM MT, Nov 3",
    "text": "South Carolina Senate, 9.3% in: Andrews (D) 51.2%, Graham (R) 47.6%, lead flipped from Graham; mostly early vote. Florida special, 81.6% in: Nixon (D) 49.6%, Moody (R) 49.3%.",
@@ -2423,8 +2429,18 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Two Senate races are called, both Democratic holds (Virginia and Georgia), so Democrats still need a net gain of 4. Florida's special is now nearly tied (Nixon D +0.3 at 82% in per AP), still well left of the Moody +5.8 polling average and Trump's 13-point 2024 win, and South Carolina's early count has Andrews (D) ahead; both lean left of 2024 so far, but Republican-leaning Election Day votes are still coming in.",
+ "takeaways_summary": "Two Senate races are called, both Democratic holds (Virginia and Georgia), so Democrats still need a net gain of 4. Florida's special has flipped to a narrow Moody (R) lead (R+0.4 at 84% in per AP), still far closer than the Moody +5.8 polling average and Trump's 13-point 2024 win, so results are running left of 2024 so far; South Carolina's early count still has Andrews (D) ahead, with Republican-leaning Election Day votes still coming in.",
  "takeaways": [
+  {
+   "time_mt": "5:58 PM MT, Nov 3",
+   "headline": "Florida lead flips to Moody (R) as Election Day votes come in",
+   "detail": "Per AP data via NBC News, Ashley Moody (R) now leads Angie Nixon (D) 49.6% to 49.2% (R+0.4, meaning Moody ahead by 0.4 points) with 83.7% in, after Nixon led by 0.3 at 81.6% in. That is still well short of the Moody +5.8 final polling average and Trump's 13.1-point 2024 win, but the remaining Election Day and panhandle votes have historically leaned Republican. Not called.",
+   "source_label": "AP via NBC News",
+   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "tag": "note",
+   "confidence": null,
+   "trust": "Official count"
+  },
   {
    "time_mt": "5:54 PM MT, Nov 3",
    "headline": "South Carolina early lead flips to Andrews; Florida now nearly tied",
@@ -2723,8 +2739,8 @@
  "gop_meter": {
   "state": "worse",
   "headline": "Worse than expected for Republicans so far",
-  "reason": "Florida's Senate special is nearly tied (Nixon D 49.6%, Moody R 49.3% at 81.6% in per AP) versus a Moody +5.8 polling average and Trump +13.1 in 2024, and South Carolina's early count shows Andrews (D) ahead of Graham versus a Graham +2.2 average; both counts still lack Republican-leaning Election Day votes.",
-  "as_of_mt": "5:54 PM MT, Nov 3",
+  "reason": "Florida's Senate special is within half a point (Moody R 49.6%, Nixon D 49.2% at 83.7% in per AP) versus a Moody +5.8 polling average and Trump +13.1 in 2024, and South Carolina's early count shows Andrews (D) ahead of Graham versus a Graham +2.2 average; both counts still lack some Republican-leaning Election Day votes.",
+  "as_of_mt": "5:58 PM MT, Nov 3",
   "basis": "Model read vs polling averages, not a call",
   "source_label": "AP via NBC News",
   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
