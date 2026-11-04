@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03T18:13:00-07:00",
- "status_note": "As of 6:13 PM MT: four Senate calls, all holds; Florida's margin (Moody R+1.3 at 89.9% in) is running well left of polls; Kansas and Texas early counts lean Democratic but most of their vote, especially Election Day ballots, is still out (AP via NBC News).",
+ "updated_at": "2026-11-03T18:18:00-07:00",
+ "status_note": "As of 6:18 PM MT: four Senate calls, all holds; Florida's margin (Moody R+1.5 at 91.6% in) is running well left of polls; Michigan has its first count and Texas, Kansas and South Carolina lean Democratic early, but most of their vote, especially Election Day ballots, is still out (AP via NBC News; DDHQ).",
  "races": [
   {
    "state": "AK",
@@ -338,8 +338,8 @@
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT four western Mountain-time counties",
    "counting_note": "Mail ballots postmarked by Election Day accepted through Nov 6.",
-   "current_margin": 16.0,
-   "pct_in": 7.9,
+   "current_margin": 15.7,
+   "pct_in": 8.0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -613,8 +613,8 @@
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT four western UP counties",
    "counting_note": "Slow; reports by locality. Early D from Ann Arbor/Grand Rapids, then R gains, late Detroit absentees, Washtenaw, Genesee.",
-   "current_margin": null,
-   "pct_in": null,
+   "current_margin": 14.6,
+   "pct_in": 2,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -687,7 +687,8 @@
     "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
    "outstanding_note": null,
-   "outstanding": null
+   "outstanding": null,
+   "current_source": "DDHQ race update, est. 2% in, 6:14 PM MT (El-Sayed 66.5%, Rogers 31.9%): https://x.com/DecisionDeskHQ/status/2117787568028713393"
   },
   {
    "state": "OH",
@@ -754,8 +755,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
-   "current_margin": 23.0,
-   "pct_in": 28.9,
+   "current_margin": 21.4,
+   "pct_in": 31.0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -907,8 +908,8 @@
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT El Paso area",
    "counting_note": "Big early-vote dumps (Harris) first can show D lead; many small R counties then; Dallas/Harris Election Day late. Mail postmarked by E-Day accepted until 5 PM Nov 4.",
-   "current_margin": 32.3,
-   "pct_in": 9.2,
+   "current_margin": 37.9,
+   "pct_in": 17.2,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1191,8 +1192,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "missing \u2014 not researched this run",
-   "current_margin": 2.2,
-   "pct_in": 20.3,
+   "current_margin": 3.0,
+   "pct_in": 23.7,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1316,8 +1317,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
-   "current_margin": -1.3,
-   "pct_in": 89.9,
+   "current_margin": -1.5,
+   "pct_in": 91.6,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1442,8 +1443,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
-   "current_margin": 28.4,
-   "pct_in": 53.5,
+   "current_margin": 27.4,
+   "pct_in": 54.7,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1675,8 +1676,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
-   "current_margin": 23.5,
-   "pct_in": 18.7,
+   "current_margin": 23.7,
+   "pct_in": 18.9,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1875,7 +1876,8 @@
     "detail": "VA: Warner (D) hold, DDHQ 5:00 PM MT; GA: Ossoff (D) hold, DDHQ 5:18 PM MT, NBC 5:31 PM MT, AP 5:59 PM MT; NH: Pappas (D) hold, DDHQ 6:00 PM MT; FL special: Moody (R) hold, DDHQ 6:00 PM MT. No seat has changed party.",
     "source": "https://x.com/DecisionDeskHQ/status/2117784260660859298"
    },
-   "undecided": null
+   "undecided": null,
+   "tally_note": "NBC News' board (AP data, 8:15 PM ET) shows 41 Democratic seats including projections in states outside this tracker's key-race list; this tracker counts only calls it has confirmed by state."
   },
   "house": {
    "majority": 218,
@@ -2812,8 +2814,8 @@
  "gop_meter": {
   "state": "worse",
   "headline": "Worse than expected for Republicans so far",
-  "reason": "Republicans held Florida (Decision Desk HQ call), but Moody leads only 50.1% to 48.8% at 89.9% in per AP, versus a Moody +5.8 polling average and Trump +13.1 in 2024; South Carolina's early count shows Andrews (D) ahead 50.4% to 48.2% versus a Graham +2.2 average, with Republican-leaning Election Day votes still out. No Senate seat has changed party.",
-  "as_of_mt": "6:13 PM MT, Nov 3",
+  "reason": "Republicans held Florida (Decision Desk HQ call), but Moody leads only 50.2% to 48.7% at 91.6% in per AP, versus a Moody +5.8 polling average and Trump +13.1 in 2024; South Carolina's early count shows Andrews (D) ahead 50.8% to 47.8% versus a Graham +2.2 average, with Republican-leaning Election Day votes still out. No Senate seat has changed party.",
+  "as_of_mt": "6:18 PM MT, Nov 3",
   "basis": "Model read vs polling averages, not a call",
   "source_label": "AP via NBC News",
   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
