@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T18:04:00-07:00",
+ "updated_at": "2026-11-03T18:07:00-07:00",
  "status_note": "As of 6:04 PM MT: Senate calls D 3, R 1, no seat has changed party (AP; Decision Desk HQ). Florida: Moody (R) 49.8%, Nixon (D) 49.1% at 87.5% in. South Carolina: Andrews (D) 51.4%, Graham (R) 47.2% at 17.3% in, with Republican-leaning Election Day votes still out. Source: AP via NBC News.",
  "races": [
   {
@@ -744,8 +744,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
-   "current_margin": 25.8,
-   "pct_in": 25.8,
+   "current_margin": 24.2,
+   "pct_in": 28.1,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -897,8 +897,8 @@
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT El Paso area",
    "counting_note": "Big early-vote dumps (Harris) first can show D lead; many small R counties then; Dallas/Harris Election Day late. Mail postmarked by E-Day accepted until 5 PM Nov 4.",
-   "current_margin": null,
-   "pct_in": null,
+   "current_margin": 47.8,
+   "pct_in": 6.0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -964,7 +964,7 @@
     "miss": -4.1,
     "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
-   "outstanding_note": null,
+   "outstanding_note": "Only about 6% of the expected Texas vote is counted (AP via NBC News), and early counts there tend to be urban early ballots that lean Democratic, so Talarico's large lead is expected to shrink sharply as Election Day and rural votes come in.",
    "outstanding": null
   },
   {
@@ -1307,7 +1307,7 @@
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
    "current_margin": -0.7,
-   "pct_in": 87.5,
+   "pct_in": 87.7,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1432,7 +1432,7 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
-   "current_margin": 28.8,
+   "current_margin": 29.0,
    "pct_in": 46.8,
    "projected_margin": null,
    "projection_confidence": null,
@@ -1666,7 +1666,7 @@
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
    "current_margin": 23.4,
-   "pct_in": 15.7,
+   "pct_in": 16.2,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -2803,7 +2803,7 @@
   "state": "worse",
   "headline": "Worse than expected for Republicans so far",
   "reason": "Republicans held Florida (Decision Desk HQ call), but Moody leads only 49.8% to 49.1% at 87.5% in per AP versus a Moody +5.8 polling average and Trump +13.1 in 2024; South Carolina's early count shows Andrews (D) ahead versus a Graham +2.2 average, with Republican-leaning Election Day votes still out. No Senate seat has changed party.",
-  "as_of_mt": "6:04 PM MT, Nov 3",
+  "as_of_mt": "6:07 PM MT, Nov 3",
   "basis": "Model read vs polling averages, not a call",
   "source_label": "AP via NBC News",
   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
