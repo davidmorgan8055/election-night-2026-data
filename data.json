@@ -17,7 +17,7 @@
     }
    ],
    "other_candidates": [
-    "Gerald Heikes (R) \u2014 per electiontracker.live; RCV"
+    "Gerald Heikes (R) — per electiontracker.live; RCV"
    ],
    "rcv": true,
    "incumbent_party": "R",
@@ -281,7 +281,7 @@
     }
    ],
    "other_candidates": [
-    "David Graham (L) \u2014 4% in NYT/Siena"
+    "David Graham (L) — 4% in NYT/Siena"
    ],
    "rcv": false,
    "incumbent_party": "R",
@@ -705,7 +705,7 @@
     }
    ],
    "other_candidates": [
-    "Greg Levy (I) \u2014 per electiontracker.live"
+    "Greg Levy (I) — per electiontracker.live"
    ],
    "rcv": false,
    "incumbent_party": "R",
@@ -1204,7 +1204,7 @@
     "source": "MEDSL statewide results (D minus R)"
    },
    "poll_close_mt": "5:00 PM MT",
-   "counting_note": "missing \u2014 not researched this run",
+   "counting_note": "missing — not researched this run",
    "current_margin": 5.3,
    "pct_in": 38.6,
    "projected_margin": null,
@@ -2133,7 +2133,7 @@
      "gap_now": "10.73",
      "vs_2022_change": "+35%",
      "gap_2022": "17.49",
-     "vs_2024_change": "\u221226%",
+     "vs_2024_change": "−26%",
      "gap_2024": "-1.64"
     },
     "sources": [
@@ -2191,7 +2191,7 @@
      "total": "438602",
      "mail": "47866",
      "in_person": "390736",
-     "vs_2024_change": "\u221226%"
+     "vs_2024_change": "−26%"
     },
     "sources": [
      {
@@ -2228,7 +2228,7 @@
      "gap_now": "23.71",
      "vs_2022_change": "+34%",
      "gap_2022": "25.15",
-     "vs_2024_change": "\u221216%",
+     "vs_2024_change": "−16%",
      "gap_2024": "14.08"
     },
     "sources": [
@@ -2292,7 +2292,7 @@
      "gap_now": "12.25",
      "vs_2022_change": "+30%",
      "gap_2022": "6.97",
-     "vs_2024_change": "\u221237%",
+     "vs_2024_change": "−37%",
      "gap_2024": "-0.88"
     },
     "sources": [
@@ -2533,8 +2533,18 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Five Senate races are called: Democrats flipped North Carolina (NBC News projection) and held Virginia, Georgia and New Hampshire, and Republicans held Florida's special, so Democrats need a net gain of 3 more seats. Florida went to Moody (R) by about 2 points, far closer than the Moody +5.8 polling average and Trump's 13-point 2024 win, and early counts in South Carolina, Ohio and Texas lean Democratic; most Election Day votes, which lean Republican, are still out, so results so far shift left of 2024 but are not final.",
+ "takeaways_summary": "Democrats have flipped North Carolina (NBC News projection), the only Senate seat to change party so far, so they need a net gain of 3 more seats for control; Republicans held Florida's special. Florida, the only key race nearly fully counted, finished far closer than expected (Moody R+2.1 at 94% in vs a Moody +5.8 polling average and Trump +13.1 in 2024), pointing left of both 2022 and 2024. Early counts in South Carolina, Ohio, Texas, Kansas and Michigan lean Democratic but are mostly early and mail ballots, and Republican-leaning Election Day votes are still out.",
  "takeaways": [
+  {
+   "time_mt": "6:30 PM MT, Nov 3",
+   "headline": "6:30 digest: one Democratic flip, Florida far closer than polls",
+   "detail": "Senate calls so far: Democrats held Virginia, Georgia and New Hampshire and flipped North Carolina; Republicans held Florida's special (DDHQ, NBC, AP). Democrats need a net +3 more for 51. Florida is the only key race nearly complete: Moody R+2.1 at 94% in vs a Moody +5.8 polling average, a 3.7-point miss toward Democrats so far. One state isn't enough to call polling error correlated; North Carolina (D+35.2 at 56.2% in) and South Carolina (D+5.3 at 38.6% in vs Graham +2.2) are still mostly early votes. AP House calls via NBC: D 41, R 17.",
+   "source_label": "AP via NBC News",
+   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "tag": "polling miss",
+   "confidence": "low",
+   "trust": "Official count"
+  },
   {
    "time_mt": "6:29 PM MT, Nov 3",
    "headline": "Democrats flip North Carolina's Senate seat, NBC News projects",
@@ -2786,72 +2796,72 @@
   }
  ],
  "perspectives": {
-  "updated_at": "2026-11-03T18:02:00-07:00",
+  "updated_at": "2026-11-03T18:30:00-07:00",
   "right": [
    {
-    "paraphrase": "Ashley Moody is doing very well in Sumter County, even more Republican than in 2024; he urged keeping the count honest.",
-    "author": "Ryan Fournier (@RyanAFournier)",
-    "url": "https://x.com/RyanAFournier/status/2117780483849285766",
-    "time_mt": "5:46 PM MT",
-    "fact_check": "Not checked at county level: no Sumter County comparison was pulled. Statewide, Moody leads by only 0.5 points at 83.8% in per AP, versus Trump's 13.1-point 2024 win, so statewide Florida is running well left of 2024 even if some counties run redder.",
+    "paraphrase": "Released (via Jeremy Carl) her Oct 27 private predictions, posted as images, and said she wishes they weren't looking correct.",
+    "author": "DataRepublican (@DataRepublican)",
+    "url": "https://x.com/DataRepublican/status/2117786905114968255",
+    "time_mt": "6:11 PM MT",
+    "fact_check": "The predictions themselves are in images this tracker couldn't read, so they aren't checked here. Jeremy Carl, who released them, called them 'not pretty' for Republicans; that matches the direction so far (Florida R+2.1 at 94% in vs a Moody +5.8 polling average; Democrats flipped North Carolina per NBC News), but most races are still early.",
     "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
     "trust": "Unconfirmed (X)"
    },
    {
-    "paraphrase": "Florida is coming down to the wire with 1.6 million-plus votes left to count in the Senate and governor races.",
-    "author": "Ryan Fournier (@RyanAFournier)",
-    "url": "https://x.com/RyanAFournier/status/2117782010236174827",
-    "time_mt": "5:52 PM MT",
-    "fact_check": "The race was close (Moody R+0.5 at 83.8% in per AP), but the 1.6 million figure wasn't found in AP or NBC data, which show percent in, not raw votes left. Decision Desk HQ projected Moody the winner at 6:00 PM MT.",
-    "fact_check_url": "https://x.com/DecisionDeskHQ/status/2117784260660859298",
+    "paraphrase": "Put the over/under on the House at 240 Democratic seats.",
+    "author": "DataRepublican (@DataRepublican)",
+    "url": "https://x.com/DataRepublican/status/2117787863446442080",
+    "time_mt": "6:15 PM MT",
+    "fact_check": "Too early to check: AP has called 41 House races for Democrats and 17 for Republicans via NBC News as of 6:29 PM MT, with 377 uncalled. Democrats held 214 seats before tonight, so 240 would mean a net gain of about 26.",
+    "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/house-results",
     "trust": "Unconfirmed (X)"
    },
    {
-    "paraphrase": "Asked by a follower \"What about Georgia?\", she replied: \"I'm not optimistic.\"",
-    "author": "DataRepublican (@DataRepublican)",
-    "url": "https://x.com/DataRepublican/status/2117763089911468164",
-    "time_mt": "4:37 PM MT",
-    "fact_check": "No Georgia vote had been counted when she posted (AP showed 0% in; final polling average Ossoff (D) +9.4). Decision Desk HQ (5:18 PM MT) and NBC News (5:31 PM MT) have since projected Ossoff the winner; with 25.3% in he leads 66.1% to 33.9%, mostly early and mail ballots.",
-    "fact_check_url": "https://x.com/DecisionDeskHQ/status/2117773436718137533",
+    "paraphrase": "Said Ashley Moody won Florida, 'crushing' Democrat Angie Nixon.",
+    "author": "Ryan Fournier (@RyanAFournier)",
+    "url": "https://x.com/RyanAFournier/status/2117788641611121039",
+    "time_mt": "6:18 PM MT",
+    "fact_check": "The win is confirmed (Decision Desk HQ projected Moody at 6:00 PM MT), but 'crushing' isn't supported: Moody leads 50.5% to 48.4% at 94% in per AP, about 2 points, versus a Moody +5.8 polling average and Trump's 13.1-point 2024 win.",
+    "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
     "trust": "Unconfirmed (X)"
    }
   ],
   "left": [
    {
-    "paraphrase": "Democrat Jon Ossoff has been reelected to the Senate, keeping Georgia's seat Democratic.",
+    "paraphrase": "Announced a Democratic flip: Roy Cooper won North Carolina's Senate race, defeating Michael Whatley.",
     "author": "Democrats (@TheDemocrats)",
-    "url": "https://x.com/TheDemocrats/status/2117783642961289305",
-    "time_mt": "5:59 PM MT",
-    "fact_check": "Confirmed: AP called the race for Ossoff at 5:59 PM MT, after Decision Desk HQ and NBC News. A hold, not a pickup.",
-    "fact_check_url": "https://x.com/AP/status/2117783750201274645",
+    "url": "https://x.com/TheDemocrats/status/2117790940962120022",
+    "time_mt": "6:28 PM MT",
+    "fact_check": "Confirmed: NBC News projects Cooper the winner (by 6:29 PM MT); Kyle Griffin also relayed an AP call at 6:27 PM MT. Cooper leads 66.8% to 31.6% at 56.2% in, mostly early votes, so the final margin will be much smaller.",
+    "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
     "trust": "Called by AP/network"
    },
    {
-    "paraphrase": "Democrat Juliana Stratton wins election to the U.S. Senate from Illinois, citing AP.",
+    "paraphrase": "Said a district Republicans redrew into a Trump +10 seat re-elected its Democrat, quoting AP's call for Kathy Castor in Florida's 14th District.",
     "author": "Kyle Griffin (@kylegriffin1)",
-    "url": "https://x.com/kylegriffin1/status/2117784508204236989",
-    "time_mt": "6:02 PM MT",
-    "fact_check": "Not yet confirmed here: AP's own post wasn't found yet, and NBC's results page (7:59 PM ET) showed 0% in for Illinois. It would be a Democratic hold, no net change.",
-    "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "url": "https://x.com/kylegriffin1/status/2117788182477672496",
+    "time_mt": "6:17 PM MT",
+    "fact_check": "Not checked here: the AP call is relayed from AP's wire text, and this tracker hasn't verified the new FL-14 lines' Trump +10 rating.",
+    "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/house-results",
     "trust": "Unconfirmed (X)"
    },
    {
-    "paraphrase": "Attorney General Todd Blanche said the DOJ will keep fighting to stop Alaska from certifying its Senate results if the Republican loses, despite a court blocking the department.",
-    "author": "Democracy Docket (@DemocracyDocket)",
-    "url": "https://x.com/DemocracyDocket/status/2117762293211492733",
-    "time_mt": "4:34 PM MT",
-    "fact_check": "Partly confirmed: AP and NPR report a federal judge dismissed the DOJ suit on Nov 1 and DOJ filed a notice of appeal. The Blanche quote is from Democracy Docket's write-up of a Fox News interview; Democracy Docket discloses its founder's firm represents the Peltola campaign.",
-    "fact_check_url": "https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan",
-    "trust": "Unconfirmed (X)"
+    "paraphrase": "Relayed AP: Democrat Chris Pappas wins New Hampshire's Senate race.",
+    "author": "Kyle Griffin (@kylegriffin1)",
+    "url": "https://x.com/kylegriffin1/status/2117789587481448676",
+    "time_mt": "6:22 PM MT",
+    "fact_check": "Confirmed: Decision Desk HQ (6:00 PM MT) and NBC News (6:20 PM MT) projected Pappas. A Democratic hold, no net change.",
+    "fact_check_url": "https://x.com/DecisionDeskHQ/status/2117784016719954261",
+    "trust": "Called by AP/network"
    }
   ]
  },
  "if_trends_hold": {
   "senate": null,
   "house": null,
-  "updated_at": "2026-11-03T18:02:00-07:00",
+  "updated_at": "2026-11-03T18:30:00-07:00",
   "label": "Model projection, not a call",
-  "note": "Not enough county-level vote yet to run the swing model. Florida's result (R+0.5 at 84% in vs Moody +5.8 polling average) is the only key race near complete; one state is not enough to call polling error correlated."
+  "note": "Swing model not run yet: no county-level vote pull this hour. Florida (R+2.1 at 94% in vs Moody +5.8 polling average) is the only key race near complete; one state is not enough to call polling error correlated. North Carolina and South Carolina counts are still mostly early votes."
  },
  "gop_meter": {
   "state": "worse",
