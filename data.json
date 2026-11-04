@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03T18:02:00-07:00",
- "status_note": "As of 6:02 PM MT: Decision Desk HQ called Florida's special for Moody (R) and New Hampshire for Pappas (D), both holds; AP also called Georgia for Ossoff (D). Senate calls: D 3, R 1, no flips. South Carolina: Andrews (D) 51.5%, Graham (R) 47.2% at 17.1% in. Maine, Michigan, Texas and Kansas polls closed at 6 PM MT. Source: AP via NBC News; Decision Desk HQ.",
+ "updated_at": "2026-11-03T18:04:00-07:00",
+ "status_note": "As of 6:04 PM MT: Senate calls D 3, R 1, no seat has changed party (AP; Decision Desk HQ). Florida: Moody (R) 49.8%, Nixon (D) 49.1% at 87.5% in. South Carolina: Andrews (D) 51.4%, Graham (R) 47.2% at 17.3% in, with Republican-leaning Election Day votes still out. Source: AP via NBC News.",
  "races": [
   {
    "state": "AK",
@@ -744,8 +744,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
-   "current_margin": 26.6,
-   "pct_in": 25.0,
+   "current_margin": 25.8,
+   "pct_in": 25.8,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -760,7 +760,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 26.6,
+    "current_margin": 25.8,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -828,6 +828,10 @@
     ],
     "can_flip_leader": true,
     "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+   },
+   "current_margin_source": {
+    "label": "AP via NBC News, 25.8% in, 8:04 PM ET (6:04 PM MT): Brown 61.3%, Husted 35.5%",
+    "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
    }
   },
   {
@@ -1177,8 +1181,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "missing \u2014 not researched this run",
-   "current_margin": 4.3,
-   "pct_in": 17.1,
+   "current_margin": 4.2,
+   "pct_in": 17.3,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1193,7 +1197,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 4.3,
+    "current_margin": 4.2,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1233,6 +1237,10 @@
     ],
     "can_flip_leader": true,
     "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+   },
+   "current_margin_source": {
+    "label": "AP via NBC News, 17.3% in, 8:04 PM ET (6:04 PM MT): Andrews 51.4%, Graham 47.2%",
+    "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
    }
   },
   {
@@ -1298,8 +1306,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
-   "current_margin": -0.5,
-   "pct_in": 83.8,
+   "current_margin": -0.7,
+   "pct_in": 87.5,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1315,7 +1323,7 @@
    "map": {
     "status": "called",
     "leader": "R",
-    "current_margin": -0.5,
+    "current_margin": -0.7,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1344,7 +1352,7 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "About 16% of Florida's expected vote is still out, mostly Election Day and panhandle ballots that have leaned Republican; Decision Desk HQ has projected Moody the winner, and AP had not called it as of 7:59 PM ET.",
+   "outstanding_note": "About 12% of Florida's expected vote is still out, mostly Election Day and panhandle ballots that have leaned Republican, so it is unlikely to flip the leader; Decision Desk HQ has projected Moody the winner, and AP had not called it as of 8:04 PM ET.",
    "outstanding": {
     "by_type": [
      {
@@ -1357,7 +1365,7 @@
     "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
    },
    "current_margin_source": {
-    "label": "AP via NBC News, 83.8% in, 7:59 PM ET (5:59 PM MT): Moody 49.7%, Nixon 49.2%",
+    "label": "AP via NBC News, 87.5% in, 8:04 PM ET (6:04 PM MT): Moody 49.8%, Nixon 49.1%",
     "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
    }
   },
@@ -1424,8 +1432,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
-   "current_margin": 24.4,
-   "pct_in": 38.5,
+   "current_margin": 28.8,
+   "pct_in": 46.8,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1441,7 +1449,7 @@
    "map": {
     "status": "called",
     "leader": "D",
-    "current_margin": 24.4,
+    "current_margin": 28.8,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1478,6 +1486,10 @@
     },
     "can_flip_leader": false,
     "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+   },
+   "current_margin_source": {
+    "label": "AP via NBC News, 46.8% in, 8:04 PM ET (6:04 PM MT): Ossoff 64.4%, Collins 35.6%",
+    "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
    }
   },
   {
@@ -1653,8 +1665,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
-   "current_margin": 23.0,
-   "pct_in": 14.5,
+   "current_margin": 23.4,
+   "pct_in": 15.7,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1670,7 +1682,7 @@
    "map": {
     "status": "called",
     "leader": "D",
-    "current_margin": 23.0,
+    "current_margin": 23.4,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1704,6 +1716,10 @@
     "by_type": null,
     "can_flip_leader": null,
     "source": "https://www.npr.org/2026/11/03/g-s1-148801/senate-election-results-2026"
+   },
+   "current_margin_source": {
+    "label": "AP via NBC News, 15.7% in, 8:04 PM ET (6:04 PM MT): Pappas 60.8%, Sununu 37.4%",
+    "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
    }
   },
   {
@@ -2786,8 +2802,8 @@
  "gop_meter": {
   "state": "worse",
   "headline": "Worse than expected for Republicans so far",
-  "reason": "Republicans held Florida (Decision Desk HQ call), but Moody leads only 49.7% to 49.2% at 83.8% in per AP versus a Moody +5.8 polling average and Trump +13.1 in 2024; South Carolina's early count shows Andrews (D) ahead versus a Graham +2.2 average, with Republican-leaning Election Day votes still out. No Senate seat has changed party.",
-  "as_of_mt": "6:02 PM MT, Nov 3",
+  "reason": "Republicans held Florida (Decision Desk HQ call), but Moody leads only 49.8% to 49.1% at 87.5% in per AP versus a Moody +5.8 polling average and Trump +13.1 in 2024; South Carolina's early count shows Andrews (D) ahead versus a Graham +2.2 average, with Republican-leaning Election Day votes still out. No Senate seat has changed party.",
+  "as_of_mt": "6:04 PM MT, Nov 3",
   "basis": "Model read vs polling averages, not a call",
   "source_label": "AP via NBC News",
   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
