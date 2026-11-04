@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03T17:02:00-07:00",
- "status_note": "Polls closed at 5:00 PM MT in Georgia, South Carolina, most of Florida and most of New Hampshire (plus VA, VT, IN, KY). As of 5:02 PM MT no votes were reported in the key Senate races and no race had been called (AP via NPR). NC and OH close at 5:30 PM MT.",
+ "updated_at": "2026-11-03T17:15:00-07:00",
+ "status_note": "As of 5:15 PM MT: Decision Desk HQ has called Virginia's Senate race for Mark Warner (D), a hold. Florida's Senate special has about 25% in with Angie Nixon (D) ahead 53.8% to 45.2%, mostly early and mail ballots so far. Georgia, South Carolina and New Hampshire have essentially no votes counted. NC and OH close at 5:30 PM MT.",
  "races": [
   {
    "state": "AK",
@@ -1212,7 +1212,7 @@
     "miss": null,
     "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
-   "outstanding_note": "All of the vote is still out (NBC/AP estimate about 2.03 million votes expected). Early leads can swing either way as counties report; too early for any read.",
+   "outstanding_note": "Polls closed 5:00 PM MT; essentially no vote reported yet (AP via NBC, about 5:01 PM MT).",
    "outstanding": {
     "by_type": null,
     "can_flip_leader": null,
@@ -1282,8 +1282,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
-   "current_margin": null,
-   "pct_in": 0,
+   "current_margin": 8.6,
+   "pct_in": 25,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1295,9 +1295,9 @@
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
    },
    "map": {
-    "status": "not_reporting",
-    "leader": null,
-    "current_margin": null,
+    "status": "reporting",
+    "leader": "D",
+    "current_margin": 8.6,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1326,11 +1326,15 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "All of the vote is still out. Florida reports early and mail ballots first, then Election Day votes that have leaned Republican, and the panhandle closes at 6:00 PM MT, so early margins tend to move toward Republicans.",
+   "outstanding_note": "About 75% of the expected vote is still out (DDHQ estimate). The first Florida numbers are mostly early and mail ballots; Election Day votes, which have leaned Republican, come later, so this lead is likely to shrink. Too early for a model projection.",
    "outstanding": {
     "by_type": null,
     "can_flip_leader": null,
     "source": "https://www.npr.org/2026/11/03/g-s1-148801/senate-election-results-2026"
+   },
+   "current_margin_source": {
+    "label": "DDHQ, est. 25% in, 5:09 PM MT: Nixon 1,141,121 (53.8%), Moody 958,052 (45.2%)",
+    "url": "https://x.com/DecisionDeskHQ/status/2117771164793622766"
    }
   },
   {
@@ -1440,7 +1444,7 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "All of the vote is still out. Georgia reports early in-person and mail ballots first, which have leaned Democratic, so expect the early lead to shrink as Election Day votes come in; too early to say whether the leader can flip.",
+   "outstanding_note": "Polls closed 5:00 PM MT; essentially no vote reported yet (AP via NBC, about 5:01 PM MT).",
    "outstanding": {
     "by_type": null,
     "can_flip_leader": null,
@@ -1664,7 +1668,7 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "All of the vote is still out. New Hampshire towns report one by one with no strong partisan order, and the last polls close at 6:00 PM MT.",
+   "outstanding_note": "Polls closed 5:00 PM MT; essentially no vote reported yet (AP via NBC, about 5:01 PM MT).",
    "outstanding": {
     "by_type": null,
     "can_flip_leader": null,
@@ -1809,8 +1813,10 @@
    "control_math": "Republicans hold 53 seats; Democrats (45 + 2 independents who caucus with them) need a net gain of 4 for 51; VP JD Vance breaks 50-50 ties for R.",
    "source": "https://abcnews.com/Politics/control-congress-grabs-election-day-math-democrats-republicans/story?id=137229697",
    "called": {
-    "D": null,
-    "R": null
+    "D": 1,
+    "R": 0,
+    "detail": "VA: Mark Warner (D) hold, projected by Decision Desk HQ at 5:00 PM MT",
+    "source": "https://x.com/DecisionDeskHQ/status/2117769268796522621"
    },
    "undecided": null
   },
@@ -1827,8 +1833,10 @@
    },
    "source": "https://www.congresscountdown.com/info/party-breakdown",
    "called": {
-    "D": null,
-    "R": null
+    "D": 2,
+    "R": 4,
+    "detail": "Decision Desk HQ balance-of-power count as of 4:40 PM MT",
+    "source": "https://x.com/DecisionDeskHQ/status/2117763816843100661"
    },
    "undecided": null
   },
@@ -1851,8 +1859,24 @@
   "11:00 PM": "AK (Aleutians)",
   "source": "https://midtermresultslive.com/poll-closing-times/ (ET converted: MT = ET-2, standard time after Nov 1)"
  },
- "calls_log": [],
+ "calls_log": [
+  {
+   "time_mt": "5:00 PM MT, Nov 3",
+   "race": "VA Senate",
+   "winner": "Mark Warner (D), hold",
+   "by": "Decision Desk HQ",
+   "text": "Decision Desk HQ projects Mark Warner (D) wins Virginia's Senate race. A Democratic hold, so no net change toward control.",
+   "trust": "Called by AP/network",
+   "source": "https://x.com/DecisionDeskHQ/status/2117769268796522621"
+  }
+ ],
  "alerts": [
+  {
+   "time_mt": "5:09 PM MT, Nov 3",
+   "text": "Florida Senate special, est. 25% in: Nixon (D) 53.8%, Moody (R) 45.2% (DDHQ). Mostly early/mail ballots; expect a shift toward Moody as Election Day votes are counted.",
+   "trust": "Official count",
+   "source": "https://x.com/DecisionDeskHQ/status/2117771164793622766"
+  },
   {
    "time_mt": "5:02 PM MT, Nov 3",
    "text": "Polls closed at 5:00 PM MT in GA, SC, most of FL and most of NH. No votes reported and no calls yet. Watch for a shift: GA and FL report early/mail ballots first, which tend to make Democrats look stronger early before Election Day votes come in.",
@@ -2315,8 +2339,18 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "The first key polls closed at 5:00 PM MT (Georgia, South Carolina, most of Florida and New Hampshire), but no votes are in yet and nothing has been called, so there's no shift to read against 2022 or 2024 yet. Before the closings, early voting looked mixed with a slight tilt toward Democrats compared with 2022, at low confidence. North Carolina and Ohio close at 5:30 PM MT.",
+ "takeaways_summary": "The only call in a Senate race so far is Virginia for Mark Warner (D), a hold that doesn't change the math: Democrats still need a net gain of 4. Florida's first quarter of the vote has Democrat Angie Nixon up 8.6 points, far better for Democrats than the R+13.1 presidential margin in 2024, but that count is mostly early and mail ballots, so it can't yet tell us whether the night is shifting left or right. North Carolina and Ohio close at 5:30 PM MT.",
  "takeaways": [
+  {
+   "time_mt": "5:15 PM MT, Nov 3",
+   "headline": "First Senate call: Warner holds Virginia; Florida's early count favors Nixon",
+   "detail": "Decision Desk HQ projected Mark Warner (D) the winner in Virginia at 5:00 PM MT, a Democratic hold. In Florida's Senate special, DDHQ had Angie Nixon (D) at 53.8% to Ashley Moody (R) at 45.2% with an estimated 25% in at 5:09 PM MT. The final polling average was Moody +5.8. Expect that lead to shrink as Election Day votes are added; Florida reports early and mail ballots first.",
+   "source_label": "Decision Desk HQ",
+   "source_url": "https://x.com/DecisionDeskHQ/status/2117771164793622766",
+   "tag": "call",
+   "confidence": null,
+   "trust": "Called by AP/network"
+  },
   {
    "time_mt": "5:02 PM MT, Nov 3",
    "headline": "First key polls closed: Georgia, South Carolina, most of Florida and New Hampshire",
@@ -2485,8 +2519,55 @@
   }
  ],
  "perspectives": {
-  "updated_at": "2026-11-03T14:05:00-07:00",
+  "updated_at": "2026-11-03T17:15:00-07:00",
+  "right": [
+   {
+    "paraphrase": "Asked by a follower \"What about Georgia?\", she replied: \"I'm not optimistic.\"",
+    "author": "DataRepublican (@DataRepublican)",
+    "url": "https://x.com/DataRepublican/status/2117763089911468164",
+    "time_mt": "4:37 PM MT",
+    "fact_check": "No Georgia vote had been counted when she posted (AP showed 0% in). The final polling average was Ossoff (D) +9.4, and Georgia had 2,826,387 early ballots returned.",
+    "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "trust": "Unconfirmed (X)"
+   },
+   {
+    "paraphrase": "On a same-time snapshot, Florida's vote is over 100,000 ahead of Election Day 2024, and overall Florida is running at a D+4 shift relative to 2024.",
+    "author": "DataRepublican (@DataRepublican)",
+    "url": "https://x.com/DataRepublican/status/2117710086831558838",
+    "time_mt": "1:06 PM MT",
+    "fact_check": "Direction is consistent so far: the registered-Republican early-vote edge was 2.4 points vs 10.1 at the same point in 2024, and the first 25% of the Senate count has Nixon (D) +8.6 vs Trump +13.1 in 2024. But that count is mostly early/mail ballots, so the size of any shift can't be judged yet.",
+    "fact_check_url": "https://x.com/DecisionDeskHQ/status/2117771164793622766",
+    "trust": "Unconfirmed (X)"
+   },
+   {
+    "paraphrase": "Reports of power outages in Wayne County, Michigan; voters should stay in line because Michigan uses paper ballots and voting continues.",
+    "author": "Ryan Fournier (@RyanAFournier)",
+    "url": "https://x.com/RyanAFournier/status/2117769105684189451",
+    "time_mt": "5:01 PM MT",
+    "fact_check": "No official or major-outlet report of Election Day outages at Wayne County polls was found. Michigan's Department of State reported no major issues earlier in the afternoon. It is true that Michigan voting continues on paper ballots during an outage.",
+    "fact_check_url": "https://www.michiganpublic.org/live-updates/michigan-election-2026-live-updates",
+    "trust": "Unconfirmed (X)"
+   }
+  ],
   "left": [
+   {
+    "paraphrase": "Democrat Mark Warner has won Virginia's Senate race.",
+    "author": "Democrats (@TheDemocrats)",
+    "url": "https://x.com/TheDemocrats/status/2117770557890453828",
+    "time_mt": "5:07 PM MT",
+    "fact_check": "Confirmed: Decision Desk HQ projected Warner the winner at 5:00 PM MT. A hold, not a pickup.",
+    "fact_check_url": "https://x.com/DecisionDeskHQ/status/2117769268796522621",
+    "trust": "Called by AP/network"
+   },
+   {
+    "paraphrase": "Attorney General Todd Blanche said the DOJ will keep fighting to stop Alaska from certifying its Senate results if the Republican loses, despite a court blocking the department.",
+    "author": "Democracy Docket (@DemocracyDocket)",
+    "url": "https://x.com/DemocracyDocket/status/2117762293211492733",
+    "time_mt": "4:34 PM MT",
+    "fact_check": "Partly confirmed: AP and NPR report a federal judge dismissed the DOJ suit on Nov 1 and DOJ filed a notice of appeal. The Blanche quote is from Democracy Docket's write-up of a Fox News interview; Democracy Docket discloses its founder's firm represents the Peltola campaign.",
+    "fact_check_url": "https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan",
+    "trust": "Unconfirmed (X)"
+   },
    {
     "paraphrase": "Franklin County, Ohio (Columbus) became the first county with data where the Election Day share of total votes passed its final 2024 Election Day share, with other suburban, higher-education counties close behind.",
     "author": "Jordan Schwartz (@JordanSchwartz)",
@@ -2495,61 +2576,14 @@
     "fact_check": "Can't be checked yet: Ohio doesn't post live county Election Day totals, and the comparison relies on his own data feed. Ohio's statewide early vote was 1,754,731 through Monday, but the state doesn't report party for early voters.",
     "fact_check_url": "https://www.callthemap.com/early-vote",
     "trust": "Unconfirmed (X)"
-   },
-   {
-    "paraphrase": "In Maricopa County, Arizona, the partisanship of Election Day turnout has held steady; the Republican Election Day edge is similar to 2024, but Republicans have a much larger early-vote deficit to make up this year.",
-    "author": "Jordan Schwartz (@JordanSchwartz)",
-    "url": "https://x.com/JordanSchwartz/status/2117702246133854619",
-    "time_mt": "12:35 PM MT",
-    "fact_check": "Partly supported. The tracker's statewide Arizona early vote shows registered Republicans ahead by only 0.8 points (615,085 D vs 628,397 R through Nov 1); the Election Day partisanship figure comes from a private data vendor and can't be checked.",
-    "fact_check_url": "https://www.callthemap.com/early-vote",
-    "trust": "Unconfirmed (X)"
-   },
-   {
-    "paraphrase": "Their Oct. 28 poll found 79.8% of 2024 Harris voters certain to vote versus 64.7% of 2024 Trump voters; they say close races break Democratic if that gap shows up today and tighten if it doesn't.",
-    "author": "On Point Politics (@onpointpolitics)",
-    "url": "https://x.com/onpointpolitics/status/2117715943560232974",
-    "time_mt": "1:30 PM MT",
-    "fact_check": "This is their own poll and can't be checked against turnout yet. Early-vote data is mixed: North Carolina's registered-Democrat edge grew versus 2022, while Iowa's shrank (D+10.7 vs D+17.5).",
-    "fact_check_url": "https://www.callthemap.com/early-vote",
-    "trust": "Unconfirmed (X)"
-   }
-  ],
-  "right": [
-   {
-    "paraphrase": "On a same-time snapshot, Florida's vote is over 100,000 ahead of Election Day 2024, and overall Florida is running at a D+4 shift relative to 2024; Nevada started slowly but is ramping up in rural areas.",
-    "author": "DataRepublican (@DataRepublican)",
-    "url": "https://x.com/DataRepublican/status/2117710086831558838",
-    "time_mt": "1:06 PM MT",
-    "fact_check": "The pre-Election Day data points the same direction: Florida's registered-Republican early-vote edge was 2.4 points (2,194,546 R vs 2,065,302 D) versus 10.1 points at the same point in 2024. Her live same-time comparison uses her own snapshots and can't be checked.",
-    "fact_check_url": "https://countyfilesvbm-ev.floridados.gov/VoteByMailEarlyVotingReports/PublicStats",
-    "trust": "Unconfirmed (X)"
-   },
-   {
-    "paraphrase": "Nevada Republicans are leading Election Day voting by 11.5 points, and every county is shifting right.",
-    "author": "Ryan Fournier (@RyanAFournier)",
-    "url": "https://x.com/RyanAFournier/status/2117716303922561067",
-    "time_mt": "1:31 PM MT",
-    "fact_check": "No official source given or found for the 11.5-point figure or the every-county claim. The only Nevada data in the tracker is Clark County mail ballots through Oct 30: registered Democrats ahead by 20.6 points versus 23.5 at the same point in 2022, a modest shift right in that slice.",
-    "fact_check_url": "https://www.callthemap.com/early-vote",
-    "trust": "Unconfirmed (X)"
-   },
-   {
-    "paraphrase": "Early Tuesday morning, heavily Republican Montgomery County, Texas, had already reached 10% of its 2022 Election Day turnout versus 3% in Democratic-leaning Dallas County, an encouraging early sign for Republicans.",
-    "author": "Rhein Amacher (@RheinAmacher)",
-    "url": "https://x.com/RheinAmacher/status/2117682218583933207",
-    "time_mt": "11:16 AM MT",
-    "fact_check": "Can't be confirmed, and it isn't like-for-like: it's an early-morning snapshot, and Dallas had already cast a slightly larger share of its voters early (41.9% vs 39.4% of registered, per Transparency USA, as reported in the earlier read), so less of its vote was left for Election Day.",
-    "fact_check_url": "https://www.callthemap.com/early-vote",
-    "trust": "Unconfirmed (X)"
    }
   ]
  },
  "if_trends_hold": {
   "senate": null,
   "house": null,
-  "updated_at": "2026-11-03T17:02:00-07:00",
+  "updated_at": "2026-11-03T17:15:00-07:00",
   "label": "Model projection, not a call",
-  "note": "No results yet; the model starts once counties report."
+  "note": "Not enough county-level vote yet; the only key race with meaningful vote (Florida) is mostly early and mail ballots, which would bias a swing model toward Democrats."
  }
 }
