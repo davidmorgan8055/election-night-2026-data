@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T17:15:00-07:00",
+ "updated_at": "2026-11-03T17:18:00-07:00",
  "status_note": "As of 5:15 PM MT: Decision Desk HQ has called Virginia's Senate race for Mark Warner (D), a hold. Florida's Senate special has about 25% in with Angie Nixon (D) ahead 53.8% to 45.2%, mostly early and mail ballots so far. Georgia, South Carolina and New Hampshire have essentially no votes counted. NC and OH close at 5:30 PM MT.",
  "races": [
   {
@@ -1282,8 +1282,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
-   "current_margin": 8.6,
-   "pct_in": 25,
+   "current_margin": 5.6,
+   "pct_in": 36,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1297,7 +1297,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 8.6,
+    "current_margin": 5.6,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1326,11 +1326,11 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "About 75% of the expected vote is still out (DDHQ estimate). The first Florida numbers are mostly early and mail ballots; Election Day votes, which have leaned Republican, come later, so this lead is likely to shrink. Too early for a model projection.",
+   "outstanding_note": "About two-thirds of Florida's vote is still out, much of it Election Day ballots that have leaned Republican, so Nixon's 5.6-point lead (Decision Desk HQ, est. 36% in) is likely to keep shrinking and could flip.",
    "outstanding": {
-    "by_type": null,
-    "can_flip_leader": null,
-    "source": "https://www.npr.org/2026/11/03/g-s1-148801/senate-election-results-2026"
+    "by_type": "Est. 64% of expected vote outstanding (DDHQ); mostly Election Day precincts plus the panhandle, which closes 6:00 PM MT",
+    "can_flip_leader": true,
+    "source": "https://x.com/DecisionDeskHQ/status/2117772532925247606"
    },
    "current_margin_source": {
     "label": "DDHQ, est. 25% in, 5:09 PM MT: Nixon 1,141,121 (53.8%), Moody 958,052 (45.2%)",
@@ -1872,6 +1872,12 @@
  ],
  "alerts": [
   {
+   "time_mt": "5:14 PM MT, Nov 3",
+   "text": "Florida Senate special, est. 36% in: Nixon (D) 1,606,824 (52.3%), Moody (R) 1,436,546 (46.7%), a 5.6-point Nixon lead, down from 8.6 at 25% in. Election Day votes are now being added and have leaned Republican.",
+   "trust": "Official count",
+   "source": "https://x.com/DecisionDeskHQ/status/2117772532925247606"
+  },
+  {
    "time_mt": "5:09 PM MT, Nov 3",
    "text": "Florida Senate special, est. 25% in: Nixon (D) 53.8%, Moody (R) 45.2% (DDHQ). Mostly early/mail ballots; expect a shift toward Moody as Election Day votes are counted.",
    "trust": "Official count",
@@ -2339,7 +2345,7 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "The only call in a Senate race so far is Virginia for Mark Warner (D), a hold that doesn't change the math: Democrats still need a net gain of 4. Florida's first quarter of the vote has Democrat Angie Nixon up 8.6 points, far better for Democrats than the R+13.1 presidential margin in 2024, but that count is mostly early and mail ballots, so it can't yet tell us whether the night is shifting left or right. North Carolina and Ohio close at 5:30 PM MT.",
+ "takeaways_summary": "Virginia (Mark Warner, D, per Decision Desk HQ) is the only Senate call so far, and it doesn't change the math: Democrats still need a net gain of 4. In Florida, Democrat Angie Nixon leads by 5.6 points with about 36% in, down from 8.6 earlier, as Election Day votes start to narrow a count that began with early and mail ballots; it's too early to say whether the night is shifting left or right vs 2022/2024. North Carolina and Ohio close at 5:30 PM MT.",
  "takeaways": [
   {
    "time_mt": "5:15 PM MT, Nov 3",
