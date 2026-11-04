@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03T18:18:00-07:00",
- "status_note": "As of 6:18 PM MT: four Senate calls, all holds; Florida's margin (Moody R+1.5 at 91.6% in) is running well left of polls; Michigan has its first count and Texas, Kansas and South Carolina lean Democratic early, but most of their vote, especially Election Day ballots, is still out (AP via NBC News; DDHQ).",
+ "updated_at": "2026-11-03T18:23:00-07:00",
+ "status_note": "As of 6:23 PM MT: four Senate calls, all holds; Florida (Moody R+1.9 at 92.8% in) ran well left of polls; North Carolina's first big count (53% in, mostly early votes) shows Cooper (D) far ahead, and South Carolina's Andrews (D) lead grew to 5.6 points at 31% in, with Republican-leaning Election Day votes still out (AP via NBC News).",
  "races": [
   {
    "state": "AK",
@@ -338,8 +338,8 @@
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT four western Mountain-time counties",
    "counting_note": "Mail ballots postmarked by Election Day accepted through Nov 6.",
-   "current_margin": 15.7,
-   "pct_in": 8.0,
+   "current_margin": 19.2,
+   "pct_in": 10.7,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -352,9 +352,9 @@
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
    },
    "map": {
-    "status": "not_reporting",
-    "leader": null,
-    "current_margin": null,
+    "status": "reporting",
+    "leader": "D",
+    "current_margin": 19.2,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -474,7 +474,7 @@
    "poll_close_mt": "6:00 PM MT",
    "counting_note": "Town-by-town reporting; if no one >50%, RCV count in Augusta the week after the election.",
    "current_margin": null,
-   "pct_in": null,
+   "pct_in": 0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -540,7 +540,7 @@
     "miss": -6.1,
     "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
-   "outstanding_note": null,
+   "outstanding_note": "Maine has only a handful of votes counted (AP shows 0% in), so the early Collins lead means nothing yet; nearly all the vote is still out.",
    "outstanding": null
   },
   {
@@ -613,8 +613,8 @@
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT four western UP counties",
    "counting_note": "Slow; reports by locality. Early D from Ann Arbor/Grand Rapids, then R gains, late Detroit absentees, Washtenaw, Genesee.",
-   "current_margin": 34.6,
-   "pct_in": 2,
+   "current_margin": 23.0,
+   "pct_in": 4.7,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -627,9 +627,9 @@
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
    },
    "map": {
-    "status": "not_reporting",
-    "leader": null,
-    "current_margin": null,
+    "status": "reporting",
+    "leader": "D",
+    "current_margin": 23.0,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -755,8 +755,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
-   "current_margin": 21.4,
-   "pct_in": 31.0,
+   "current_margin": 20.1,
+   "pct_in": 32.7,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -771,7 +771,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 25.8,
+    "current_margin": 20.1,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -908,8 +908,8 @@
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT El Paso area",
    "counting_note": "Big early-vote dumps (Harris) first can show D lead; many small R counties then; Dallas/Harris Election Day late. Mail postmarked by E-Day accepted until 5 PM Nov 4.",
-   "current_margin": 37.9,
-   "pct_in": 17.2,
+   "current_margin": 21.9,
+   "pct_in": 22.6,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -922,9 +922,9 @@
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
    },
    "map": {
-    "status": "not_reporting",
-    "leader": null,
-    "current_margin": null,
+    "status": "reporting",
+    "leader": "D",
+    "current_margin": 21.9,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1034,8 +1034,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee processed ahead and reported first.",
-   "current_margin": null,
-   "pct_in": null,
+   "current_margin": 37.0,
+   "pct_in": 53.3,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1048,9 +1048,9 @@
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
    },
    "map": {
-    "status": "not_reporting",
-    "leader": null,
-    "current_margin": null,
+    "status": "reporting",
+    "leader": "D",
+    "current_margin": 37.0,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1131,8 +1131,18 @@
     "miss": -2.0,
     "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
-   "outstanding_note": null,
-   "outstanding": null
+   "outstanding_note": "About 47% of North Carolina's expected vote is still out, mostly Election Day ballots that historically lean Republican; Cooper's 37-point early lead will shrink sharply but is far too large for the remaining vote to erase at current rates.",
+   "outstanding": {
+    "by_type": [
+     {
+      "type": "Election Day",
+      "est_votes": "~47% of expected vote (AP estimate)",
+      "lean_hist": "R"
+     }
+    ],
+    "can_flip_leader": false,
+    "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+   }
   },
   {
    "state": "SC",
@@ -1192,8 +1202,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "missing \u2014 not researched this run",
-   "current_margin": 3.0,
-   "pct_in": 23.7,
+   "current_margin": 5.6,
+   "pct_in": 30.7,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1208,7 +1218,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 4.2,
+    "current_margin": 5.6,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1237,13 +1247,18 @@
     "miss": null,
     "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
-   "outstanding_note": "About 91% of South Carolina's vote is still out; early and absentee ballots tend to be counted first and lean Democratic, and Election Day votes still to come have leaned Republican, so Andrews' early lead can flip.",
+   "outstanding_note": "About 69% of South Carolina's expected vote is still out, much of it Election Day ballots that historically lean Republican, so Andrews' 5.6-point early lead could still flip.",
    "outstanding": {
     "by_type": [
      {
-      "type": "Election Day and remaining early vote",
-      "est_votes": "unknown (~91% of expected vote)",
+      "type": "Election Day",
+      "est_votes": "~69% of expected vote (AP estimate)",
       "lean_hist": "R"
+     },
+     {
+      "type": "Early/absentee (remaining)",
+      "est_votes": "unknown",
+      "lean_hist": "D"
      }
     ],
     "can_flip_leader": true,
@@ -1317,8 +1332,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
-   "current_margin": -1.5,
-   "pct_in": 91.6,
+   "current_margin": -1.9,
+   "pct_in": 92.8,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1334,7 +1349,7 @@
    "map": {
     "status": "called",
     "leader": "R",
-    "current_margin": -0.7,
+    "current_margin": -1.9,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1443,8 +1458,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
-   "current_margin": 27.4,
-   "pct_in": 54.7,
+   "current_margin": 27.2,
+   "pct_in": 56.5,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1460,7 +1475,7 @@
    "map": {
     "status": "called",
     "leader": "D",
-    "current_margin": 28.8,
+    "current_margin": 27.2,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1676,8 +1691,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
-   "current_margin": 23.7,
-   "pct_in": 18.9,
+   "current_margin": 23.0,
+   "pct_in": 19.8,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1693,7 +1708,7 @@
    "map": {
     "status": "called",
     "leader": "D",
-    "current_margin": 23.4,
+    "current_margin": 23.0,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1873,7 +1888,7 @@
    "called": {
     "D": 3,
     "R": 1,
-    "detail": "VA: Warner (D) hold, DDHQ 5:00 PM MT; GA: Ossoff (D) hold, DDHQ 5:18 PM MT, NBC 5:31 PM MT, AP 5:59 PM MT; NH: Pappas (D) hold, DDHQ 6:00 PM MT; FL special: Moody (R) hold, DDHQ 6:00 PM MT. No seat has changed party.",
+    "detail": "VA: Warner (D) hold, DDHQ 5:00 PM MT; GA: Ossoff (D) hold, DDHQ 5:18 PM MT, NBC 5:31 PM MT, AP 5:59 PM MT; NH: Pappas (D) hold, DDHQ 6:00 PM MT; FL special: Moody (R) hold, DDHQ 6:00 PM MT. No seat has changed party. NBC News also projected NH for Pappas at 6:20 PM MT.",
     "source": "https://x.com/DecisionDeskHQ/status/2117784260660859298"
    },
    "undecided": null,
@@ -1892,9 +1907,9 @@
    },
    "source": "https://www.congresscountdown.com/info/party-breakdown",
    "called": {
-    "D": 14,
-    "R": 11,
-    "detail": "AP race calls as shown by NBC News at 7:54 PM ET (5:54 PM MT)",
+    "D": 36,
+    "R": 16,
+    "detail": "AP race calls as shown by NBC News at 8:21 PM ET (6:21 PM MT); 383 of 435 uncalled",
     "source": "https://www.nbcnews.com/politics/2026-elections/house-results"
    },
    "undecided": null
@@ -1966,6 +1981,12 @@
   }
  ],
  "alerts": [
+  {
+   "time_mt": "6:23 PM MT, Nov 3",
+   "text": "North Carolina: first big count, 53.3% in per AP; Cooper (D) 67.7%, Whatley (R) 30.7%, mostly early votes that lean Democratic, so a large red shift is expected as Election Day ballots report. South Carolina: Andrews (D) 52.0%, Graham (R) 46.4% at 30.7% in.",
+   "trust": "Official count",
+   "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+  },
   {
    "time_mt": "6:00 PM MT, Nov 3",
    "text": "Decision Desk HQ calls Florida's Senate special for Moody (R) and New Hampshire for Pappas (D), both holds. Senate calls so far: D 3 holds, R 1 hold, no seats changed party. AP added its Georgia call for Ossoff at 5:59 PM MT.",
@@ -2494,8 +2515,18 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Four Senate races are called, all holds (Democrats: Virginia, Georgia, New Hampshire; Republicans: Florida's special, per Decision Desk HQ), so Democrats still need a net gain of 4. Florida went to Moody (R) by about half a point at 84% in per AP, far closer than the Moody +5.8 polling average and Trump's 13-point 2024 win, so early results lean left of 2024 and left of the polls; Maine, Michigan, Texas and Kansas just closed and have little or no vote yet.",
+ "takeaways_summary": "Four Senate races are called, all holds (Democrats: Virginia, Georgia, New Hampshire; Republicans: Florida's special), so Democrats still need a net gain of 4. Florida went to Moody (R) by about 2 points, far closer than the Moody +5.8 polling average and Trump's 13-point 2024 win, and early counts in North Carolina, South Carolina, Ohio and Texas lean Democratic; most Election Day votes, which lean Republican, are still out, so results so far shift left of 2024 but are not final.",
  "takeaways": [
+  {
+   "time_mt": "6:23 PM MT, Nov 3",
+   "headline": "North Carolina's first big count: Cooper (D) far ahead on early votes",
+   "detail": "With 53.3% of the expected vote in per AP, Roy Cooper (D) leads Michael Whatley (R) 67.7% to 30.7%, a 37-point Democratic lead (D+37.0). North Carolina reports early and mail ballots first, which lean Democratic, so expect the margin to shrink a lot as Election Day votes come in; the final polling average was Cooper +11.2 and Trump won the state by 3.2 points in 2024. South Carolina's Andrews (D) lead widened to 52.0% to 46.4% (D+5.6) at 30.7% in, versus a Graham +2.2 polling average. NBC's Decision Desk now rates Ohio as leaning Democratic, which is not a call.",
+   "source_label": "AP via NBC News",
+   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "tag": "early vote",
+   "confidence": null,
+   "trust": "Official count"
+  },
   {
    "time_mt": "6:02 PM MT, Nov 3",
    "headline": "Florida called for Moody (R), but much closer than polls; no Senate seat has flipped",
@@ -2732,15 +2763,6 @@
    "source_label": "Midterm Results Live poll closing times",
    "source_url": "https://midtermresultslive.com/poll-closing-times/",
    "tag": "note"
-  },
-  {
-   "time_mt": "8:10 PM MT, Nov 2",
-   "headline": "Some states give turnout only, with no party breakdown",
-   "detail": "Michigan, Ohio, Texas, South Carolina and Alaska report how many people voted early but not their party. For Texas, county-level turnout is used instead; for the others, no direction can be read yet.",
-   "source_label": "Call the Map early-vote tracker",
-   "source_url": "https://www.callthemap.com/early-vote",
-   "tag": "turnout",
-   "trust": "Tracker data"
   }
  ],
  "perspectives": {
@@ -2814,8 +2836,8 @@
  "gop_meter": {
   "state": "worse",
   "headline": "Worse than expected for Republicans so far",
-  "reason": "Republicans held Florida (Decision Desk HQ call), but Moody leads only 50.2% to 48.7% at 91.6% in per AP, versus a Moody +5.8 polling average and Trump +13.1 in 2024; South Carolina's early count shows Andrews (D) ahead 50.8% to 47.8% versus a Graham +2.2 average, with Republican-leaning Election Day votes still out. No Senate seat has changed party.",
-  "as_of_mt": "6:18 PM MT, Nov 3",
+  "reason": "Republicans held Florida (Decision Desk HQ call), but Moody leads only 50.4% to 48.5% at 92.8% in per AP, versus a Moody +5.8 polling average and Trump +13.1 in 2024; South Carolina's early count shows Andrews (D) ahead 52.0% to 46.4% versus a Graham +2.2 average, with Republican-leaning Election Day votes still out. No Senate seat has changed party.",
+  "as_of_mt": "6:23 PM MT, Nov 3",
   "basis": "Model read vs polling averages, not a call",
   "source_label": "AP via NBC News",
   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
