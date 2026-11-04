@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03T17:58:00-07:00",
- "status_note": "As of 5:58 PM MT: Florida's special flipped to Moody (R) 49.6% to Nixon (D) 49.2% at 83.7% in, with Republican-leaning Election Day and panhandle votes still out. South Carolina's early count shows Andrews (D) 51.5% to Graham (R) 47.2% at 15.5% in. Two Senate calls so far, both Democratic holds (VA, GA). Polls close in Maine, Michigan, Texas, Kansas and more at 6 PM MT. Source: AP via NBC News.",
+ "updated_at": "2026-11-03T18:02:00-07:00",
+ "status_note": "As of 6:02 PM MT: Decision Desk HQ called Florida's special for Moody (R) and New Hampshire for Pappas (D), both holds; AP also called Georgia for Ossoff (D). Senate calls: D 3, R 1, no flips. South Carolina: Andrews (D) 51.5%, Graham (R) 47.2% at 17.1% in. Maine, Michigan, Texas and Kansas polls closed at 6 PM MT. Source: AP via NBC News; Decision Desk HQ.",
  "races": [
   {
    "state": "AK",
@@ -744,8 +744,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
-   "current_margin": 28.5,
-   "pct_in": 23.5,
+   "current_margin": 26.6,
+   "pct_in": 25.0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -760,7 +760,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 28.5,
+    "current_margin": 26.6,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1178,7 +1178,7 @@
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "missing \u2014 not researched this run",
    "current_margin": 4.3,
-   "pct_in": 15.5,
+   "pct_in": 17.1,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1298,22 +1298,24 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
-   "current_margin": -0.4,
-   "pct_in": 83.7,
+   "current_margin": -0.5,
+   "pct_in": 83.8,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
-    "by": null,
-    "status": "not called",
-    "time_mt": null
+    "status": "called",
+    "by": "Decision Desk HQ (6:00 PM MT)",
+    "time_mt": "6:00 PM MT, Nov 3",
+    "winner": "Ashley Moody (R)",
+    "source": "https://x.com/DecisionDeskHQ/status/2117784260660859298"
    },
    "results_sources": {
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
    },
    "map": {
-    "status": "reporting",
+    "status": "called",
     "leader": "R",
-    "current_margin": -0.4,
+    "current_margin": -0.5,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1342,7 +1344,7 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "About 18% of Florida's expected vote is still out, mostly Election Day ballots and the panhandle, which have leaned Republican in recent Florida elections, so Nixon's 0.3-point lead can easily flip.",
+   "outstanding_note": "About 16% of Florida's expected vote is still out, mostly Election Day and panhandle ballots that have leaned Republican; Decision Desk HQ has projected Moody the winner, and AP had not called it as of 7:59 PM ET.",
    "outstanding": {
     "by_type": [
      {
@@ -1351,12 +1353,12 @@
       "lean_hist": "R"
      }
     ],
-    "can_flip_leader": true,
+    "can_flip_leader": false,
     "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
    },
    "current_margin_source": {
-    "label": "DDHQ, est. 25% in, 5:09 PM MT: Nixon 1,141,121 (53.8%), Moody 958,052 (45.2%)",
-    "url": "https://x.com/DecisionDeskHQ/status/2117771164793622766"
+    "label": "AP via NBC News, 83.8% in, 7:59 PM ET (5:59 PM MT): Moody 49.7%, Nixon 49.2%",
+    "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
    }
   },
   {
@@ -1423,12 +1425,12 @@
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
    "current_margin": 24.4,
-   "pct_in": 38.4,
+   "pct_in": 38.5,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
     "status": "called",
-    "by": "Decision Desk HQ (5:18 PM MT); NBC News (5:31 PM MT)",
+    "by": "Decision Desk HQ (5:18 PM MT); NBC News (5:31 PM MT); AP (5:59 PM MT)",
     "time_mt": "5:18 PM MT, Nov 3",
     "winner": "Jon Ossoff (D)",
     "source": "https://x.com/DecisionDeskHQ/status/2117773436718137533"
@@ -1651,22 +1653,24 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
-   "current_margin": 23.6,
-   "pct_in": 13.8,
+   "current_margin": 23.0,
+   "pct_in": 14.5,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
-    "by": null,
-    "status": "not called",
-    "time_mt": null
+    "status": "called",
+    "by": "Decision Desk HQ (6:00 PM MT)",
+    "time_mt": "6:00 PM MT, Nov 3",
+    "winner": "Chris Pappas (D)",
+    "source": "https://x.com/DecisionDeskHQ/status/2117784016719954261"
    },
    "results_sources": {
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
    },
    "map": {
-    "status": "reporting",
+    "status": "called",
     "leader": "D",
-    "current_margin": 23.6,
+    "current_margin": 23.0,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1695,7 +1699,7 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "About 88% of New Hampshire's vote is still out, and the first towns to report are too few to read.",
+   "outstanding_note": "About 85% of New Hampshire's expected vote is still out; Decision Desk HQ has projected Pappas the winner of this open Democratic-held seat.",
    "outstanding": {
     "by_type": null,
     "can_flip_leader": null,
@@ -1840,10 +1844,10 @@
    "control_math": "Republicans hold 53 seats; Democrats (45 + 2 independents who caucus with them) need a net gain of 4 for 51; VP JD Vance breaks 50-50 ties for R.",
    "source": "https://abcnews.com/Politics/control-congress-grabs-election-day-math-democrats-republicans/story?id=137229697",
    "called": {
-    "D": 2,
-    "R": 0,
-    "detail": "VA: Mark Warner (D) hold, Decision Desk HQ 5:00 PM MT; GA: Jon Ossoff (D) hold, Decision Desk HQ 5:18 PM MT and NBC News 5:31 PM MT",
-    "source": "https://x.com/DecisionDeskHQ/status/2117773436718137533"
+    "D": 3,
+    "R": 1,
+    "detail": "VA: Warner (D) hold, DDHQ 5:00 PM MT; GA: Ossoff (D) hold, DDHQ 5:18 PM MT, NBC 5:31 PM MT, AP 5:59 PM MT; NH: Pappas (D) hold, DDHQ 6:00 PM MT; FL special: Moody (R) hold, DDHQ 6:00 PM MT. No seat has changed party.",
+    "source": "https://x.com/DecisionDeskHQ/status/2117784260660859298"
    },
    "undecided": null
   },
@@ -1888,6 +1892,33 @@
  },
  "calls_log": [
   {
+   "time_mt": "6:00 PM MT, Nov 3",
+   "race": "FL Senate (special)",
+   "winner": "Ashley Moody (R), hold",
+   "by": "Decision Desk HQ",
+   "text": "Decision Desk HQ projects Ashley Moody (R) wins Florida's Senate special. A Republican hold, so no net change; Moody leads 49.7% to 49.2% at 83.8% in per AP, far closer than the Moody +5.8 polling average.",
+   "trust": "Called by AP/network",
+   "source": "https://x.com/DecisionDeskHQ/status/2117784260660859298"
+  },
+  {
+   "time_mt": "6:00 PM MT, Nov 3",
+   "race": "NH Senate",
+   "winner": "Chris Pappas (D), hold",
+   "by": "Decision Desk HQ",
+   "text": "Decision Desk HQ projects Chris Pappas (D) wins New Hampshire's open Senate seat. A Democratic hold, so no net change.",
+   "trust": "Called by AP/network",
+   "source": "https://x.com/DecisionDeskHQ/status/2117784016719954261"
+  },
+  {
+   "time_mt": "5:59 PM MT, Nov 3",
+   "race": "GA Senate",
+   "winner": "Jon Ossoff (D), hold",
+   "by": "AP (after DDHQ 5:18 PM MT and NBC 5:31 PM MT)",
+   "text": "AP now also calls Georgia for Jon Ossoff (D).",
+   "trust": "Called by AP/network",
+   "source": "https://x.com/AP/status/2117783750201274645"
+  },
+  {
    "time_mt": "5:18 PM MT, Nov 3",
    "race": "GA Senate",
    "winner": "Jon Ossoff (D), hold",
@@ -1907,6 +1938,12 @@
   }
  ],
  "alerts": [
+  {
+   "time_mt": "6:00 PM MT, Nov 3",
+   "text": "Decision Desk HQ calls Florida's Senate special for Moody (R) and New Hampshire for Pappas (D), both holds. Senate calls so far: D 3 holds, R 1 hold, no seats changed party. AP added its Georgia call for Ossoff at 5:59 PM MT.",
+   "trust": "Called by AP/network",
+   "source": "https://x.com/DecisionDeskHQ/status/2117784260660859298"
+  },
   {
    "time_mt": "5:58 PM MT, Nov 3",
    "text": "Florida special, 83.7% in: Moody (R) 49.6%, Nixon (D) 49.2%, lead flipped from Nixon. South Carolina, 15.5% in: Andrews (D) 51.5%, Graham (R) 47.2%.",
@@ -2429,8 +2466,18 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Two Senate races are called, both Democratic holds (Virginia and Georgia), so Democrats still need a net gain of 4. Florida's special has flipped to a narrow Moody (R) lead (R+0.4 at 84% in per AP), still far closer than the Moody +5.8 polling average and Trump's 13-point 2024 win, so results are running left of 2024 so far; South Carolina's early count still has Andrews (D) ahead, with Republican-leaning Election Day votes still coming in.",
+ "takeaways_summary": "Four Senate races are called, all holds (Democrats: Virginia, Georgia, New Hampshire; Republicans: Florida's special, per Decision Desk HQ), so Democrats still need a net gain of 4. Florida went to Moody (R) by about half a point at 84% in per AP, far closer than the Moody +5.8 polling average and Trump's 13-point 2024 win, so early results lean left of 2024 and left of the polls; Maine, Michigan, Texas and Kansas just closed and have little or no vote yet.",
  "takeaways": [
+  {
+   "time_mt": "6:02 PM MT, Nov 3",
+   "headline": "Florida called for Moody (R), but much closer than polls; no Senate seat has flipped",
+   "detail": "Decision Desk HQ projected Ashley Moody (R) the winner of Florida's special at 6:00 PM MT. AP data via NBC News shows Moody up 49.7% to 49.2% (R+0.5) at 83.8% in, versus a Moody +5.8 final polling average and Trump's 13.1-point 2024 win, so Democrats are running about 5 points better than polls there with Republican-leaning ballots still out. Decision Desk HQ also called New Hampshire for Chris Pappas (D). All four Senate calls are holds, so Democrats still need a net gain of 4. Worse than expected for Republicans in Florida's margin, as expected in the seat count.",
+   "source_label": "Decision Desk HQ; AP via NBC News",
+   "source_url": "https://x.com/DecisionDeskHQ/status/2117784260660859298",
+   "tag": "call",
+   "confidence": null,
+   "trust": "Called by AP/network"
+  },
   {
    "time_mt": "5:58 PM MT, Nov 3",
    "headline": "Florida lead flips to Moody (R) as Election Day votes come in",
@@ -2669,8 +2716,26 @@
   }
  ],
  "perspectives": {
-  "updated_at": "2026-11-03T17:37:00-07:00",
+  "updated_at": "2026-11-03T18:02:00-07:00",
   "right": [
+   {
+    "paraphrase": "Ashley Moody is doing very well in Sumter County, even more Republican than in 2024; he urged keeping the count honest.",
+    "author": "Ryan Fournier (@RyanAFournier)",
+    "url": "https://x.com/RyanAFournier/status/2117780483849285766",
+    "time_mt": "5:46 PM MT",
+    "fact_check": "Not checked at county level: no Sumter County comparison was pulled. Statewide, Moody leads by only 0.5 points at 83.8% in per AP, versus Trump's 13.1-point 2024 win, so statewide Florida is running well left of 2024 even if some counties run redder.",
+    "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "trust": "Unconfirmed (X)"
+   },
+   {
+    "paraphrase": "Florida is coming down to the wire with 1.6 million-plus votes left to count in the Senate and governor races.",
+    "author": "Ryan Fournier (@RyanAFournier)",
+    "url": "https://x.com/RyanAFournier/status/2117782010236174827",
+    "time_mt": "5:52 PM MT",
+    "fact_check": "The race was close (Moody R+0.5 at 83.8% in per AP), but the 1.6 million figure wasn't found in AP or NBC data, which show percent in, not raw votes left. Decision Desk HQ projected Moody the winner at 6:00 PM MT.",
+    "fact_check_url": "https://x.com/DecisionDeskHQ/status/2117784260660859298",
+    "trust": "Unconfirmed (X)"
+   },
    {
     "paraphrase": "Asked by a follower \"What about Georgia?\", she replied: \"I'm not optimistic.\"",
     "author": "DataRepublican (@DataRepublican)",
@@ -2679,35 +2744,26 @@
     "fact_check": "No Georgia vote had been counted when she posted (AP showed 0% in; final polling average Ossoff (D) +9.4). Decision Desk HQ (5:18 PM MT) and NBC News (5:31 PM MT) have since projected Ossoff the winner; with 25.3% in he leads 66.1% to 33.9%, mostly early and mail ballots.",
     "fact_check_url": "https://x.com/DecisionDeskHQ/status/2117773436718137533",
     "trust": "Unconfirmed (X)"
-   },
-   {
-    "paraphrase": "On a same-time snapshot, Florida's vote is over 100,000 ahead of Election Day 2024, and overall Florida is running at a D+4 shift relative to 2024.",
-    "author": "DataRepublican (@DataRepublican)",
-    "url": "https://x.com/DataRepublican/status/2117710086831558838",
-    "time_mt": "1:06 PM MT",
-    "fact_check": "Direction is consistent so far: the registered-Republican early-vote edge was 2.4 points vs 10.1 at the same point in 2024, and with 63.7% in the Senate count is Nixon (D) +0.9 vs Trump R+13.1 in 2024. Nixon's lead has shrunk from +8.6 at 25% in as Election Day ballots are added, so the size of any shift can't be judged yet.",
-    "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
-    "trust": "Unconfirmed (X)"
-   },
-   {
-    "paraphrase": "Reports of power outages in Wayne County, Michigan; voters should stay in line because Michigan uses paper ballots and voting continues.",
-    "author": "Ryan Fournier (@RyanAFournier)",
-    "url": "https://x.com/RyanAFournier/status/2117769105684189451",
-    "time_mt": "5:01 PM MT",
-    "fact_check": "No official or major-outlet report of Election Day outages at Wayne County polls was found. Michigan's Department of State reported no major issues earlier in the afternoon. It is true that Michigan voting continues on paper ballots during an outage.",
-    "fact_check_url": "https://www.michiganpublic.org/live-updates/michigan-election-2026-live-updates",
-    "trust": "Unconfirmed (X)"
    }
   ],
   "left": [
    {
-    "paraphrase": "Democrat Mark Warner has won Virginia's Senate race.",
+    "paraphrase": "Democrat Jon Ossoff has been reelected to the Senate, keeping Georgia's seat Democratic.",
     "author": "Democrats (@TheDemocrats)",
-    "url": "https://x.com/TheDemocrats/status/2117770557890453828",
-    "time_mt": "5:07 PM MT",
-    "fact_check": "Confirmed: Decision Desk HQ projected Warner the winner at 5:00 PM MT. A hold, not a pickup.",
-    "fact_check_url": "https://x.com/DecisionDeskHQ/status/2117769268796522621",
+    "url": "https://x.com/TheDemocrats/status/2117783642961289305",
+    "time_mt": "5:59 PM MT",
+    "fact_check": "Confirmed: AP called the race for Ossoff at 5:59 PM MT, after Decision Desk HQ and NBC News. A hold, not a pickup.",
+    "fact_check_url": "https://x.com/AP/status/2117783750201274645",
     "trust": "Called by AP/network"
+   },
+   {
+    "paraphrase": "Democrat Juliana Stratton wins election to the U.S. Senate from Illinois, citing AP.",
+    "author": "Kyle Griffin (@kylegriffin1)",
+    "url": "https://x.com/kylegriffin1/status/2117784508204236989",
+    "time_mt": "6:02 PM MT",
+    "fact_check": "Not yet confirmed here: AP's own post wasn't found yet, and NBC's results page (7:59 PM ET) showed 0% in for Illinois. It would be a Democratic hold, no net change.",
+    "fact_check_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+    "trust": "Unconfirmed (X)"
    },
    {
     "paraphrase": "Attorney General Todd Blanche said the DOJ will keep fighting to stop Alaska from certifying its Senate results if the Republican loses, despite a court blocking the department.",
@@ -2717,30 +2773,21 @@
     "fact_check": "Partly confirmed: AP and NPR report a federal judge dismissed the DOJ suit on Nov 1 and DOJ filed a notice of appeal. The Blanche quote is from Democracy Docket's write-up of a Fox News interview; Democracy Docket discloses its founder's firm represents the Peltola campaign.",
     "fact_check_url": "https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan",
     "trust": "Unconfirmed (X)"
-   },
-   {
-    "paraphrase": "Franklin County, Ohio (Columbus) became the first county with data where the Election Day share of total votes passed its final 2024 Election Day share, with other suburban, higher-education counties close behind.",
-    "author": "Jordan Schwartz (@JordanSchwartz)",
-    "url": "https://x.com/JordanSchwartz/status/2117720700077117779",
-    "time_mt": "1:48 PM MT",
-    "fact_check": "Can't be checked yet: Ohio doesn't post live county Election Day totals, and the comparison relies on his own data feed. Ohio's statewide early vote was 1,754,731 through Monday, but the state doesn't report party for early voters.",
-    "fact_check_url": "https://www.callthemap.com/early-vote",
-    "trust": "Unconfirmed (X)"
    }
   ]
  },
  "if_trends_hold": {
   "senate": null,
   "house": null,
-  "updated_at": "2026-11-03T17:37:00-07:00",
+  "updated_at": "2026-11-03T18:02:00-07:00",
   "label": "Model projection, not a call",
-  "note": "Not enough county-level vote yet; the only key race with meaningful vote (Florida) is mostly early and mail ballots, which would bias a swing model toward Democrats."
+  "note": "Not enough county-level vote yet to run the swing model. Florida's result (R+0.5 at 84% in vs Moody +5.8 polling average) is the only key race near complete; one state is not enough to call polling error correlated."
  },
  "gop_meter": {
   "state": "worse",
   "headline": "Worse than expected for Republicans so far",
-  "reason": "Florida's Senate special is within half a point (Moody R 49.6%, Nixon D 49.2% at 83.7% in per AP) versus a Moody +5.8 polling average and Trump +13.1 in 2024, and South Carolina's early count shows Andrews (D) ahead of Graham versus a Graham +2.2 average; both counts still lack some Republican-leaning Election Day votes.",
-  "as_of_mt": "5:58 PM MT, Nov 3",
+  "reason": "Republicans held Florida (Decision Desk HQ call), but Moody leads only 49.7% to 49.2% at 83.8% in per AP versus a Moody +5.8 polling average and Trump +13.1 in 2024; South Carolina's early count shows Andrews (D) ahead versus a Graham +2.2 average, with Republican-leaning Election Day votes still out. No Senate seat has changed party.",
+  "as_of_mt": "6:02 PM MT, Nov 3",
   "basis": "Model read vs polling averages, not a call",
   "source_label": "AP via NBC News",
   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
