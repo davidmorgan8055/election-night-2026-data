@@ -172,4 +172,4 @@ section>:not(h2){margin-left:28px!important;margin-right:28px!important}
 [data-theme="dark"] .gopm{background:rgba(245,158,11,.08);border-color:#2b303b}
 [data-theme="dark"] .gopm-txt b{color:#e8eaed}
 [data-theme="dark"] .gopm-seg{color:#9aa0a6}[data-theme="dark"] .gopm-seg.on{color:#1a1300}
-@media(max-width:560px){.gopm{flex-direction:column;align-items:stretch}.gopm-sw{display:flex}.gopm-seg{flex:1;text-align:center;white-space:normal;padding:5px 6px;font-size:11.5px}}
+@media(max-width:560px){.gopm{flex-direction:column;align-items:stretch}.gopm-sw{display:flex}.gopm-txt{flex:none}.gopm-seg{flex:1;text-align:center;white-space:normal;padding:5px 6px;font-size:11.5px}}
