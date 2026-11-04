@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T18:40:00-07:00",
+ "updated_at": "2026-11-03T18:45:00-07:00",
  "status_note": "As of 6:40 PM MT: NBC News has projected expected holds in DE, IL, MA, NJ, RI (D) and WV (R); North Carolina remains the only flip, so Democrats need a net +3 more. Florida (Moody R+2.7 at 96% in) ran well left of polls, and South Carolina's Andrews (D) leads by 6.9 points at 49% in, with Republican-leaning Election Day votes still out (AP via NBC News).",
  "races": [
   {
@@ -338,8 +338,8 @@
    },
    "poll_close_mt": "6:00 PM MT (most); 7:00 PM MT four western Mountain-time counties",
    "counting_note": "Mail ballots postmarked by Election Day accepted through Nov 6.",
-   "current_margin": 17.2,
-   "pct_in": 14.4,
+   "current_margin": 21.2,
+   "pct_in": 16.1,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -473,8 +473,8 @@
    },
    "poll_close_mt": "6:00 PM MT",
    "counting_note": "Town-by-town reporting; if no one >50%, RCV count in Augusta the week after the election.",
-   "current_margin": null,
-   "pct_in": 0,
+   "current_margin": -28.8,
+   "pct_in": 0.2,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -755,8 +755,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
-   "current_margin": 16.3,
-   "pct_in": 36.3,
+   "current_margin": 16.1,
+   "pct_in": 36.4,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1035,7 +1035,7 @@
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee processed ahead and reported first.",
    "current_margin": 30.7,
-   "pct_in": 62.8,
+   "pct_in": 62.7,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1205,8 +1205,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "missing \u2014 not researched this run",
-   "current_margin": 6.9,
-   "pct_in": 49.1,
+   "current_margin": 6.3,
+   "pct_in": 49.6,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1336,7 +1336,7 @@
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
    "current_margin": -2.7,
-   "pct_in": 96.0,
+   "pct_in": 96.3,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1462,7 +1462,7 @@
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
    "current_margin": 23.6,
-   "pct_in": 62.5,
+   "pct_in": 62.6,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1694,8 +1694,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
-   "current_margin": 22.0,
-   "pct_in": 23.3,
+   "current_margin": 21.5,
+   "pct_in": 23.6,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
