@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T17:34:00-07:00",
+ "updated_at": "2026-11-03T17:39:00-07:00",
  "status_note": "As of 5:15 PM MT: Decision Desk HQ has called Virginia's Senate race for Mark Warner (D), a hold. Florida's Senate special has about 25% in with Angie Nixon (D) ahead 53.8% to 45.2%, mostly early and mail ballots so far. Georgia, South Carolina and New Hampshire have essentially no votes counted. NC and OH close at 5:30 PM MT.",
  "races": [
   {
@@ -744,8 +744,8 @@
    },
    "poll_close_mt": "5:30 PM MT",
    "counting_note": "Early/absentee released first (lean D), then rural Election Day precincts; Columbus/Cleveland Election Day late; provisionals after.",
-   "current_margin": null,
-   "pct_in": null,
+   "current_margin": -4.1,
+   "pct_in": 1.0,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -758,9 +758,9 @@
     "ap": "https://apnews.com/projects/elections-2026/us-senate-results/"
    },
    "map": {
-    "status": "not_reporting",
-    "leader": null,
-    "current_margin": null,
+    "status": "reporting",
+    "leader": "R",
+    "current_margin": -4.1,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -817,8 +817,12 @@
     "miss": -1.9,
     "compiled_from": "RCP pages (archived) + aggregator links listed on the race's Wikipedia page"
    },
-   "outstanding_note": null,
-   "outstanding": null
+   "outstanding_note": "About 99% of Ohio's vote is still out; early and mail ballots usually report first and lean Democratic, then rural Election Day precincts, so this very early Husted lead says little yet.",
+   "outstanding": {
+    "by_type": "Nearly all vote types still out",
+    "can_flip_leader": true,
+    "source": "AP via NBC News, 1.0% in"
+   }
   },
   {
    "state": "TX",
@@ -1167,8 +1171,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "missing \u2014 not researched this run",
-   "current_margin": 4.6,
-   "pct_in": 1.0,
+   "current_margin": 14.1,
+   "pct_in": 1.6,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1183,7 +1187,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 4.6,
+    "current_margin": 14.1,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1282,8 +1286,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT panhandle",
    "counting_note": "Florida counts fast: early and mail ballots are reported first (often within an hour of close), then Election Day precincts, which have leaned Republican; the panhandle closes an hour later. Special election for the seat Marco Rubio vacated.",
-   "current_margin": 0.9,
-   "pct_in": 63.7,
+   "current_margin": 2.7,
+   "pct_in": 70.5,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1297,7 +1301,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 0.9,
+    "current_margin": 2.7,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1326,14 +1330,11 @@
     "compiled_from": null,
     "method": null
    },
-   "outstanding_note": "About 36% of Florida's expected vote is still out, mostly Election Day ballots plus the panhandle (which closed at 6 PM MT); both have leaned Republican, so Moody could overtake Nixon's 0.9-point lead.",
+   "outstanding_note": "About 30% of Florida's expected vote is still out, mostly Election Day ballots and panhandle counties that have leaned Republican, so Nixon's 2.7-point lead could still shrink or flip.",
    "outstanding": {
-    "by_type": {
-     "election_day": "most of the remaining ~36%",
-     "panhandle": "polls close 6:00 PM MT"
-    },
+    "by_type": "Mostly Election Day in-person and panhandle/rural counties (lean R historically)",
     "can_flip_leader": true,
-    "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+    "source": "AP via NBC News, 70.5% in at 7:37 PM ET"
    },
    "current_margin_source": {
     "label": "DDHQ, est. 25% in, 5:09 PM MT: Nixon 1,141,121 (53.8%), Moody 958,052 (45.2%)",
@@ -1403,8 +1404,8 @@
    },
    "poll_close_mt": "5:00 PM MT",
    "counting_note": "Georgia reports early in-person and mail ballots first, which have leaned Democratic; rural Election Day votes then move it toward Republicans, with metro Atlanta Election Day votes late. A runoff is required if no one passes 50% (Dec 1).",
-   "current_margin": 32.2,
-   "pct_in": 25.3,
+   "current_margin": 30.6,
+   "pct_in": 29.3,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1420,7 +1421,7 @@
    "map": {
     "status": "called",
     "leader": "D",
-    "current_margin": 32.2,
+    "current_margin": 30.6,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1632,8 +1633,8 @@
    },
    "poll_close_mt": "5:00 PM MT (most); 6:00 PM MT (rest)",
    "counting_note": "Open seat (Jeanne Shaheen retiring). Towns hand-count and report one by one with no strong partisan order; small towns report early, larger cities (Manchester, Nashua) through the night.",
-   "current_margin": 28.6,
-   "pct_in": 6.2,
+   "current_margin": 29.5,
+   "pct_in": 7.8,
    "projected_margin": null,
    "projection_confidence": null,
    "call": {
@@ -1647,7 +1648,7 @@
    "map": {
     "status": "reporting",
     "leader": "D",
-    "current_margin": 28.6,
+    "current_margin": 29.5,
     "projected_margin": null,
     "polling_miss": null,
     "polling_miss_def": "result margin minus polling average (D minus R points); positive = Democrat outperformed polls, negative = Republican outperformed",
@@ -1888,6 +1889,12 @@
   }
  ],
  "alerts": [
+  {
+   "time_mt": "5:39 PM MT, Nov 3",
+   "text": "Florida Senate special, 70.5% in: Nixon (D) 50.8%, Moody (R) 48.1%, a 2.7-point Nixon lead, up from 0.9 at 63.7% in. Remaining vote is mostly Election Day and panhandle ballots, which have leaned Republican.",
+   "trust": "Official count",
+   "source": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+  },
   {
    "time_mt": "5:34 PM MT, Nov 3",
    "text": "Georgia Senate called for Jon Ossoff (D) by Decision Desk HQ (5:18 PM MT) and NBC News (5:31 PM MT). Democratic hold; no net change toward control.",
@@ -2386,8 +2393,18 @@
   ]
  },
  "map_notes": "States not listed in races are shown grey (no tracked Senate race on this site).",
- "takeaways_summary": "Two Senate races are called, both Democratic holds (Virginia's Warner and Georgia's Ossoff, per Decision Desk HQ, with NBC News also calling Georgia), so Democrats still need a net gain of 4. Florida has narrowed to a 0.9-point Nixon lead with 63.7% in per AP data, well ahead of Moody's +5.8 polling average and Trump's 13-point 2024 margin, but Republican-leaning Election Day and panhandle votes are still coming in, so it's too early to say whether results are shifting left or right vs 2022/2024. North Carolina and Ohio polls closed at 5:30 PM MT with no votes counted yet.",
+ "takeaways_summary": "Two Senate races are called, both Democratic holds (Virginia and Georgia), so Democrats still need a net gain of 4. Florida's Senate special has Nixon (D) up 2.7 points with 70.5% in per AP data, versus a Moody +5.8 polling average and Trump's 13-point 2024 win, a shift left so far, though Republican-leaning Election Day and panhandle votes are still out. Ohio and North Carolina have barely begun counting.",
  "takeaways": [
+  {
+   "time_mt": "5:39 PM MT, Nov 3",
+   "headline": "Nixon's Florida lead widens to 2.7 points with 70% in",
+   "detail": "Per AP data via NBC News, Angie Nixon (D) leads Ashley Moody (R) 50.8% to 48.1% (D+2.7, meaning Nixon ahead by 2.7 points) with 70.5% of the expected vote in, up from D+0.9 at 63.7%. The final polling average was Moody +5.8 and Trump won Florida by 13.1 points in 2024. Decision Desk HQ's own count at about 68% in shows Nixon +3.3. Ohio's first returns (1% in) show Husted (R) +4.1, too early to read.",
+   "source_label": "AP via NBC News; Decision Desk HQ",
+   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results",
+   "tag": "polling miss",
+   "confidence": null,
+   "trust": "Official count"
+  },
   {
    "time_mt": "5:34 PM MT, Nov 3",
    "headline": "Ossoff projected to win Georgia; Florida narrows to under 1 point",
@@ -2656,8 +2673,8 @@
  "gop_meter": {
   "state": "worse",
   "headline": "Republicans running behind polls so far.",
-  "reason": "Florida's Senate special has Nixon (D) 49.9% to Moody (R) 49.0% at 63.7% in, versus a Moody +5.8 polling average and Trump +13.1 in 2024; Georgia was called for Ossoff (DDHQ 5:18 PM MT, NBC 5:31 PM MT), and Democrats led early in GOP-held FL-27 and FL-13 per DDHQ. Early: Election Day votes and the FL panhandle (closes 6 PM MT) are still out and have leaned Republican.",
-  "as_of_mt": "5:34 PM MT",
+  "reason": "Florida's Senate special has Nixon (D) 50.8% to Moody (R) 48.1% at 70.5% in per AP, versus a Moody +5.8 polling average and Trump +13.1 in 2024, and Georgia was called for Ossoff (DDHQ, NBC); Election Day and panhandle votes still to come could narrow this.",
+  "as_of_mt": "5:39 PM MT, Nov 3",
   "basis": "Model read vs polling averages, not a call",
   "source_label": "AP via NBC News",
   "source_url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
